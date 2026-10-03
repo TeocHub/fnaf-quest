@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>El Cuestionario Definitivo de FNAF</title>
-<meta name="description" content="Preguntas de alternativas sobre el lore canónico de FNAF. Responde, mira tu puntaje y compite en el ranking global.">
+<meta name="description" content="Cuestionario de lore canónico de FNAF con ranking global. The ultimate FNAF lore quiz with a global leaderboard.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Barlow+Condensed:wght@600;800&family=VT323&display=swap" rel="stylesheet">
@@ -167,41 +167,50 @@ h2.sec{font-family:var(--display);font-weight:800;font-size:30px;margin:30px 0 4
 .chips{display:flex;gap:8px;flex-wrap:wrap}
 .chip.on{border-color:var(--amber);background:var(--panel-2)}
 .empty{padding:22px 14px;color:var(--muted);background:var(--panel)}
+
+.langbar{display:flex;justify-content:space-between;align-items:center;gap:12px;padding-top:4px;margin-bottom:10px}
+.langs{display:flex;gap:6px}
+.langbtn{border:2px solid var(--line);background:transparent;border-radius:8px;padding:2px 10px;font-family:var(--crt);font-size:20px;line-height:1.2;cursor:pointer;color:var(--muted)}
+.langbtn.on{border-color:var(--amber);color:var(--text)}
 </style>
 <script src="config.js"></script>
 </head>
 <body>
 <main class="wrap">
 
-<section id="loading"><p class="lede" style="padding-top:30vh">Cargando preguntas…</p></section>
+<nav class="langbar">
+  <button class="link boardLink" data-i18n="board_link"></button>
+  <div class="langs" id="langs" role="group" aria-label="Idioma / Language"></div>
+</nav>
+
+<section id="loading"><p class="lede" style="padding-top:30vh">…</p></section>
 
 <!-- START -->
 <section id="start" class="hidden">
-  <div class="topbar"><button class="link boardLink">Ranking global</button></div>
   <div class="title-block">
-    <h1 class="flicker"><span>El Cuestionario</span><span>Definitivo</span><span>de FNAF</span></h1>
-    <p class="lede">Preguntas de alternativas sobre el lore canónico de los juegos, libros y películas. Sin teorías. Tu turno termina cuando suenan las 6 AM.</p>
+    <h1 class="flicker"><span data-i18n="title1"></span><span data-i18n="title2"></span><span data-i18n="title3"></span></h1>
+    <p class="lede" data-i18n="lede"></p>
   </div>
   <div class="monitor" aria-hidden="true">
-    <div class="monitor-row"><span class="rec">CAM 01</span><span>Turno de noche</span></div>
-    <div class="monitor-row" style="margin-top:10px"><span class="big" id="selCount">0</span><span>preguntas seleccionadas</span></div>
+    <div class="monitor-row"><span class="rec">CAM 01</span><span data-i18n="cam_shift"></span></div>
+    <div class="monitor-row" style="margin-top:10px"><span class="big" id="selCount">0</span><span data-i18n="selected_q"></span></div>
   </div>
   <div id="resumeBox" class="hidden">
-    <button class="cta" id="resumeBtn">Continuar mi turno</button>
+    <button class="cta" id="resumeBtn" data-i18n="resume_btn"></button>
     <p class="note" id="resumeNote"></p>
   </div>
-  <label class="field" for="name">Tu nick</label>
-  <input type="text" id="name" maxlength="20" placeholder="Aparece en tu imagen y en el ranking" autocomplete="nickname">
-  <h2 class="sec">Elige las partes</h2>
-  <p class="hint">Desactiva las que no quieras responder.</p>
+  <label class="field" for="name" data-i18n="nick_label"></label>
+  <input type="text" id="name" maxlength="20" data-i18n-ph="nick_ph" autocomplete="nickname">
+  <h2 class="sec" data-i18n="parts_h"></h2>
+  <p class="hint" data-i18n="parts_hint"></p>
   <div class="parts" id="parts"></div>
   <div class="quick">
-    <button class="chip" data-quick="all">Todas</button>
-    <button class="chip" data-quick="games">Solo FNAF 1 a 4</button>
-    <button class="chip" data-quick="none">Ninguna</button>
+    <button class="chip" data-quick="all" data-i18n="quick_all"></button>
+    <button class="chip" data-quick="games" data-i18n="quick_games"></button>
+    <button class="chip" data-quick="none" data-i18n="quick_none"></button>
   </div>
-  <label class="toggle"><input type="checkbox" id="shuffle"> Desordenar las preguntas dentro de cada parte</label>
-  <button class="cta" id="startBtn">Empezar turno</button>
+  <label class="toggle"><input type="checkbox" id="shuffle"> <span data-i18n="shuffle"></span></label>
+  <button class="cta" id="startBtn"></button>
 </section>
 
 <!-- INTERMISSION -->
@@ -209,8 +218,8 @@ h2.sec{font-family:var(--display);font-weight:800;font-size:30px;margin:30px 0 4
   <div class="partno" id="interNo"></div>
   <h2 id="interTitle"></h2>
   <p class="lede" id="interSub"></p>
-  <button class="cta" id="interGo">Abrir la cámara</button>
-  <div class="links"><button class="link" id="interSkip">Saltar esta parte</button><button class="link" data-finish>Terminar y ver resultado</button></div>
+  <button class="cta" id="interGo" data-i18n="inter_go"></button>
+  <div class="links"><button class="link" id="interSkip" data-i18n="inter_skip"></button><button class="link" data-finish data-i18n="finish"></button></div>
 </section>
 
 <!-- QUIZ -->
@@ -225,9 +234,9 @@ h2.sec{font-family:var(--display);font-weight:800;font-size:30px;margin:30px 0 4
     <h2 class="qtext" id="qText"></h2>
     <div class="opts" id="opts"></div>
     <p class="feedback" id="feedback" aria-live="polite"></p>
-    <div class="actions"><button class="cta hidden" id="nextBtn">Siguiente</button></div>
+    <div class="actions"><button class="cta hidden" id="nextBtn"></button></div>
   </div>
-  <div class="links"><button class="link" id="skipBtn">Saltar pregunta</button><button class="link" data-finish>Terminar y ver resultado</button></div>
+  <div class="links"><button class="link" id="skipBtn" data-i18n="skip_q"></button><button class="link" data-finish data-i18n="finish"></button></div>
 </section>
 
 <!-- RESULT -->
@@ -238,78 +247,268 @@ h2.sec{font-family:var(--display);font-weight:800;font-size:30px;margin:30px 0 4
   <div class="pct" id="pct"></div>
 
   <div class="pubbox" id="pubBox">
-    <h2 class="sec">Sube tu puntaje al ranking</h2>
-    <p class="hint">Si el nick es nuevo, queda registrado a tu nombre con este PIN. Si ya es tuyo, usa el mismo PIN. Sin el PIN nadie más puede usar tu nick ni cambiar tu puntaje.</p>
-    <label class="field" for="pubNick">Nick</label>
+    <h2 class="sec" data-i18n="pub_h"></h2>
+    <p class="hint" data-i18n="pub_hint"></p>
+    <label class="field" for="pubNick" data-i18n="nick_short"></label>
     <input type="text" id="pubNick" maxlength="20" autocomplete="nickname">
-    <p class="form-msg info" id="nickMsg">De 3 a 20 caracteres: letras, números, punto, guion o guion bajo.</p>
-    <label class="field" for="pubPin">PIN secreto</label>
-    <input type="password" id="pubPin" minlength="6" maxlength="64" autocomplete="current-password" placeholder="Mínimo 6 caracteres">
-    <p class="form-msg info">Guárdalo: no se puede recuperar.</p>
-    <button class="cta" id="pubBtn">Publicar mi puntaje</button>
+    <p class="form-msg info" id="nickMsg"></p>
+    <label class="field" for="pubPin" data-i18n="pin_label"></label>
+    <input type="password" id="pubPin" minlength="6" maxlength="64" autocomplete="current-password" data-i18n-ph="pin_ph">
+    <p class="form-msg info" data-i18n="pin_note"></p>
+    <button class="cta" id="pubBtn" data-i18n="pub_btn"></button>
     <p class="form-msg" id="pubMsg" aria-live="polite"></p>
   </div>
 
-  <button class="cta" id="makeImg">Crear imagen para compartir</button>
+  <button class="cta" id="makeImg" data-i18n="make_img"></button>
   <div id="shareBox" class="hidden">
-    <div class="share-preview"><img id="shareImg" alt="Imagen con tu resultado"></div>
-    <button class="cta" id="saveImg">Descargar imagen</button>
-    <button class="ghost" id="shareBtn">Compartir</button>
+    <div class="share-preview"><img id="shareImg" alt=""></div>
+    <button class="cta" id="saveImg" data-i18n="save_img"></button>
+    <button class="ghost" id="shareBtn" data-i18n="share"></button>
     <p class="note" id="shareNote"></p>
   </div>
 
-  <h2 class="sec">Por partes</h2>
+  <h2 class="sec" data-i18n="by_parts"></h2>
   <div class="breakdown" id="breakdown"></div>
 
-  <button class="ghost" id="reviewBtn" style="margin-top:26px">Ver mis errores</button>
+  <button class="ghost" id="reviewBtn" style="margin-top:26px"></button>
   <div id="review" class="hidden"></div>
-  <button class="ghost boardLink">Ver ranking global</button>
-  <button class="ghost" id="againBtn">Jugar otra vez</button>
+  <button class="ghost boardLink" data-i18n="board_link_btn"></button>
+  <button class="ghost" id="againBtn" data-i18n="again"></button>
 </section>
 
 <!-- BOARD -->
 <section id="board" class="hidden">
-  <div class="topbar"><button class="link" id="boardBack">Volver</button></div>
-  <h2 class="sec" style="font-size:44px">Ranking global</h2>
-  <p class="hint">Se ordena por respuestas correctas. En empate, gana quien respondió menos preguntas. Cada nick guarda solo su mejor turno.</p>
+  <div class="topbar"><button class="link" id="boardBack" data-i18n="back"></button></div>
+  <h2 class="sec" style="font-size:44px" data-i18n="board_h"></h2>
+  <p class="hint" data-i18n="board_hint"></p>
   <div class="chips">
-    <button class="chip on" data-filter="all">Todos los turnos</button>
-    <button class="chip" data-filter="full" id="fullChip">Turno completo</button>
+    <button class="chip on" data-filter="all" data-i18n="filter_all"></button>
+    <button class="chip" data-filter="full" id="fullChip"></button>
   </div>
-  <div class="board-list" id="boardList"><div class="empty">Cargando…</div></div>
-  <button class="ghost" id="boardRefresh">Actualizar</button>
+  <div class="board-list" id="boardList"></div>
+  <button class="ghost" id="boardRefresh" data-i18n="refresh"></button>
 </section>
 
 </main>
 <div class="toast hidden" id="toast" role="status"></div>
 <script>
+/* =====================================================================
+   Idiomas. Para agregar uno nuevo (ej. portugués):
+   1) crea preguntas.pt.json con los MISMOS id y la misma "correcta",
+   2) agrega una entrada en LANGS y un bloque "pt" en TEXT.
+   ===================================================================== */
+const LANGS = {
+  es: { file: "preguntas.json",    label: "ES" },
+  en: { file: "preguntas.en.json", label: "EN" }
+};
+
+const TEXT = {
+es: {
+  html_title: "El Cuestionario Definitivo de FNAF",
+  loading: "Cargando preguntas…",
+  load_err: "No se pudieron cargar las preguntas. Si abriste el archivo directamente desde tu computador, súbelo a GitHub Pages o usa un servidor local.",
+  board_link: "Ranking global",
+  title1: "El Cuestionario", title2: "Definitivo", title3: "de FNAF",
+  lede: "Preguntas de alternativas sobre el lore canónico de los juegos, libros y películas. Sin teorías. Tu turno termina cuando suenan las 6 AM.",
+  cam_shift: "Turno de noche",
+  selected_q: "preguntas seleccionadas",
+  resume_btn: "Continuar mi turno",
+  resume_note: "Vas en la pregunta {i} de {n}. Si empiezas de nuevo, ese avance se reemplaza.",
+  nick_label: "Tu nick", nick_short: "Nick",
+  nick_ph: "Aparece en tu imagen y en el ranking",
+  parts_h: "Elige las partes",
+  parts_hint: "Desactiva las que no quieras responder.",
+  quick_all: "Todas", quick_games: "Solo FNAF 1 a 4", quick_none: "Ninguna",
+  shuffle: "Desordenar las preguntas dentro de cada parte",
+  start_btn: "Empezar turno ({n} preguntas)",
+  start_none: "Elige al menos una parte",
+  part_label: "Parte {n}: {s}",
+  inter_no: "CAM {cam} · Parte {n} de {t}",
+  inter_count: "{n} preguntas en esta parte.",
+  inter_go: "Abrir la cámara",
+  inter_skip: "Saltar esta parte",
+  finish: "Terminar y ver resultado",
+  finish_confirm: "Toca otra vez: lo no respondido cuenta como incorrecto",
+  skip_q: "Saltar pregunta",
+  counter: "Pregunta {i} de {n}",
+  live: "{n} correctas",
+  lvl: { B: "Básico", I: "Intermedio", A: "Avanzado", E: "Experto" },
+  correct: "Correcto.",
+  wrong: "Incorrecto. Era la {l}.",
+  next: "Siguiente", see_result: "Ver resultado",
+  pct: "{p} % de aciertos",
+  answered: " · respondiste {a} de {t}",
+  pub_h: "Sube tu puntaje al ranking",
+  pub_hint: "Si el nick es nuevo, queda registrado a tu nombre con este PIN. Si ya es tuyo, usa el mismo PIN. Sin el PIN nadie más puede usar tu nick ni cambiar tu puntaje.",
+  nick_rules: "De 3 a 20 caracteres: letras, números, punto, guion o guion bajo.",
+  pin_label: "PIN secreto", pin_ph: "Mínimo 6 caracteres",
+  pin_note: "Guárdalo: no se puede recuperar.",
+  pub_btn: "Publicar mi puntaje", publishing: "Publicando…",
+  nick_taken: "Este nick ya está registrado. Si es tuyo, escribe tu PIN.",
+  nick_free: "Nick disponible. Quedará registrado con el PIN que elijas.",
+  nick_banned: "Ese nick no está permitido. Elige otro.",
+  err_nick_invalido: "El nick debe tener de 3 a 20 caracteres: letras, números, punto, guion o guion bajo.",
+  err_nick_no_permitido: "Ese nick no está permitido. Elige otro.",
+  err_pin_invalido: "El PIN debe tener al menos 6 caracteres.",
+  err_partes_invalidas: "No se reconocieron las partes jugadas. Recarga la página e inténtalo otra vez.",
+  err_respuestas_invalidas: "No se pudieron leer tus respuestas. Recarga la página e inténtalo otra vez.",
+  err_reintentar: "Alguien registró ese nick en este mismo instante. Inténtalo de nuevo.",
+  err_generic: "No se pudo publicar. Inténtalo otra vez.",
+  pin_wrong: "PIN incorrecto para ese nick. Te quedan {n} intentos antes de un bloqueo de 15 minutos.",
+  locked: "Demasiados intentos fallidos con ese nick. Espera 15 minutos o usa otro nick.",
+  network: "No hay conexión con el servidor del ranking. Revisa tu internet e inténtalo otra vez.",
+  registered: "Nick registrado. ",
+  published: "Puesto {p} del ranking.",
+  best_kept: " Tu mejor turno sigue siendo {c} correctas de {a}.",
+  published_as: "Publicado como {nick}. Puesto {p} del ranking.",
+  make_img: "Crear imagen para compartir", revealing: "Revelando la imagen…",
+  save_img: "Descargar imagen", share: "Compartir",
+  save_note: "Si no se descargó, mantén presionada la imagen (o clic derecho) para guardarla.",
+  copied: "Texto copiado: pégalo junto a tu imagen",
+  img_alt: "Imagen con tu resultado",
+  by_parts: "Por partes",
+  review_show: "Ver mis errores", review_hide: "Ocultar mis errores",
+  no_errors: "No tuviste errores. Nada que revisar.",
+  your_answer: "Tu respuesta: {x}", unanswered: "Sin responder", right_answer: "Correcta: {x}",
+  src: "Parte {n} · {s}",
+  board_link_btn: "Ver ranking global", again: "Jugar otra vez",
+  back: "Volver",
+  board_h: "Ranking global",
+  board_hint: "Se ordena por respuestas correctas. En empate, gana quien respondió menos preguntas. Cada nick guarda solo su mejor turno.",
+  filter_all: "Todos los turnos", filter_full: "Turno completo ({n})",
+  board_loading: "Cargando…",
+  board_empty: "Todavía no hay puntajes aquí. El primer turno puede ser el tuyo.",
+  board_err: "No se pudo cargar el ranking. Revisa tu conexión y toca Actualizar.",
+  board_off: "El ranking global todavía no está configurado en este sitio.",
+  refresh: "Actualizar",
+  row_of: "de {n}", row_sub: "{a} % · turno de {t}",
+  ranks: ["Guardia del primer día","Sobreviviste a la noche 5","Técnico de Fazbear Entertainment","Investigador de Fazbear's Fright","Henry Emily en persona"],
+  img_correct: "respuestas correctas",
+  img_pct: "{p} % de aciertos", img_pos: "puesto {p}",
+  img_turn: "Turno de {name}", img_done: "Mi turno terminó",
+  img_title: "El Cuestionario Definitivo de FNAF",
+  img_cta_site: "¿Me superas? {site}", img_cta: "¿Llegas a las 6 AM con más puntos? Te reto.",
+  share_text: "Saqué {r}/{t} en El Cuestionario Definitivo de FNAF: \"{rank}\". ¿Me superas?{site}"
+},
+en: {
+  html_title: "The Ultimate FNAF Quiz",
+  loading: "Loading questions…",
+  load_err: "The questions couldn't be loaded. If you opened the file straight from your computer, upload it to GitHub Pages or use a local server.",
+  board_link: "Global leaderboard",
+  title1: "The Ultimate", title2: "FNAF", title3: "Quiz",
+  lede: "Multiple-choice questions on the canon lore of the games, books and movies. No theories. Your shift ends when the clock hits 6 AM.",
+  cam_shift: "Night shift",
+  selected_q: "questions selected",
+  resume_btn: "Continue my shift",
+  resume_note: "You're on question {i} of {n}. Starting over replaces that progress.",
+  nick_label: "Your nickname", nick_short: "Nickname",
+  nick_ph: "Shown on your image and the leaderboard",
+  parts_h: "Choose the parts",
+  parts_hint: "Turn off the ones you don't want to answer.",
+  quick_all: "All", quick_games: "FNAF 1 to 4 only", quick_none: "None",
+  shuffle: "Shuffle questions within each part",
+  start_btn: "Start shift ({n} questions)",
+  start_none: "Choose at least one part",
+  part_label: "Part {n}: {s}",
+  inter_no: "CAM {cam} · Part {n} of {t}",
+  inter_count: "{n} questions in this part.",
+  inter_go: "Open the camera",
+  inter_skip: "Skip this part",
+  finish: "Finish and see results",
+  finish_confirm: "Tap again: unanswered questions count as wrong",
+  skip_q: "Skip question",
+  counter: "Question {i} of {n}",
+  live: "{n} correct",
+  lvl: { B: "Basic", I: "Intermediate", A: "Advanced", E: "Expert" },
+  correct: "Correct.",
+  wrong: "Wrong. It was {l}.",
+  next: "Next", see_result: "See results",
+  pct: "{p}% correct",
+  answered: " · you answered {a} of {t}",
+  pub_h: "Post your score to the leaderboard",
+  pub_hint: "If the nickname is new, it's registered to you with this PIN. If it's already yours, use the same PIN. Without the PIN, nobody else can use your nickname or change your score.",
+  nick_rules: "3 to 20 characters: letters, numbers, period, hyphen or underscore.",
+  pin_label: "Secret PIN", pin_ph: "At least 6 characters",
+  pin_note: "Keep it safe: it can't be recovered.",
+  pub_btn: "Post my score", publishing: "Posting…",
+  nick_taken: "This nickname is already registered. If it's yours, enter your PIN.",
+  nick_free: "Nickname available. It will be registered with the PIN you choose.",
+  nick_banned: "That nickname isn't allowed. Choose another one.",
+  err_nick_invalido: "The nickname must be 3 to 20 characters: letters, numbers, period, hyphen or underscore.",
+  err_nick_no_permitido: "That nickname isn't allowed. Choose another one.",
+  err_pin_invalido: "The PIN must be at least 6 characters.",
+  err_partes_invalidas: "The parts you played weren't recognized. Reload the page and try again.",
+  err_respuestas_invalidas: "Your answers couldn't be read. Reload the page and try again.",
+  err_reintentar: "Someone registered that nickname at the same moment. Try again.",
+  err_generic: "Your score couldn't be posted. Try again.",
+  pin_wrong: "Wrong PIN for that nickname. {n} attempts left before a 15-minute lock.",
+  locked: "Too many failed attempts with that nickname. Wait 15 minutes or use another nickname.",
+  network: "Can't reach the leaderboard server. Check your connection and try again.",
+  registered: "Nickname registered. ",
+  published: "Rank {p} on the leaderboard.",
+  best_kept: " Your best shift is still {c} correct out of {a}.",
+  published_as: "Posted as {nick}. Rank {p} on the leaderboard.",
+  make_img: "Create an image to share", revealing: "Developing the image…",
+  save_img: "Download image", share: "Share",
+  save_note: "If it didn't download, press and hold the image (or right-click it) to save it.",
+  copied: "Text copied: paste it with your image",
+  img_alt: "Image with your result",
+  by_parts: "By part",
+  review_show: "See my mistakes", review_hide: "Hide my mistakes",
+  no_errors: "No mistakes. Nothing to review.",
+  your_answer: "Your answer: {x}", unanswered: "Not answered", right_answer: "Correct: {x}",
+  src: "Part {n} · {s}",
+  board_link_btn: "See the global leaderboard", again: "Play again",
+  back: "Back",
+  board_h: "Global leaderboard",
+  board_hint: "Ranked by correct answers. Ties go to whoever answered fewer questions. Each nickname keeps only its best shift.",
+  filter_all: "All shifts", filter_full: "Full shift ({n})",
+  board_loading: "Loading…",
+  board_empty: "No scores here yet. The first shift could be yours.",
+  board_err: "The leaderboard couldn't be loaded. Check your connection and tap Refresh.",
+  board_off: "The global leaderboard isn't set up on this site yet.",
+  refresh: "Refresh",
+  row_of: "of {n}", row_sub: "{a}% · {t}-question shift",
+  ranks: ["First-day guard","Survived Night 5","Fazbear Entertainment technician","Fazbear's Fright investigator","Henry Emily himself"],
+  img_correct: "correct answers",
+  img_pct: "{p}% correct", img_pos: "rank {p}",
+  img_turn: "{name}'s shift", img_done: "My shift is over",
+  img_title: "The Ultimate FNAF Quiz",
+  img_cta_site: "Can you beat me? {site}", img_cta: "Can you make it to 6 AM with more points? I dare you.",
+  share_text: "I scored {r}/{t} on The Ultimate FNAF Quiz: \"{rank}\". Can you beat me?{site}"
+}
+};
+
 const CFG = window.FNAF_CONFIG || {};
 const API = (CFG.SUPABASE_URL || "").replace(/\/+$/, "");
 const KEYAPI = CFG.SUPABASE_KEY || "";
 const ONLINE = !!(API && KEYAPI);
 const LETTERS = ["A","B","C","D"];
-const LEVELS = {B:"Básico",I:"Intermedio",A:"Avanzado",E:"Experto"};
 const KEY = "fnaf-cuestionario-gh-v1";
 const NICK_KEY = "fnaf-cuestionario-nick";
+const LANG_KEY = "fnaf-cuestionario-lang";
 const NICK_RE = /^[A-Za-z0-9_.ÁÉÍÓÚÜÑáéíóúüñ-]{3,20}$/;
-const RANKS = [
-  [0,"Guardia del primer día"],
-  [0.2,"Sobreviviste a la noche 5"],
-  [0.425,"Técnico de Fazbear Entertainment"],
-  [0.65,"Investigador de Fazbear's Fright"],
-  [0.85,"Henry Emily en persona"]
-];
-let DATA = [], TOTAL = 0, BYID = {};
+const RANK_CUTS = [0, 0.2, 0.425, 0.65, 0.85];
+
+let LANG = "es", DATA = [], TOTAL = 0, BYID = {};
+const CACHE = {};
 const $ = s => document.querySelector(s);
 const screens = ["loading","start","inter","quiz","result","board"];
 let prevScreen = "start";
-function show(id){
-  const curId = screens.find(s=>!$("#"+s).classList.contains("hidden"));
-  if(id==="board" && curId && curId!=="board") prevScreen = curId;
-  screens.forEach(s=>$("#"+s).classList.toggle("hidden",s!==id));
-  window.scrollTo(0,0);
+
+function t(key, vars){
+  let s = (TEXT[LANG] && TEXT[LANG][key]) ?? TEXT.es[key] ?? key;
+  if (typeof s === "string" && vars) s = s.replace(/\{(\w+)\}/g, (_, k) => (k in vars ? vars[k] : ""));
+  return s;
 }
-function toast(msg){const t=$("#toast");t.textContent=msg;t.classList.remove("hidden");clearTimeout(t._h);t._h=setTimeout(()=>t.classList.add("hidden"),2800);}
+function currentScreen(){ return screens.find(s => !$("#"+s).classList.contains("hidden")); }
+function show(id){
+  const curId = currentScreen();
+  if (id === "board" && curId && curId !== "board") prevScreen = curId;
+  screens.forEach(s => $("#"+s).classList.toggle("hidden", s !== id));
+  window.scrollTo(0, 0);
+}
+function toast(msg){const el=$("#toast");el.textContent=msg;el.classList.remove("hidden");clearTimeout(el._h);el._h=setTimeout(()=>el.classList.add("hidden"),2800);}
 function store(k,v){try{localStorage.setItem(k,v);}catch(e){}}
 function read(k){try{return localStorage.getItem(k);}catch(e){return null;}}
 
@@ -317,6 +516,49 @@ let S = null;
 function save(){store(KEY,JSON.stringify(S));}
 function load(){try{return JSON.parse(read(KEY)||"null");}catch(e){return null;}}
 function clearSave(){try{localStorage.removeItem(KEY);}catch(e){}}
+
+/* ---------- idioma ---------- */
+function applyStatic(){
+  document.documentElement.lang = LANG;
+  document.title = t("html_title");
+  document.querySelectorAll("[data-i18n]").forEach(el => { el.textContent = t(el.dataset.i18n); });
+  document.querySelectorAll("[data-i18n-ph]").forEach(el => { el.placeholder = t(el.dataset.i18nPh); });
+  $("#shareImg").alt = t("img_alt");
+  document.querySelectorAll("[data-finish]").forEach(b => { b.dataset.label = t("finish"); b.dataset.armed = ""; b.textContent = t("finish"); });
+  if (TOTAL) $("#fullChip").textContent = t("filter_full", {n: TOTAL});
+  const box = $("#langs"); box.innerHTML = "";
+  Object.entries(LANGS).forEach(([code, l]) => {
+    const b = document.createElement("button");
+    b.className = "langbtn" + (code === LANG ? " on" : "");
+    b.textContent = l.label; b.setAttribute("aria-pressed", code === LANG);
+    b.addEventListener("click", () => setLang(code));
+    box.appendChild(b);
+  });
+}
+async function fetchLang(code){
+  if (CACHE[code]) return CACHE[code];
+  const r = await fetch(LANGS[code].file, {cache: "no-cache"});
+  if (!r.ok) throw new Error("load");
+  const raw = await r.json();
+  CACHE[code] = raw.map(p => ({n:p.parte, short:p.corto, title:p.titulo,
+    q:p.preguntas.map(q => ({id:q.id, lvl:q.nivel, sub:q.sub, text:q.pregunta, opts:q.opciones, ok:"abcd".indexOf(q.correcta)}))}));
+  return CACHE[code];
+}
+async function setLang(code){
+  if (!LANGS[code]) return;
+  let data;
+  try { data = await fetchLang(code); } catch(e) { toast(t("load_err")); return; }
+  LANG = code; store(LANG_KEY, code);
+  DATA = data; BYID = {}; DATA.forEach(p => p.q.forEach(q => BYID[q.id] = q));
+  TOTAL = DATA.reduce((s,p) => s + p.q.length, 0);
+  applyStatic();
+  const scr = currentScreen();
+  if (scr === "start") { renderParts(); renderResume(); }
+  else if (scr === "inter") showInter(cur()[0]);
+  else if (scr === "quiz") renderQ();
+  else if (scr === "result") renderResult(false);
+  else if (scr === "board") loadBoard();
+}
 
 /* ---------- API ---------- */
 function headers(){
@@ -330,7 +572,7 @@ async function rpc(fn, body){
   return r.json();
 }
 
-/* ---------- start screen ---------- */
+/* ---------- inicio ---------- */
 const selected = new Set();
 function renderParts(){
   const box=$("#parts"); box.innerHTML="";
@@ -339,7 +581,7 @@ function renderParts(){
     const l=document.createElement("label");
     l.className="part"+(on?" on":"");
     l.innerHTML=`<input type="checkbox" ${on?"checked":""}><span class="box"></span><span class="txt"><span class="name"></span><span class="sub"></span></span><span class="count">${p.q.length}</span>`;
-    l.querySelector(".name").textContent=`Parte ${p.n}: ${p.short}`;
+    l.querySelector(".name").textContent=t("part_label",{n:p.n,s:p.short});
     l.querySelector(".sub").textContent=p.title;
     l.querySelector("input").addEventListener("change",e=>{e.target.checked?selected.add(p.n):selected.delete(p.n);renderParts();});
     box.appendChild(l);
@@ -347,7 +589,13 @@ function renderParts(){
   const n=DATA.filter(p=>selected.has(p.n)).reduce((s,p)=>s+p.q.length,0);
   $("#selCount").textContent=n;
   $("#startBtn").disabled=n===0;
-  $("#startBtn").textContent=n?`Empezar turno (${n} preguntas)`:"Elige al menos una parte";
+  $("#startBtn").textContent=n?t("start_btn",{n}):t("start_none");
+}
+function renderResume(){
+  if(S&&!S.done&&S.pos<S.order.length){
+    $("#resumeBox").classList.remove("hidden");
+    $("#resumeNote").textContent=t("resume_note",{i:S.pos+1,n:S.order.length});
+  } else $("#resumeBox").classList.add("hidden");
 }
 document.querySelectorAll("[data-quick]").forEach(b=>b.addEventListener("click",()=>{
   selected.clear();
@@ -370,7 +618,7 @@ $("#startBtn").addEventListener("click",()=>{
 });
 $("#resumeBtn").addEventListener("click",()=>step());
 
-/* ---------- flow ---------- */
+/* ---------- flujo ---------- */
 function cur(){return S.order[S.pos];}
 function qAt(pi,qi){return DATA[pi].q[qi];}
 function step(){
@@ -380,12 +628,13 @@ function step(){
   if(pi!==prev && S.seenInter!==S.pos){showInter(pi);return;}
   renderQ();
 }
+function camNo(n){return String(n).padStart(2,"0");}
 function showInter(pi){
   const p=DATA[pi];
   const count=S.order.filter(o=>o[0]===pi).length;
-  $("#interNo").textContent=`CAM ${String(p.n).padStart(2,"0")} · Parte ${p.n} de ${DATA.length}`;
+  $("#interNo").textContent=t("inter_no",{cam:camNo(p.n),n:p.n,t:DATA.length});
   $("#interTitle").textContent=p.title;
-  $("#interSub").textContent=`${count} preguntas en esta parte.`;
+  $("#interSub").textContent=t("inter_count",{n:count});
   show("inter"); $("#interGo").focus();
 }
 $("#interGo").addEventListener("click",()=>{S.seenInter=S.pos;save();renderQ();});
@@ -402,13 +651,13 @@ function renderQ(){
   show("quiz"); locked=false;
   const [pi,qi]=cur(); const p=DATA[pi]; const q=qAt(pi,qi);
   const frac=S.pos/S.order.length;
-  $("#camLabel").textContent=`CAM ${String(p.n).padStart(2,"0")} ${p.short}`;
+  $("#camLabel").textContent=`CAM ${camNo(p.n)} ${p.short}`;
   $("#clock").textContent=hourLabel(frac);
   $("#barFill").style.width=(frac*100)+"%";
-  $("#counter").textContent=`Pregunta ${S.pos+1} de ${S.order.length}`;
-  $("#liveScore").textContent=`${correctCount()} correctas`;
+  $("#counter").textContent=t("counter",{i:S.pos+1,n:S.order.length});
+  $("#liveScore").textContent=t("live",{n:correctCount()});
   $("#qSub").textContent=q.sub;
-  $("#qLevel").textContent=LEVELS[q.lvl]||q.lvl;
+  $("#qLevel").textContent=t("lvl")[q.lvl]||q.lvl;
   $("#qText").textContent=q.text;
   const box=$("#opts"); box.innerHTML="";
   q.opts.forEach((txt,i)=>{
@@ -437,18 +686,18 @@ function reveal(i,silent){
     if(j===ok)b.classList.add("right"); else if(j===i)b.classList.add("wrong"); else b.classList.add("dim");
   });
   const fb=$("#feedback");
-  if(i===ok){fb.textContent="Correcto.";fb.className="feedback ok";}
-  else{fb.textContent=`Incorrecto. Era la ${LETTERS[ok]}.`;fb.className="feedback bad";if(!silent){$("#qcard").classList.add("shake");setTimeout(()=>$("#qcard").classList.remove("shake"),320);}}
-  $("#liveScore").textContent=`${correctCount()} correctas`;
+  if(i===ok){fb.textContent=t("correct");fb.className="feedback ok";}
+  else{fb.textContent=t("wrong",{l:LETTERS[ok]});fb.className="feedback bad";if(!silent){$("#qcard").classList.add("shake");setTimeout(()=>$("#qcard").classList.remove("shake"),320);}}
+  $("#liveScore").textContent=t("live",{n:correctCount()});
   const nb=$("#nextBtn"); nb.classList.remove("hidden");
-  nb.textContent=S.pos+1>=S.order.length?"Ver resultado":"Siguiente";
+  nb.textContent=S.pos+1>=S.order.length?t("see_result"):t("next");
   nb.focus({preventScroll:true});
 }
 $("#nextBtn").addEventListener("click",()=>{S.pos++;save();step();});
 $("#skipBtn").addEventListener("click",()=>{S.pos++;save();step();});
-document.querySelectorAll("[data-finish]").forEach(b=>{b.dataset.label=b.textContent;b.addEventListener("click",()=>{
+document.querySelectorAll("[data-finish]").forEach(b=>{b.addEventListener("click",()=>{
   if(b.dataset.armed==="1"){b.dataset.armed="";b.textContent=b.dataset.label;finish();return;}
-  b.dataset.armed="1";b.textContent="Toca otra vez: lo no respondido cuenta como incorrecto";
+  b.dataset.armed="1";b.textContent=t("finish_confirm");
   clearTimeout(b._t);b._t=setTimeout(()=>{b.dataset.armed="";b.textContent=b.dataset.label;},4000);
 });});
 document.addEventListener("keydown",e=>{
@@ -460,7 +709,7 @@ document.addEventListener("keydown",e=>{
   else if(e.key==="Enter" && locked && document.activeElement!==$("#nextBtn")){e.preventDefault();$("#nextBtn").click();}
 });
 
-/* ---------- result ---------- */
+/* ---------- resultado ---------- */
 function stats(){
   const total=S.order.length, right=correctCount();
   const per=[];
@@ -470,121 +719,127 @@ function stats(){
     per.push({p,right:r,total:qs.length});
   });
   const pct=total?right/total:0;
-  let rank=RANKS[0][1]; RANKS.forEach(([t,n])=>{if(pct>=t)rank=n;});
-  return {total,right,pct,rank,per,answered:Object.keys(S.answers).length};
+  let ri=0; RANK_CUTS.forEach((c,i)=>{if(pct>=c)ri=i;});
+  return {total,right,pct,rank:t("ranks")[ri],per,answered:Object.keys(S.answers).length};
 }
-let lastBlob=null,lastUrl=null;
+let lastBlob=null,lastUrl=null,reviewOpen=false;
 function finish(){
   S.done=true; save();
-  const st=stats();
   show("result");
   const d=$("#dawn"); d.classList.remove("go"); void d.offsetWidth; d.classList.add("go");
+  reviewOpen=false;
+  renderResult(true);
+}
+function renderResult(fresh){
+  const st=stats();
   $("#score").innerHTML=`${st.right}<small>/${st.total}</small>`;
   $("#rank").textContent=st.rank;
-  $("#pct").textContent=`${Math.round(st.pct*100)} % de aciertos`+(st.answered<st.total?` · respondiste ${st.answered} de ${st.total}`:"");
+  $("#pct").textContent=t("pct",{p:Math.round(st.pct*100)})+(st.answered<st.total?t("answered",{a:st.answered,t:st.total}):"");
   const bd=$("#breakdown"); bd.innerHTML="";
   st.per.forEach(x=>{
     const row=document.createElement("div"); row.className="brow";
     row.innerHTML=`<div class="top"><b></b><span>${x.right}/${x.total}</span></div><div class="track"><i style="width:${x.total?x.right/x.total*100:0}%"></i></div>`;
-    row.querySelector("b").textContent=`Parte ${x.p.n}: ${x.p.short}`;
+    row.querySelector("b").textContent=t("part_label",{n:x.p.n,s:x.p.short});
     bd.appendChild(row);
   });
-  $("#shareBox").classList.add("hidden"); $("#makeImg").classList.remove("hidden");
-  $("#review").classList.add("hidden"); $("#review").innerHTML=""; $("#reviewBtn").textContent="Ver mis errores";
-  lastBlob=null;
-  setupPublish();
+  if(fresh){ $("#shareBox").classList.add("hidden"); $("#makeImg").classList.remove("hidden"); lastBlob=null; }
+  else if(!$("#shareBox").classList.contains("hidden")) redrawImage();
+  renderReview();
+  setupPublish(fresh);
 }
-$("#reviewBtn").addEventListener("click",()=>{
+function renderReview(){
   const r=$("#review");
-  if(!r.classList.contains("hidden")){r.classList.add("hidden");$("#reviewBtn").textContent="Ver mis errores";return;}
+  $("#reviewBtn").textContent=reviewOpen?t("review_hide"):t("review_show");
+  r.classList.toggle("hidden",!reviewOpen);
+  if(!reviewOpen){r.innerHTML="";return;}
   r.innerHTML=""; let n=0;
   S.order.forEach(([pi,qi])=>{
     const q=qAt(pi,qi); const a=S.answers[q.id];
     if(a===q.ok)return; n++;
     const d=document.createElement("div"); d.className="review-item";
-    const src=document.createElement("p"); src.className="src"; src.textContent=`Parte ${DATA[pi].n} · ${q.sub}`;
+    const src=document.createElement("p"); src.className="src"; src.textContent=t("src",{n:DATA[pi].n,s:q.sub});
     const qq=document.createElement("p"); qq.className="q"; qq.textContent=q.text;
-    const y=document.createElement("p"); y.className="your"; y.textContent=a===undefined?"Sin responder":`Tu respuesta: ${LETTERS[a]}) ${q.opts[a]}`;
-    const g=document.createElement("p"); g.className="good"; g.textContent=`Correcta: ${LETTERS[q.ok]}) ${q.opts[q.ok]}`;
+    const y=document.createElement("p"); y.className="your"; y.textContent=a===undefined?t("unanswered"):t("your_answer",{x:`${LETTERS[a]}) ${q.opts[a]}`});
+    const g=document.createElement("p"); g.className="good"; g.textContent=t("right_answer",{x:`${LETTERS[q.ok]}) ${q.opts[q.ok]}`});
     d.append(src,qq,y,g); r.appendChild(d);
   });
-  if(!n){r.innerHTML='<p class="note">No tuviste errores. Nada que revisar.</p>';}
-  r.classList.remove("hidden"); $("#reviewBtn").textContent="Ocultar mis errores";
-});
-$("#againBtn").addEventListener("click",()=>{clearSave();S=null;$("#resumeBox").classList.add("hidden");renderParts();show("start");});
+  if(!n){const p=document.createElement("p");p.className="note";p.textContent=t("no_errors");r.appendChild(p);}
+}
+$("#reviewBtn").addEventListener("click",()=>{reviewOpen=!reviewOpen;renderReview();});
+$("#againBtn").addEventListener("click",()=>{clearSave();S=null;renderResume();renderParts();show("start");});
 
-/* ---------- publish ---------- */
-function setupPublish(){
+/* ---------- publicar ---------- */
+let nickState="";
+function setupPublish(fresh){
   const box=$("#pubBox");
   if(!ONLINE){box.classList.add("hidden");return;}
   box.classList.remove("hidden");
-  $("#pubNick").value=S.name||read(NICK_KEY)||"";
-  $("#pubPin").value="";
+  if(fresh){ $("#pubNick").value=S.name||read(NICK_KEY)||""; $("#pubPin").value=""; }
   if(S.published){
-    lockPublish(`Publicado como ${S.published.nick}. Puesto ${S.published.puesto} del ranking.`,"ok");
+    lockPublish(t("published_as",{nick:S.published.nick,p:S.published.puesto}),"ok");
   }else{
     $("#pubBtn").disabled=false;$("#pubNick").disabled=false;$("#pubPin").disabled=false;
-    $("#pubMsg").textContent="";$("#pubMsg").className="form-msg";
+    if(fresh){$("#pubMsg").textContent="";$("#pubMsg").className="form-msg";}
     checkNick();
   }
 }
 function lockPublish(msg,cls){
+  $("#nickMsg").textContent="";
   $("#pubBtn").disabled=true;$("#pubNick").disabled=true;$("#pubPin").disabled=true;
   $("#pubMsg").textContent=msg;$("#pubMsg").className="form-msg "+cls;
 }
 let nickTimer=null;
 async function checkNick(){
   const nick=$("#pubNick").value.trim(); const m=$("#nickMsg");
-  if(!NICK_RE.test(nick)){m.textContent="De 3 a 20 caracteres: letras, números, punto, guion o guion bajo.";m.className="form-msg info";return;}
+  if(!NICK_RE.test(nick)){m.textContent=t("nick_rules");m.className="form-msg info";nickState="";return;}
   try{
-    const taken=await rpc("nick_taken",{p_nick:nick});
+    const st=await rpc("nick_status",{p_nick:nick});
     if(nick!==$("#pubNick").value.trim())return;
-    if(taken){m.textContent="Este nick ya está registrado. Si es tuyo, escribe tu PIN.";m.className="form-msg info";}
-    else{m.textContent="Nick disponible. Quedará registrado con el PIN que elijas.";m.className="form-msg ok";}
-  }catch(e){m.textContent="";}
+    nickState=st;
+    if(st==="no_permitido"){m.textContent=t("nick_banned");m.className="form-msg bad";}
+    else if(st==="ocupado"){m.textContent=t("nick_taken");m.className="form-msg info";}
+    else {m.textContent=t("nick_free");m.className="form-msg ok";}
+  }catch(e){m.textContent=t("nick_rules");m.className="form-msg info";}
 }
 $("#pubNick").addEventListener("input",()=>{clearTimeout(nickTimer);nickTimer=setTimeout(checkNick,450);});
-const ERRORS={
-  nick_invalido:"El nick debe tener de 3 a 20 caracteres: letras, números, punto, guion o guion bajo.",
-  pin_invalido:"El PIN debe tener al menos 6 caracteres.",
-  partes_invalidas:"No se reconocieron las partes jugadas. Recarga la página e inténtalo otra vez.",
-  respuestas_invalidas:"No se pudieron leer tus respuestas. Recarga la página e inténtalo otra vez.",
-  reintentar:"Alguien registró ese nick en este mismo instante. Inténtalo de nuevo."
-};
 $("#pubBtn").addEventListener("click",async()=>{
   const nick=$("#pubNick").value.trim(), pin=$("#pubPin").value;
   const msg=$("#pubMsg");
-  if(!NICK_RE.test(nick)){msg.textContent=ERRORS.nick_invalido;msg.className="form-msg bad";return;}
-  if(pin.length<6){msg.textContent=ERRORS.pin_invalido;msg.className="form-msg bad";return;}
+  if(!NICK_RE.test(nick)){msg.textContent=t("err_nick_invalido");msg.className="form-msg bad";return;}
+  if(pin.length<6){msg.textContent=t("err_pin_invalido");msg.className="form-msg bad";return;}
   const parts=[...new Set(S.order.map(o=>DATA[o[0]].n))];
   const answers={}; S.order.forEach(([pi,qi])=>{const id=qAt(pi,qi).id;if(id in S.answers)answers[id]=S.answers[id];});
-  $("#pubBtn").disabled=true; msg.textContent="Publicando…"; msg.className="form-msg info";
+  $("#pubBtn").disabled=true; msg.textContent=t("publishing"); msg.className="form-msg info";
   try{
     const r=await rpc("submit_score",{p_nick:nick,p_pin:pin,p_parts:parts,p_answers:answers});
     if(r.ok){
       store(NICK_KEY,nick);
-      S.published={nick,puesto:r.puesto}; save();
-      const extra=r.mejoro?"":` Tu mejor turno sigue siendo ${r.best_correct}/${r.best_answered} respondidas.`;
-      lockPublish(`${r.nuevo?"Nick registrado. ":""}Puesto ${r.puesto} del ranking.${extra}`,"ok");
-      lastBlob=null; if(!$("#shareBox").classList.contains("hidden"))$("#makeImg").click();
+      S.published={nick,puesto:r.puesto}; S.name=nick; save();
+      const extra=r.mejoro?"":t("best_kept",{c:r.best_correct,a:r.best_answered});
+      lockPublish((r.nuevo?t("registered"):"")+t("published",{p:r.puesto})+extra,"ok");
+      if(!$("#shareBox").classList.contains("hidden"))redrawImage();
       return;
     }
     $("#pubBtn").disabled=false;
-    if(r.error==="pin_incorrecto"){msg.textContent=`PIN incorrecto para ese nick. Te quedan ${r.intentos_restantes} intentos antes de un bloqueo de 15 minutos.`;}
-    else if(r.error==="bloqueado"){msg.textContent="Demasiados intentos fallidos con ese nick. Espera 15 minutos o usa otro nick.";}
-    else msg.textContent=ERRORS[r.error]||"No se pudo publicar. Inténtalo otra vez.";
+    if(r.error==="pin_incorrecto")msg.textContent=t("pin_wrong",{n:r.intentos_restantes});
+    else if(r.error==="bloqueado")msg.textContent=t("locked");
+    else msg.textContent=t("err_"+r.error)!==("err_"+r.error)?t("err_"+r.error):t("err_generic");
     msg.className="form-msg bad";
   }catch(e){
     $("#pubBtn").disabled=false;
-    msg.textContent="No hay conexión con el servidor del ranking. Revisa tu internet e inténtalo otra vez.";
+    msg.textContent=t("network");
     msg.className="form-msg bad";
   }
 });
 
-/* ---------- board ---------- */
+/* ---------- ranking ---------- */
 let boardFilter="all";
 document.querySelectorAll(".boardLink").forEach(b=>b.addEventListener("click",()=>{show("board");loadBoard();}));
-$("#boardBack").addEventListener("click",()=>show(prevScreen==="board"?"start":prevScreen));
+$("#boardBack").addEventListener("click",()=>{
+  const target=prevScreen==="board"||prevScreen==="loading"?"start":prevScreen;
+  if(target==="start"){renderParts();renderResume();}
+  show(target);
+});
 $("#boardRefresh").addEventListener("click",loadBoard);
 document.querySelectorAll("[data-filter]").forEach(b=>b.addEventListener("click",()=>{
   boardFilter=b.dataset.filter;
@@ -593,8 +848,9 @@ document.querySelectorAll("[data-filter]").forEach(b=>b.addEventListener("click"
 }));
 async function loadBoard(){
   const list=$("#boardList");
-  if(!ONLINE){list.innerHTML='<div class="empty">El ranking global todavía no está configurado en este sitio.</div>';return;}
-  list.innerHTML='<div class="empty">Cargando…</div>';
+  const msg=txt=>{list.innerHTML="";const d=document.createElement("div");d.className="empty";d.textContent=txt;list.appendChild(d);};
+  if(!ONLINE){msg(t("board_off"));return;}
+  msg(t("board_loading"));
   let url=`${API}/rest/v1/leaderboard?select=nick,correct,answered,total,accuracy&order=correct.desc,answered.asc,updated_at.asc&limit=100`;
   if(boardFilter==="full")url+=`&total=eq.${TOTAL}`;
   try{
@@ -602,20 +858,22 @@ async function loadBoard(){
     if(!r.ok)throw new Error();
     const rows=await r.json();
     list.innerHTML="";
-    if(!rows.length){list.innerHTML='<div class="empty">Todavía no hay puntajes aquí. El primer turno puede ser el tuyo.</div>';return;}
+    if(!rows.length){msg(t("board_empty"));return;}
     const me=(read(NICK_KEY)||"").toLowerCase();
     rows.forEach((x,i)=>{
       const d=document.createElement("div");
       d.className="brd"+(i<3?` top${i+1}`:"")+(x.nick.toLowerCase()===me?" me":"");
-      d.innerHTML=`<span class="pos">${i+1}</span><span class="who"><span class="n"></span><small></small></span><span class="pts">${x.correct}<small>de ${x.answered}</small></span>`;
+      d.innerHTML=`<span class="pos">${i+1}</span><span class="who"><span class="n"></span><small></small></span><span class="pts">${x.correct}<small></small></span>`;
       d.querySelector(".n").textContent=x.nick;
-      d.querySelector("small").textContent=`${x.accuracy ?? 0} % · turno de ${x.total}`;
+      d.querySelector(".who small").textContent=t("row_sub",{a:x.accuracy ?? 0,t:x.total});
+      d.querySelector(".pts small").textContent=t("row_of",{n:x.answered});
       list.appendChild(d);
     });
-  }catch(e){list.innerHTML='<div class="empty">No se pudo cargar el ranking. Revisa tu conexión y toca Actualizar.</div>';}
+  }catch(e){msg(t("board_err"));}
 }
 
-/* ---------- share image ---------- */
+/* ---------- imagen ---------- */
+function siteText(){return /^https?:/.test(location.protocol)?(location.host+location.pathname.replace(/index\.html$/,"")).replace(/\/$/,""):"";}
 async function drawCard(){
   const st=stats();
   try{await Promise.all([document.fonts.load('120px "VT323"'),document.fonts.load('800 80px "Barlow Condensed"'),document.fonts.load('500 30px "Barlow"')]);}catch(e){}
@@ -632,14 +890,15 @@ async function drawCard(){
   let fs=250;const big=st.right+"/"+st.total;g.font=fs+'px "VT323", monospace';
   while(g.measureText(big).width>mw-80&&fs>120){fs-=10;g.font=fs+'px "VT323", monospace';}
   g.fillStyle="#ffc94d";g.fillText(big,W/2,my+400);
-  g.font='80px "VT323", monospace';g.fillStyle="#9dffbf";g.fillText("respuestas correctas",W/2,my+500);
+  g.font='80px "VT323", monospace';g.fillStyle="#9dffbf";g.fillText(t("img_correct"),W/2,my+500);
   g.font='60px "VT323", monospace';g.fillStyle="rgba(157,255,191,.75)";
-  const sub=Math.round(st.pct*100)+" % de aciertos"+(S.published?`  ·  puesto ${S.published.puesto}`:"");
+  const sub=t("img_pct",{p:Math.round(st.pct*100)})+(S.published?"  ·  "+t("img_pos",{p:S.published.puesto}):"");
   g.fillText(sub,W/2,my+590);
   g.save();roundRect(g,mx,my,mw,mh,36);g.clip();g.fillStyle="rgba(0,0,0,.28)";for(let y=my;y<my+mh;y+=4)g.fillRect(mx,y,mw,1.5);g.restore();
   g.textAlign="left";
   g.fillStyle="#8d95a3";g.font='500 36px "Barlow", sans-serif';
-  g.fillText(S.name?("Turno de "+S.name):"Mi turno terminó",mx,my+mh+80);
+  const who=(S.published&&S.published.nick)||S.name;
+  g.fillText(who?t("img_turn",{name:who}):t("img_done"),mx,my+mh+80);
   g.fillStyle="#ece4d2";g.font='800 84px "Barlow Condensed", sans-serif';
   wrapText(g,st.rank,mx,my+mh+170,mw,84);
   const y=my+mh+250; const rows=st.per.slice(0,12); const gap=14; const bw=(mw-(rows.length-1)*gap)/Math.max(rows.length,1);
@@ -648,65 +907,60 @@ async function drawCard(){
     g.fillStyle="#8d95a3";g.font='34px "VT323", monospace';g.textAlign="center";g.fillText(String(x.p.n),bx+bw/2,y+128);});
   g.textAlign="left";
   g.fillStyle="#ffc94d";g.font='800 52px "Barlow Condensed", sans-serif';
-  g.fillText("El Cuestionario Definitivo de FNAF",mx,H-110);
+  g.fillText(t("img_title"),mx,H-110);
   g.fillStyle="#8d95a3";g.font='500 32px "Barlow", sans-serif';
-  const site=/^https?:/.test(location.protocol)?location.host+location.pathname.replace(/index\.html$/,""):"";
-  g.fillText(site?("¿Me superas? "+site.replace(/\/$/,"")):"¿Llegas a las 6 AM con más puntos? Te reto.",mx,H-62);
+  const site=siteText();
+  g.fillText(site?t("img_cta_site",{site}):t("img_cta"),mx,H-62);
   return new Promise(r=>c.toBlob(r,"image/png"));
 }
 function roundRect(g,x,y,w,h,r){g.beginPath();g.moveTo(x+r,y);g.arcTo(x+w,y,x+w,y+h,r);g.arcTo(x+w,y+h,x,y+h,r);g.arcTo(x,y+h,x,y,r);g.arcTo(x,y,x+w,y,r);g.closePath();}
-function wrapText(g,t,x,y,mw,lh){const ws=t.split(" ");let line="";for(const w of ws){const test=line?line+" "+w:w;if(g.measureText(test).width>mw&&line){g.fillText(line,x,y);line=w;y+=lh;}else line=test;}g.fillText(line,x,y);}
-
-function shareText(){const st=stats();const site=/^https?:/.test(location.protocol)?" "+location.href.split("#")[0]:"";return `Saqué ${st.right}/${st.total} en El Cuestionario Definitivo de FNAF: "${st.rank}". ¿Me superas?${site}`;}
-$("#makeImg").addEventListener("click",async()=>{
-  $("#makeImg").textContent="Revelando la imagen…";
+function wrapText(g,s,x,y,mw,lh){const ws=s.split(" ");let line="";for(const w of ws){const test=line?line+" "+w:w;if(g.measureText(test).width>mw&&line){g.fillText(line,x,y);line=w;y+=lh;}else line=test;}g.fillText(line,x,y);}
+async function redrawImage(){
   lastBlob=await drawCard();
   if(lastUrl)URL.revokeObjectURL(lastUrl);
   lastUrl=URL.createObjectURL(lastBlob);
   $("#shareImg").src=lastUrl;
-  $("#shareBox").classList.remove("hidden");$("#makeImg").classList.add("hidden");$("#makeImg").textContent="Crear imagen para compartir";
+}
+function shareText(){const st=stats();const site=/^https?:/.test(location.protocol)?" "+location.href.split("#")[0]:"";return t("share_text",{r:st.right,t:st.total,rank:st.rank,site});}
+$("#makeImg").addEventListener("click",async()=>{
+  $("#makeImg").textContent=t("revealing");
+  await redrawImage();
+  $("#shareBox").classList.remove("hidden");$("#makeImg").classList.add("hidden");$("#makeImg").textContent=t("make_img");
 });
 $("#saveImg").addEventListener("click",()=>{
   if(!lastUrl)return;
-  const a=document.createElement("a");a.href=lastUrl;a.download="mi-resultado-fnaf.png";document.body.appendChild(a);a.click();a.remove();
-  $("#shareNote").textContent="Si no se descargó, mantén presionada la imagen (o clic derecho) para guardarla.";
+  const a=document.createElement("a");a.href=lastUrl;a.download="fnaf-quiz.png";document.body.appendChild(a);a.click();a.remove();
+  $("#shareNote").textContent=t("save_note");
 });
 $("#shareBtn").addEventListener("click",async()=>{
   const text=shareText();
   if(lastBlob&&navigator.canShare){
-    const file=new File([lastBlob],"mi-resultado-fnaf.png",{type:"image/png"});
+    const file=new File([lastBlob],"fnaf-quiz.png",{type:"image/png"});
     if(navigator.canShare({files:[file]})){try{await navigator.share({files:[file],text});return;}catch(e){if(e&&e.name==="AbortError")return;}}
   }
   if(navigator.share){try{await navigator.share({text});return;}catch(e){if(e&&e.name==="AbortError")return;}}
-  try{await navigator.clipboard.writeText(text);toast("Texto copiado: pégalo junto a tu imagen");}
+  try{await navigator.clipboard.writeText(text);toast(t("copied"));}
   catch(e){$("#shareNote").textContent=text;}
 });
 
-/* ---------- init ---------- */
+/* ---------- arranque ---------- */
 async function init(){
-  let raw;
-  try{
-    const r=await fetch("preguntas.json",{cache:"no-cache"});
-    if(!r.ok)throw new Error();
-    raw=await r.json();
-  }catch(e){
-    $("#loading").innerHTML='<p class="lede" style="padding-top:30vh">No se pudo cargar preguntas.json. Si abriste el archivo directamente desde tu computador, súbelo a GitHub Pages o usa un servidor local.</p>';
-    return;
-  }
-  DATA=raw.map(p=>({n:p.parte,short:p.corto,title:p.titulo,q:p.preguntas.map(q=>({id:q.id,lvl:q.nivel,sub:q.sub,text:q.pregunta,opts:q.opciones,ok:"abcd".indexOf(q.correcta)}))}));
-  DATA.forEach(p=>p.q.forEach(q=>BYID[q.id]=q));
+  const saved=read(LANG_KEY);
+  LANG = LANGS[saved] ? saved : ((navigator.language||"es").toLowerCase().startsWith("es") ? "es" : "en");
+  $("#loading p").textContent=t("loading");
+  try{ DATA=await fetchLang(LANG); }
+  catch(e){ $("#loading p").textContent=t("load_err"); return; }
+  BYID={}; DATA.forEach(p=>p.q.forEach(q=>BYID[q.id]=q));
   TOTAL=DATA.reduce((s,p)=>s+p.q.length,0);
-  $("#fullChip").textContent=`Turno completo (${TOTAL})`;
+  applyStatic();
   DATA.forEach(p=>selected.add(p.n));
   renderParts();
   $("#name").value=read(NICK_KEY)||"";
-  const saved=load();
-  if(saved&&saved.order&&!saved.done&&saved.pos<saved.order.length&&saved.order.every(([a,b])=>DATA[a]&&DATA[a].q[b])){
-    S=saved;
-    $("#resumeBox").classList.remove("hidden");
-    $("#resumeNote").textContent=`Vas en la pregunta ${saved.pos+1} de ${saved.order.length}. Si empiezas de nuevo, ese avance se reemplaza.`;
-    if(saved.name)$("#name").value=saved.name;
+  const st=load();
+  if(st&&st.order&&!st.done&&st.pos<st.order.length&&st.order.every(([a,b])=>DATA[a]&&DATA[a].q[b])){
+    S=st; if(st.name)$("#name").value=st.name;
   }
+  renderResume();
   if(!ONLINE)document.querySelectorAll(".boardLink").forEach(b=>b.classList.add("hidden"));
   show("start");
 }
