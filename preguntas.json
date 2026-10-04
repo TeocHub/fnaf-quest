@@ -8,7 +8,7 @@
     "id": "p1-001",
     "nivel": "B",
     "sub": "El local y el trabajo",
-    "pregunta": "¿Cómo se llama el restaurante?",
+    "pregunta": "¿Cómo se llama el restaurante donde trabajas en FNAF 1?",
     "opciones": [
      "Fredbear's Family Diner",
      "Freddy Fazbear's Pizza",
@@ -21,7 +21,7 @@
     "id": "p1-002",
     "nivel": "B",
     "sub": "El local y el trabajo",
-    "pregunta": "¿Cómo se llama el guardia que controlas?",
+    "pregunta": "¿Cómo se llama el guardia nocturno que controlas en FNAF 1?",
     "opciones": [
      "Jeremy Fitzgerald",
      "Fritz Smith",
@@ -34,7 +34,7 @@
     "id": "p1-003",
     "nivel": "B",
     "sub": "El local y el trabajo",
-    "pregunta": "¿Qué empresa es dueña del local?",
+    "pregunta": "¿Qué empresa es dueña de la pizzería de FNAF 1?",
     "opciones": [
      "Fazbear Entertainment",
      "Afton Robotics",
@@ -47,7 +47,7 @@
     "id": "p1-004",
     "nivel": "I",
     "sub": "El local y el trabajo",
-    "pregunta": "Según el anuncio de trabajo, ¿cuál es el horario?",
+    "pregunta": "Según el anuncio de trabajo de FNAF 1, ¿en qué horario es el turno del guardia nocturno?",
     "opciones": [
      "10 PM a 4 AM",
      "11 PM a 5 AM",
@@ -60,7 +60,7 @@
     "id": "p1-005",
     "nivel": "I",
     "sub": "El local y el trabajo",
-    "pregunta": "Según el anuncio, ¿cuánto se paga a la semana?",
+    "pregunta": "Según el anuncio de trabajo de FNAF 1, ¿cuánto se le paga por semana al guardia nocturno?",
     "opciones": [
      "120 dólares",
      "100 dólares",
@@ -73,7 +73,7 @@
     "id": "p1-006",
     "nivel": "B",
     "sub": "El local y el trabajo",
-    "pregunta": "¿Dónde están Freddy, Bonnie y Chica al empezar la noche?",
+    "pregunta": "En FNAF 1, ¿en qué sala están Freddy, Bonnie y Chica al comenzar cada noche?",
     "opciones": [
      "Party Room",
      "Main Hall",
@@ -86,7 +86,7 @@
     "id": "p1-007",
     "nivel": "B",
     "sub": "El local y el trabajo",
-    "pregunta": "¿Dónde está Foxy y qué dice el letrero?",
+    "pregunta": "En FNAF 1, ¿en qué zona está Foxy y qué dice el letrero de su cortina?",
     "opciones": [
      "Kid's Cove, \"Out of order\"",
      "Pirate Cove, \"Closed for repairs\"",
@@ -99,7 +99,7 @@
     "id": "p1-008",
     "nivel": "I",
     "sub": "El local y el trabajo",
-    "pregunta": "¿Qué hay en Backstage?",
+    "pregunta": "En FNAF 1, ¿qué hay guardado en la sala Backstage?",
     "opciones": [
      "Cabezas de repuesto y un endoesqueleto",
      "Cajas de pizza",
@@ -112,7 +112,7 @@
     "id": "p1-009",
     "nivel": "B",
     "sub": "El local y el trabajo",
-    "pregunta": "¿Qué dice el póster de los tres personajes?",
+    "pregunta": "En FNAF 1, ¿qué palabra aparece en el póster de Freddy, Bonnie y Chica?",
     "opciones": [
      "Let's Party!",
      "Smile!",
@@ -125,7 +125,7 @@
     "id": "p1-010",
     "nivel": "B",
     "sub": "El local y el trabajo",
-    "pregunta": "¿Qué dice el babero de Chica?",
+    "pregunta": "¿Qué frase lleva Chica escrita en su babero?",
     "opciones": [
      "Pizza Time!",
      "Let's Eat!!!",
@@ -138,7 +138,7 @@
     "id": "p1-011",
     "nivel": "I",
     "sub": "El local y el trabajo",
-    "pregunta": "¿Qué llevan Bonnie y Freddy?",
+    "pregunta": "En el escenario de FNAF 1, ¿qué llevan Bonnie y Freddy en las manos?",
     "opciones": [
      "Bonnie una guitarra, Freddy un micrófono",
      "Bonnie una batería, Freddy una guitarra",
@@ -151,7 +151,7 @@
     "id": "p1-012",
     "nivel": "B",
     "sub": "Las llamadas",
-    "pregunta": "¿Cómo llama la comunidad al hombre de los mensajes?",
+    "pregunta": "¿Cómo llama la comunidad al hombre que deja mensajes telefónicos cada noche en FNAF 1?",
     "opciones": [
      "Phone Dude",
      "Cassette Man",
@@ -164,7 +164,7 @@
     "id": "p1-013",
     "nivel": "I",
     "sub": "Las llamadas",
-    "pregunta": "¿Qué relación dice tener con tu oficina?",
+    "pregunta": "¿Qué relación dice tener Phone Guy con la oficina donde trabajas en FNAF 1?",
     "opciones": [
      "Es el dueño del local",
      "Trabajó ahí antes y está terminando su última semana",
@@ -177,7 +177,7 @@
     "id": "p1-014",
     "nivel": "E",
     "sub": "Las llamadas",
-    "pregunta": "Según el saludo legal, ¿en cuántos días se presenta un reporte de persona desaparecida?",
+    "pregunta": "Según el aviso legal que lee Phone Guy en la noche 1, ¿cuántos días después se presenta un reporte de persona desaparecida?",
     "opciones": [
      "30",
      "60",
@@ -190,7 +190,7 @@
     "id": "p1-015",
     "nivel": "E",
     "sub": "Las llamadas",
-    "pregunta": "Según ese saludo, ¿qué debe hacerse antes del reporte?",
+    "pregunta": "Según el aviso legal que lee Phone Guy en la noche 1, ¿qué debe hacerse con el local antes de presentar ese reporte?",
     "opciones": [
      "Apagar a los animatrónicos",
      "Avisar a la policía",
@@ -203,7 +203,7 @@
     "id": "p1-016",
     "nivel": "I",
     "sub": "Las llamadas",
-    "pregunta": "¿Cuántos años llevan cantando las mismas canciones?",
+    "pregunta": "Según Phone Guy, ¿cuántos años llevan los animatrónicos de FNAF 1 cantando las mismas canciones?",
     "opciones": [
      "10",
      "15",
@@ -216,7 +216,7 @@
     "id": "p1-017",
     "nivel": "A",
     "sub": "Las llamadas",
-    "pregunta": "¿Por qué quedan en \"modo libre\" de noche?",
+    "pregunta": "Según Phone Guy, ¿por qué los animatrónicos de FNAF 1 quedan en \"modo libre\" durante la noche?",
     "opciones": [
      "Para vigilar el local",
      "Porque sus servos se trabarían si se apagan mucho tiempo",
@@ -229,7 +229,7 @@
     "id": "p1-018",
     "nivel": "I",
     "sub": "Las llamadas",
-    "pregunta": "¿Qué incidente les quitó el permiso de caminar de día?",
+    "pregunta": "Según Phone Guy, ¿qué incidente hizo que los animatrónicos ya no pudieran caminar libremente de día?",
     "opciones": [
      "La Mordida del 87",
      "La Mordida del 83",
@@ -242,7 +242,7 @@
     "id": "p1-019",
     "nivel": "A",
     "sub": "Las llamadas",
-    "pregunta": "¿Qué parte del cuerpo menciona al hablar de ese incidente?",
+    "pregunta": "Phone Guy comenta que es increíble que el cuerpo humano pueda vivir sin cierta parte. ¿Cuál?",
     "opciones": [
      "El brazo",
      "La mandíbula",
@@ -255,7 +255,7 @@
     "id": "p1-020",
     "nivel": "I",
     "sub": "Las llamadas",
-    "pregunta": "¿Cómo verían a un humano después de horario?",
+    "pregunta": "Según Phone Guy, ¿cómo verían los animatrónicos a un humano dentro del local después de horario?",
     "opciones": [
      "Como un cliente",
      "Como un endoesqueleto sin traje",
@@ -268,7 +268,7 @@
     "id": "p1-021",
     "nivel": "I",
     "sub": "Las llamadas",
-    "pregunta": "¿Qué te harían al encontrarte?",
+    "pregunta": "Según Phone Guy, ¿qué te harían los animatrónicos si te encuentran de noche?",
     "opciones": [
      "Echarte del local",
      "Llevarte a Pirate Cove",
@@ -281,7 +281,7 @@
     "id": "p1-022",
     "nivel": "A",
     "sub": "Las llamadas",
-    "pregunta": "¿Qué partes de tu cuerpo \"verían la luz del día\" otra vez?",
+    "pregunta": "Phone Guy explica que, si te meten en un traje, solo algunas partes de ti volverían a ver la luz del día. ¿Cuáles?",
     "opciones": [
      "Los ojos y los dientes",
      "Las manos y los pies",
@@ -294,7 +294,7 @@
     "id": "p1-023",
     "nivel": "A",
     "sub": "Las llamadas",
-    "pregunta": "¿Qué dice Phone Guy sobre Freddy?",
+    "pregunta": "¿Qué comenta Phone Guy sobre el comportamiento de Freddy en FNAF 1?",
     "opciones": [
      "Que nunca se mueve",
      "Que casi no sale del escenario, pero es más activo en la oscuridad",
@@ -307,7 +307,7 @@
     "id": "p1-024",
     "nivel": "A",
     "sub": "Las llamadas",
-    "pregunta": "¿Qué dice sobre \"hacerse el muerto\"?",
+    "pregunta": "¿Qué opina Phone Guy sobre \"hacerse el muerto\" si un animatrónico te encuentra?",
     "opciones": [
      "Que siempre funciona",
      "Que los enfurece",
@@ -320,7 +320,7 @@
     "id": "p1-025",
     "nivel": "I",
     "sub": "Las llamadas",
-    "pregunta": "En la noche 4, ¿qué te pide revisar algún día?",
+    "pregunta": "En la llamada de la noche 4 de FNAF 1, ¿qué le pide Phone Guy al guardia que revise algún día?",
     "opciones": [
      "Los trajes del cuarto trasero",
      "La cocina",
@@ -333,7 +333,7 @@
     "id": "p1-026",
     "nivel": "I",
     "sub": "Las llamadas",
-    "pregunta": "¿Cómo termina la llamada de la noche 4?",
+    "pregunta": "¿Cómo termina la llamada de Phone Guy en la noche 4 de FNAF 1?",
     "opciones": [
      "Se despide como siempre",
      "Hay silencio total",
@@ -346,7 +346,7 @@
     "id": "p1-027",
     "nivel": "A",
     "sub": "Las llamadas",
-    "pregunta": "¿Qué tiene de particular el mensaje de la noche 5?",
+    "pregunta": "¿Qué tiene de particular el mensaje telefónico de la noche 5 de FNAF 1?",
     "opciones": [
      "Lo deja Phone Guy desde el hospital",
      "Es una voz distorsionada e ininteligible",
@@ -359,7 +359,7 @@
     "id": "p1-028",
     "nivel": "A",
     "sub": "Los periódicos",
-    "pregunta": "Según el primer recorte, ¿cuántos niños fueron atraídos y a dónde?",
+    "pregunta": "Según el recorte de periódico del primer secuestro en FNAF 1, ¿cuántos niños fueron atraídos y a dónde?",
     "opciones": [
      "Cinco, a la cocina",
      "Uno, al baño",
@@ -372,7 +372,7 @@
     "id": "p1-029",
     "nivel": "E",
     "sub": "Los periódicos",
-    "pregunta": "¿En qué fecha ocurrió ese secuestro?",
+    "pregunta": "Según los periódicos de FNAF 1, ¿en qué fecha ocurrió el primer secuestro de niños?",
     "opciones": [
      "26 de junio",
      "13 de noviembre",
@@ -385,7 +385,7 @@
     "id": "p1-030",
     "nivel": "A",
     "sub": "Los periódicos",
-    "pregunta": "¿Cómo fue identificado el sospechoso?",
+    "pregunta": "Según los periódicos de FNAF 1, ¿cómo fue identificado el sospechoso de los secuestros?",
     "opciones": [
      "Por un testigo",
      "Por huellas",
@@ -398,7 +398,7 @@
     "id": "p1-031",
     "nivel": "A",
     "sub": "Los periódicos",
-    "pregunta": "¿Qué pasó con los cuerpos?",
+    "pregunta": "Según los periódicos de FNAF 1, ¿qué pasó con los cuerpos de los niños desaparecidos?",
     "opciones": [
      "Estaban en Backstage",
      "Se hallaron en un parque",
@@ -411,7 +411,7 @@
     "id": "p1-032",
     "nivel": "I",
     "sub": "Los periódicos",
-    "pregunta": "¿A cuántos niños se vincula finalmente el caso?",
+    "pregunta": "Según los periódicos de FNAF 1, ¿a cuántos niños desaparecidos se vincula finalmente el caso?",
     "opciones": [
      "3",
      "4",
@@ -424,7 +424,7 @@
     "id": "p1-033",
     "nivel": "I",
     "sub": "Los periódicos",
-    "pregunta": "¿Cómo iba vestido el culpable?",
+    "pregunta": "Según los periódicos de FNAF 1, ¿cómo iba vestido el culpable cuando atrajo a los niños?",
     "opciones": [
      "Con un traje de mascota",
      "De policía",
@@ -437,7 +437,7 @@
     "id": "p1-034",
     "nivel": "A",
     "sub": "Los periódicos",
-    "pregunta": "¿Qué notaron los padres en los animatrónicos?",
+    "pregunta": "Según el recorte sobre sanidad de FNAF 1, ¿qué notaron los padres en los animatrónicos?",
     "opciones": [
      "Ojos brillantes",
      "Mal olor, y sangre y mucosidad en ojos y boca",
@@ -450,7 +450,7 @@
     "id": "p1-035",
     "nivel": "A",
     "sub": "Los periódicos",
-    "pregunta": "Según el último recorte, ¿qué le espera a la pizzería?",
+    "pregunta": "Según el último recorte de periódico de FNAF 1, ¿qué futuro le espera a la pizzería?",
     "opciones": [
      "Reabrir con nuevos animatrónicos",
      "Mudarse de ciudad",
@@ -463,7 +463,7 @@
     "id": "p1-036",
     "nivel": "I",
     "sub": "Golden Freddy, final y extras",
-    "pregunta": "¿Qué animatrónico aparece desplomado en la oficina?",
+    "pregunta": "En FNAF 1, ¿qué animatrónico puede aparecer desplomado dentro de la oficina?",
     "opciones": [
      "Golden Freddy",
      "Freddy",
@@ -476,7 +476,7 @@
     "id": "p1-037",
     "nivel": "A",
     "sub": "Golden Freddy, final y extras",
-    "pregunta": "¿Qué frase aparece junto a esa alucinación?",
+    "pregunta": "En FNAF 1, ¿qué frase aparece en pantalla y en los carteles durante las alucinaciones?",
     "opciones": [
      "SAVE THEM",
      "IT'S ME",
@@ -489,7 +489,7 @@
     "id": "p1-038",
     "nivel": "I",
     "sub": "Golden Freddy, final y extras",
-    "pregunta": "¿Qué muestra la pantalla de Game Over?",
+    "pregunta": "¿Qué muestra la pantalla de Game Over de FNAF 1?",
     "opciones": [
      "La oficina vacía",
      "Pirate Cove abierta",
@@ -502,7 +502,7 @@
     "id": "p1-039",
     "nivel": "A",
     "sub": "Golden Freddy, final y extras",
-    "pregunta": "¿Qué melodía toca Freddy al acabarse la energía?",
+    "pregunta": "En FNAF 1, ¿qué melodía toca Freddy en la puerta cuando se acaba la energía?",
     "opciones": [
      "Für Elise",
      "Cumpleaños feliz",
@@ -515,7 +515,7 @@
     "id": "p1-040",
     "nivel": "I",
     "sub": "Golden Freddy, final y extras",
-    "pregunta": "¿Qué recibes al terminar la noche 6?",
+    "pregunta": "¿Qué recibe el guardia al terminar la noche 6 de FNAF 1?",
     "opciones": [
      "Una carta de despido",
      "Un cheque por horas extras",
@@ -528,7 +528,7 @@
     "id": "p1-041",
     "nivel": "I",
     "sub": "Golden Freddy, final y extras",
-    "pregunta": "¿Qué recibes al terminar la noche 7?",
+    "pregunta": "¿Qué recibe el guardia al terminar la noche 7 de FNAF 1?",
     "opciones": [
      "Una carta de despido a nombre de Mike Schmidt",
      "Un cheque a nombre de Mike",
@@ -541,7 +541,7 @@
     "id": "p1-042",
     "nivel": "A",
     "sub": "Golden Freddy, final y extras",
-    "pregunta": "¿Cuáles son los motivos del despido?",
+    "pregunta": "¿Qué motivos indica la carta de despido que recibe el guardia tras la noche 7 de FNAF 1?",
     "opciones": [
      "Robo, impuntualidad y desorden",
      "Dormirse, ruido y gastar energía",
@@ -561,7 +561,7 @@
     "id": "p2-001",
     "nivel": "I",
     "sub": "El local y los personajes",
-    "pregunta": "¿En qué año transcurre?",
+    "pregunta": "Según el cheque de pago, ¿en qué año transcurre FNAF 2?",
     "opciones": [
      "1983",
      "1985",
@@ -574,7 +574,7 @@
     "id": "p2-002",
     "nivel": "I",
     "sub": "El local y los personajes",
-    "pregunta": "¿Cómo se llama el guardia principal?",
+    "pregunta": "¿Cómo se llama el guardia principal de FNAF 2?",
     "opciones": [
      "Jeremy Fitzgerald",
      "Mike Schmidt",
@@ -587,7 +587,7 @@
     "id": "p2-003",
     "nivel": "B",
     "sub": "El local y los personajes",
-    "pregunta": "¿Cómo se llaman los animatrónicos nuevos?",
+    "pregunta": "¿Cómo se llaman los animatrónicos nuevos y relucientes de FNAF 2?",
     "opciones": [
      "Funtime",
      "Toy",
@@ -600,7 +600,7 @@
     "id": "p2-004",
     "nivel": "B",
     "sub": "El local y los personajes",
-    "pregunta": "¿Cómo se llaman los viejos y dañados?",
+    "pregunta": "¿Cómo se llaman las versiones viejas y dañadas de los animatrónicos originales en FNAF 2?",
     "opciones": [
      "Nightmare",
      "Twisted",
@@ -613,7 +613,7 @@
     "id": "p2-005",
     "nivel": "I",
     "sub": "El local y los personajes",
-    "pregunta": "¿Dónde se guardan los animatrónicos viejos?",
+    "pregunta": "En FNAF 2, ¿en qué sala se guardan los animatrónicos viejos?",
     "opciones": [
      "Parts/Service",
      "Backstage",
@@ -626,7 +626,7 @@
     "id": "p2-006",
     "nivel": "B",
     "sub": "El local y los personajes",
-    "pregunta": "¿Qué usa el guardia para engañar a la mayoría?",
+    "pregunta": "En FNAF 2, ¿qué usa el guardia para engañar a la mayoría de los animatrónicos?",
     "opciones": [
      "Una linterna",
      "Las puertas",
@@ -639,7 +639,7 @@
     "id": "p2-007",
     "nivel": "I",
     "sub": "El local y los personajes",
-    "pregunta": "¿Dónde está la Marioneta y qué la mantiene dormida?",
+    "pregunta": "En FNAF 2, ¿dónde está la Marioneta y qué la mantiene dormida?",
     "opciones": [
      "Kid's Cove, la linterna",
      "Prize Corner, la caja de música",
@@ -652,7 +652,7 @@
     "id": "p2-008",
     "nivel": "B",
     "sub": "El local y los personajes",
-    "pregunta": "¿Qué dice Balloon Boy?",
+    "pregunta": "¿Qué dice Balloon Boy en FNAF 2?",
     "opciones": [
      "\"Hi!\", \"Hello\" y una risa",
      "\"It's me\"",
@@ -665,7 +665,7 @@
     "id": "p2-009",
     "nivel": "A",
     "sub": "El local y los personajes",
-    "pregunta": "¿Qué personaje parecido a Balloon Boy puede esconderse bajo el escritorio?",
+    "pregunta": "En FNAF 2, ¿qué personaje parecido a Balloon Boy puede aparecer escondido bajo el escritorio?",
     "opciones": [
      "Bon-Bon",
      "Bidybab",
@@ -678,7 +678,7 @@
     "id": "p2-010",
     "nivel": "I",
     "sub": "El local y los personajes",
-    "pregunta": "¿Qué animatrónico está en Kid's Cove?",
+    "pregunta": "En FNAF 2, ¿qué animatrónico se encuentra en Kid's Cove?",
     "opciones": [
      "Toy Bonnie",
      "Foxy",
@@ -691,7 +691,7 @@
     "id": "p2-011",
     "nivel": "A",
     "sub": "El local y los personajes",
-    "pregunta": "¿Qué animatrónico se quita el pico al entrar a la oficina?",
+    "pregunta": "En FNAF 2, ¿qué animatrónico aparece sin pico cuando entra a la oficina?",
     "opciones": [
      "Toy Bonnie",
      "Toy Chica",
@@ -704,7 +704,7 @@
     "id": "p2-012",
     "nivel": "I",
     "sub": "Las llamadas",
-    "pregunta": "¿Qué le pasó al guardia anterior?",
+    "pregunta": "Según la llamada de la noche 1 de FNAF 2, ¿qué pasó con el guardia que trabajaba antes que tú?",
     "opciones": [
      "Lo despidieron",
      "Murió",
@@ -717,7 +717,7 @@
     "id": "p2-013",
     "nivel": "A",
     "sub": "Las llamadas",
-    "pregunta": "¿De qué se quejaba?",
+    "pregunta": "Según Phone Guy en FNAF 2, ¿de qué se quejaba el guardia anterior?",
     "opciones": [
      "De que los personajes se movían de noche e intentaban entrar a su oficina",
      "Del sueldo",
@@ -730,7 +730,7 @@
     "id": "p2-014",
     "nivel": "A",
     "sub": "Las llamadas",
-    "pregunta": "¿Por qué los robots se comportan raro de noche?",
+    "pregunta": "Según Phone Guy en FNAF 2, ¿por qué los robots se comportan de forma extraña durante la noche?",
     "opciones": [
      "Están poseídos",
      "Un virus",
@@ -743,7 +743,7 @@
     "id": "p2-015",
     "nivel": "I",
     "sub": "Las llamadas",
-    "pregunta": "¿Qué tecnología tenían los Toy?",
+    "pregunta": "Según Phone Guy, ¿qué tecnología de seguridad tenían los animatrónicos Toy de FNAF 2?",
     "opciones": [
      "GPS",
      "Reconocimiento facial con una base de datos criminal",
@@ -756,7 +756,7 @@
     "id": "p2-016",
     "nivel": "I",
     "sub": "Las llamadas",
-    "pregunta": "¿Qué se les permitía hacer de día en este local?",
+    "pregunta": "Según Phone Guy, ¿qué se les permitía hacer a los animatrónicos durante el día en el local de FNAF 2?",
     "opciones": [
      "Servir pizza",
      "Cantar solo en cumpleaños",
@@ -769,7 +769,7 @@
     "id": "p2-017",
     "nivel": "A",
     "sub": "Las llamadas",
-    "pregunta": "¿Qué se planeaba hacer con los viejos?",
+    "pregunta": "Según Phone Guy, ¿qué se planeaba hacer originalmente con los animatrónicos viejos de FNAF 2?",
     "opciones": [
      "Venderlos",
      "Reacondicionarlos, pero se veían tan mal que se empezó de cero",
@@ -782,7 +782,7 @@
     "id": "p2-018",
     "nivel": "A",
     "sub": "Las llamadas",
-    "pregunta": "¿Qué debe hacer el personal con Mangle tras cada turno?",
+    "pregunta": "Según Phone Guy, ¿qué debe hacer el personal de FNAF 2 con Mangle después de cada turno?",
     "opciones": [
      "Lavarlo",
      "Apagarlo",
@@ -795,7 +795,7 @@
     "id": "p2-019",
     "nivel": "I",
     "sub": "Las llamadas",
-    "pregunta": "¿Qué recuerda siempre Phone Guy?",
+    "pregunta": "En FNAF 2, ¿qué le recuerda siempre Phone Guy al guardia?",
     "opciones": [
      "Cerrar las puertas",
      "Vigilar a Foxy",
@@ -808,7 +808,7 @@
     "id": "p2-020",
     "nivel": "A",
     "sub": "Las llamadas",
-    "pregunta": "En la noche 4, ¿cómo actúan los Toy?",
+    "pregunta": "Según la llamada de la noche 4 de FNAF 2, ¿cómo se comportan los animatrónicos Toy?",
     "opciones": [
      "Agresivos con los niños",
      "Normales con los niños, pero miran fijo a los adultos y son casi agresivos con los empleados",
@@ -821,7 +821,7 @@
     "id": "p2-021",
     "nivel": "A",
     "sub": "Las llamadas",
-    "pregunta": "¿Qué medida se toma en la noche 5?",
+    "pregunta": "Según la llamada de la noche 5 de FNAF 2, ¿qué medida toma la empresa con el edificio?",
     "opciones": [
      "Se cierra el edificio: nadie entra ni sale, especialmente ex empleados",
      "Se contrata policía",
@@ -834,7 +834,7 @@
     "id": "p2-022",
     "nivel": "A",
     "sub": "Las llamadas",
-    "pregunta": "¿Qué puesto queda vacante?",
+    "pregunta": "Según la llamada de la noche 5 de FNAF 2, ¿qué puesto de trabajo queda vacante de repente?",
     "opciones": [
      "Gerente",
      "Cocinero",
@@ -847,7 +847,7 @@
     "id": "p2-023",
     "nivel": "A",
     "sub": "Las llamadas",
-    "pregunta": "¿Qué se descubre en la noche 6?",
+    "pregunta": "Según la llamada de la noche 6 de FNAF 2, ¿qué descubrió la empresa?",
     "opciones": [
      "Que faltan cabezas",
      "Que alguien usó un traje de repuesto y ningún animatrónico funciona bien",
@@ -860,7 +860,7 @@
     "id": "p2-024",
     "nivel": "I",
     "sub": "Las llamadas",
-    "pregunta": "¿De qué color era ese traje?",
+    "pregunta": "Según Phone Guy en FNAF 2, ¿de qué color era el traje de repuesto que alguien usó?",
     "opciones": [
      "Morado",
      "Dorado",
@@ -873,7 +873,7 @@
     "id": "p2-025",
     "nivel": "I",
     "sub": "Las llamadas",
-    "pregunta": "¿Qué evento hay al día siguiente?",
+    "pregunta": "Según la llamada de la noche 6 de FNAF 2, ¿qué evento hay programado para el día siguiente?",
     "opciones": [
      "Una inauguración",
      "Una fiesta de cumpleaños",
@@ -886,7 +886,7 @@
     "id": "p2-026",
     "nivel": "A",
     "sub": "Las llamadas",
-    "pregunta": "¿Qué instrucciones recibe Jeremy?",
+    "pregunta": "En FNAF 2, ¿qué instrucciones le da Phone Guy a Jeremy para el evento del día siguiente a la noche 6?",
     "opciones": [
      "No ir",
      "Apagar a los animatrónicos",
@@ -899,7 +899,7 @@
     "id": "p2-027",
     "nivel": "A",
     "sub": "Las llamadas",
-    "pregunta": "¿Qué hará Phone Guy cuando el local reabra?",
+    "pregunta": "En su última llamada de FNAF 2, ¿qué dice Phone Guy que hará cuando el local vuelva a abrir?",
     "opciones": [
      "Renunciar",
      "Tomar él el turno de noche",
@@ -912,7 +912,7 @@
     "id": "p2-028",
     "nivel": "E",
     "sub": "Las llamadas",
-    "pregunta": "¿En qué fecha es ese último evento?",
+    "pregunta": "¿En qué fecha es la fiesta de cumpleaños mencionada al final de FNAF 2?",
     "opciones": [
      "13 de noviembre de 1987",
      "26 de junio de 1985",
@@ -925,7 +925,7 @@
     "id": "p2-029",
     "nivel": "I",
     "sub": "Minijuegos",
-    "pregunta": "En \"Take Cake to the Children\", ¿a quién controlas?",
+    "pregunta": "En el minijuego \"Take Cake to the Children\" de FNAF 2, ¿a quién controlas?",
     "opciones": [
      "Balloon Boy",
      "Foxy",
@@ -938,7 +938,7 @@
     "id": "p2-030",
     "nivel": "A",
     "sub": "Minijuegos",
-    "pregunta": "¿Qué le ocurre al niño que llora afuera?",
+    "pregunta": "En el minijuego \"Take Cake to the Children\", ¿qué le ocurre al niño que llora afuera del local?",
     "opciones": [
      "Entra al local",
      "Se va con sus padres",
@@ -951,7 +951,7 @@
     "id": "p2-031",
     "nivel": "I",
     "sub": "Minijuegos",
-    "pregunta": "En \"SAVE THEM\", ¿a quién sigue Freddy?",
+    "pregunta": "En el minijuego \"SAVE THEM\" de FNAF 2, ¿a quién sigue Freddy?",
     "opciones": [
      "Golden Freddy",
      "La Marioneta",
@@ -964,7 +964,7 @@
     "id": "p2-032",
     "nivel": "A",
     "sub": "Minijuegos",
-    "pregunta": "¿Qué mensajes aparecen en \"SAVE THEM\"?",
+    "pregunta": "¿Qué mensajes aparecen escritos en el minijuego \"SAVE THEM\" de FNAF 2?",
     "opciones": [
      "SAVE THEM y YOU CAN'T",
      "IT'S ME y HELP",
@@ -977,7 +977,7 @@
     "id": "p2-033",
     "nivel": "I",
     "sub": "Minijuegos",
-    "pregunta": "En \"Give Gifts, Give Life\", ¿qué hace la Marioneta?",
+    "pregunta": "En el minijuego \"Give Gifts, Give Life\" de FNAF 2, ¿qué hace la Marioneta?",
     "opciones": [
      "Entierra a los niños",
      "Los esconde",
@@ -990,7 +990,7 @@
     "id": "p2-034",
     "nivel": "A",
     "sub": "Minijuegos",
-    "pregunta": "¿Cuántos niños hay en el suelo y quién salta al final?",
+    "pregunta": "En el minijuego \"Give Gifts, Give Life\", ¿cuántos niños hay en el suelo y quién salta al final?",
     "opciones": [
      "5 y Freddy",
      "3 y Foxy",
@@ -1003,7 +1003,7 @@
     "id": "p2-035",
     "nivel": "I",
     "sub": "Minijuegos",
-    "pregunta": "¿A quién controlas en \"Foxy Go! Go! Go!\"?",
+    "pregunta": "¿A quién controlas en el minijuego \"Foxy Go! Go! Go!\" de FNAF 2?",
     "opciones": [
      "Foxy",
      "Mangle",
@@ -1016,7 +1016,7 @@
     "id": "p2-036",
     "nivel": "A",
     "sub": "Minijuegos",
-    "pregunta": "¿Quién espera a los niños en la última ronda?",
+    "pregunta": "En el minijuego \"Foxy Go! Go! Go!\", ¿quién espera a los niños en la última ronda?",
     "opciones": [
      "La Marioneta",
      "El Hombre Morado",
@@ -1029,7 +1029,7 @@
     "id": "p2-037",
     "nivel": "A",
     "sub": "Periódico y despido",
-    "pregunta": "¿Qué pasará con los Toy según el periódico final?",
+    "pregunta": "Según el periódico al final de FNAF 2, ¿qué pasará con los animatrónicos Toy?",
     "opciones": [
      "Serán reparados",
      "Serán vendidos",
@@ -1042,7 +1042,7 @@
     "id": "p2-038",
     "nivel": "A",
     "sub": "Periódico y despido",
-    "pregunta": "¿Y con los viejos?",
+    "pregunta": "Según el periódico al final de FNAF 2, ¿qué pasará con los animatrónicos viejos?",
     "opciones": [
      "Serán desechados",
      "Se conservarán para una reapertura con menor presupuesto",
@@ -1055,7 +1055,7 @@
     "id": "p2-039",
     "nivel": "I",
     "sub": "Periódico y despido",
-    "pregunta": "¿Quién es el guardia de la noche 7?",
+    "pregunta": "¿Quién es el guardia de la noche 7 de FNAF 2?",
     "opciones": [
      "Jeremy Fitzgerald",
      "Mike Schmidt",
@@ -1068,7 +1068,7 @@
     "id": "p2-040",
     "nivel": "I",
     "sub": "Periódico y despido",
-    "pregunta": "¿Por qué lo despiden?",
+    "pregunta": "¿Por qué despiden al guardia de la noche 7 de FNAF 2?",
     "opciones": [
      "Por dormirse",
      "Por manipular a los animatrónicos",
@@ -1081,7 +1081,7 @@
     "id": "p2-041",
     "nivel": "A",
     "sub": "Periódico y despido",
-    "pregunta": "¿Cuánto llevaba trabajando?",
+    "pregunta": "¿Cuánto tiempo llevaba trabajando el guardia de la noche 7 de FNAF 2 cuando lo despidieron?",
     "opciones": [
      "Una semana",
      "Un mes",
@@ -1101,7 +1101,7 @@
     "id": "p3-001",
     "nivel": "B",
     "sub": "La atracción",
-    "pregunta": "¿Cuántos años después del cierre de la pizzería transcurre?",
+    "pregunta": "¿Cuántos años después del cierre de Freddy Fazbear's Pizza transcurre FNAF 3?",
     "opciones": [
      "10",
      "20",
@@ -1114,7 +1114,7 @@
     "id": "p3-002",
     "nivel": "I",
     "sub": "La atracción",
-    "pregunta": "¿Cómo se llama la atracción?",
+    "pregunta": "¿Cómo se llama la atracción de terror donde trabajas en FNAF 3?",
     "opciones": [
      "Fazbear's Fright: The Horror Attraction",
      "Freddy's Nightmare House",
@@ -1127,7 +1127,7 @@
     "id": "p3-003",
     "nivel": "I",
     "sub": "La atracción",
-    "pregunta": "¿Cómo llama la comunidad al nuevo hombre del teléfono?",
+    "pregunta": "¿Cómo llama la comunidad al nuevo hombre que te llama por teléfono en FNAF 3?",
     "opciones": [
      "Phone Guy",
      "Phone Dude",
@@ -1140,7 +1140,7 @@
     "id": "p3-004",
     "nivel": "I",
     "sub": "La atracción",
-    "pregunta": "¿Con qué se arma la atracción?",
+    "pregunta": "¿Con qué se está armando la atracción de terror de FNAF 3?",
     "opciones": [
      "Réplicas nuevas",
      "Disfraces de Halloween",
@@ -1153,7 +1153,7 @@
     "id": "p3-005",
     "nivel": "I",
     "sub": "La atracción",
-    "pregunta": "¿Qué sorpresa anuncia el hombre en la noche 2?",
+    "pregunta": "En FNAF 3, ¿qué gran noticia anuncia Phone Dude en la noche 2?",
     "opciones": [
      "Encontraron un animatrónico real",
      "Llegará la policía",
@@ -1166,7 +1166,7 @@
     "id": "p3-006",
     "nivel": "A",
     "sub": "La atracción",
-    "pregunta": "¿Qué otro hallazgo anuncia y para qué lo usará?",
+    "pregunta": "Además de su gran hallazgo de la noche 2, ¿qué otra cosa encontraron en FNAF 3 y para qué la usará Phone Dude?",
     "opciones": [
      "Planos del local, para remodelar",
      "Un diario, para exhibirlo",
@@ -1179,7 +1179,7 @@
     "id": "p3-007",
     "nivel": "B",
     "sub": "La atracción",
-    "pregunta": "¿Cuál es el único animatrónico físico que puede matarte?",
+    "pregunta": "¿Cuál es el único animatrónico físico que puede matarte en FNAF 3?",
     "opciones": [
      "Phantom Freddy",
      "Phantom Foxy",
@@ -1192,7 +1192,7 @@
     "id": "p3-008",
     "nivel": "I",
     "sub": "La atracción",
-    "pregunta": "¿Qué son los Phantoms?",
+    "pregunta": "¿Qué son los Phantoms en FNAF 3?",
     "opciones": [
      "Alucinaciones de animatrónicos quemados que asustan pero no matan",
      "Robots nuevos de la atracción",
@@ -1205,7 +1205,7 @@
     "id": "p3-009",
     "nivel": "A",
     "sub": "La atracción",
-    "pregunta": "¿Cuál de estos NO es un Phantom?",
+    "pregunta": "¿Cuál de estos NO es un Phantom de FNAF 3?",
     "opciones": [
      "Phantom Mangle",
      "Phantom BB",
@@ -1218,7 +1218,7 @@
     "id": "p3-010",
     "nivel": "I",
     "sub": "Las cintas de entrenamiento",
-    "pregunta": "¿De quién es la voz de las cintas?",
+    "pregunta": "En FNAF 3, ¿de quién es la voz de las cintas de entrenamiento antiguas?",
     "opciones": [
      "Phone Dude",
      "Phone Guy",
@@ -1231,7 +1231,7 @@
     "id": "p3-011",
     "nivel": "I",
     "sub": "Las cintas de entrenamiento",
-    "pregunta": "¿De qué tratan?",
+    "pregunta": "¿De qué tratan las cintas de entrenamiento antiguas de FNAF 3?",
     "opciones": [
      "De manejar trajes que también son animatrónicos, y cómo entrar y salir de ellos",
      "De recetas de pizza",
@@ -1244,7 +1244,7 @@
     "id": "p3-012",
     "nivel": "A",
     "sub": "Las cintas de entrenamiento",
-    "pregunta": "¿Qué pasa al girar la manivela del traje?",
+    "pregunta": "Según las cintas de FNAF 3, ¿qué pasa al girar la manivela de un traje con springlocks?",
     "opciones": [
      "Se apaga",
      "Se abre la cabeza",
@@ -1257,7 +1257,7 @@
     "id": "p3-013",
     "nivel": "A",
     "sub": "Las cintas de entrenamiento",
-    "pregunta": "¿Por qué no respirar sobre los springlocks?",
+    "pregunta": "Según las cintas de FNAF 3, ¿por qué no se debe respirar sobre los springlocks?",
     "opciones": [
      "Por el olor",
      "La humedad puede aflojarlos",
@@ -1270,7 +1270,7 @@
     "id": "p3-014",
     "nivel": "A",
     "sub": "Las cintas de entrenamiento",
-    "pregunta": "¿Qué dos personajes usaban este sistema?",
+    "pregunta": "Según las cintas de FNAF 3, ¿qué dos personajes funcionaban a la vez como traje y como animatrónico?",
     "opciones": [
      "Freddy y Bonnie",
      "Golden Freddy y Foxy",
@@ -1283,7 +1283,7 @@
     "id": "p3-015",
     "nivel": "A",
     "sub": "Las cintas de entrenamiento",
-    "pregunta": "¿Para qué restaurante se crearon?",
+    "pregunta": "Según las cintas de FNAF 3, ¿para qué restaurante se crearon los trajes con springlocks?",
     "opciones": [
      "Freddy Fazbear's Pizza",
      "Circus Baby's Pizza World",
@@ -1296,7 +1296,7 @@
     "id": "p3-016",
     "nivel": "E",
     "sub": "Las cintas de entrenamiento",
-    "pregunta": "¿Qué ocurrió en una \"ubicación hermana\"?",
+    "pregunta": "Según las cintas de FNAF 3, ¿qué ocurrió en una \"ubicación hermana\"?",
     "opciones": [
      "Varias fallas simultáneas de springlocks",
      "Un incendio",
@@ -1309,7 +1309,7 @@
     "id": "p3-017",
     "nivel": "A",
     "sub": "Las cintas de entrenamiento",
-    "pregunta": "¿Cómo era la safe room?",
+    "pregunta": "Según las cintas de FNAF 3, ¿cómo era la safe room?",
     "opciones": [
      "Una sala de descanso con cámaras",
      "Solo para empleados, fuera de cámaras y no programada en el mapa de los animatrónicos",
@@ -1322,7 +1322,7 @@
     "id": "p3-018",
     "nivel": "A",
     "sub": "Las cintas de entrenamiento",
-    "pregunta": "¿Qué anuncia la última cinta sobre las safe rooms?",
+    "pregunta": "¿Qué anuncia la última cinta de FNAF 3 sobre las safe rooms?",
     "opciones": [
      "Que se ampliarán",
      "Que se abrirán a clientes",
@@ -1335,7 +1335,7 @@
     "id": "p3-019",
     "nivel": "E",
     "sub": "Las cintas de entrenamiento",
-    "pregunta": "¿A quiénes no se debe mencionar la safe room?",
+    "pregunta": "Según las cintas de FNAF 3, ¿a quiénes no se debe mencionar la safe room?",
     "opciones": [
      "A la policía y la prensa",
      "A familia, amigos y aseguradoras",
@@ -1348,7 +1348,7 @@
     "id": "p3-020",
     "nivel": "I",
     "sub": "Minijuegos",
-    "pregunta": "¿Qué figura oscura guía a los animatrónicos?",
+    "pregunta": "En los minijuegos de fin de noche de FNAF 3, ¿qué figura oscura guía a los animatrónicos?",
     "opciones": [
      "Shadow Freddy",
      "Shadow Bonnie",
@@ -1361,7 +1361,7 @@
     "id": "p3-021",
     "nivel": "I",
     "sub": "Minijuegos",
-    "pregunta": "¿Quiénes protagonizan esos minijuegos?",
+    "pregunta": "¿Qué animatrónicos protagonizan los minijuegos de fin de noche de FNAF 3?",
     "opciones": [
      "Los Toy",
      "Los Phantoms",
@@ -1374,7 +1374,7 @@
     "id": "p3-022",
     "nivel": "I",
     "sub": "Minijuegos",
-    "pregunta": "¿Qué les hizo el Hombre Morado?",
+    "pregunta": "Según los minijuegos de FNAF 3, ¿qué les hizo el Hombre Morado a los animatrónicos originales?",
     "opciones": [
      "Los reparó",
      "Los desmanteló",
@@ -1387,7 +1387,7 @@
     "id": "p3-023",
     "nivel": "A",
     "sub": "Minijuegos",
-    "pregunta": "¿Cómo termina el último minijuego?",
+    "pregunta": "¿Cómo termina el último minijuego del Hombre Morado en FNAF 3?",
     "opciones": [
      "Escapa por la puerta trasera",
      "Se entrega a la policía",
@@ -1400,7 +1400,7 @@
     "id": "p3-024",
     "nivel": "A",
     "sub": "Minijuegos",
-    "pregunta": "¿Cómo se llama el minijuego secreto del pastel?",
+    "pregunta": "¿Cómo se llama el minijuego secreto de FNAF 3 en el que los niños reciben un pastel?",
     "opciones": [
      "Cake Day",
      "Happiest Day",
@@ -1413,7 +1413,7 @@
     "id": "p3-025",
     "nivel": "E",
     "sub": "Minijuegos",
-    "pregunta": "¿Qué máscara lleva el niño que controlas ahí?",
+    "pregunta": "En el minijuego secreto del pastel de FNAF 3, ¿qué máscara lleva el niño que controlas?",
     "opciones": [
      "Freddy",
      "Golden Freddy",
@@ -1426,7 +1426,7 @@
     "id": "p3-026",
     "nivel": "A",
     "sub": "Minijuegos",
-    "pregunta": "¿Quiénes aparecen en Stage01?",
+    "pregunta": "¿Qué personajes aparecen en el minijuego secreto Stage01 de FNAF 3?",
     "opciones": [
      "Freddy y Bonnie",
      "Toy Freddy y Toy Chica",
@@ -1439,7 +1439,7 @@
     "id": "p3-027",
     "nivel": "A",
     "sub": "Minijuegos",
-    "pregunta": "¿Cuál NO es un minijuego secreto de FNAF 3?",
+    "pregunta": "¿Cuál de estos NO es un minijuego secreto de FNAF 3?",
     "opciones": [
      "Foxy Go! Go! Go!",
      "Mangle's Quest",
@@ -1465,7 +1465,7 @@
     "id": "p3-029",
     "nivel": "I",
     "sub": "Final",
-    "pregunta": "¿Qué le pasa a Fazbear's Fright?",
+    "pregunta": "¿Qué le pasa a Fazbear's Fright al final de FNAF 3?",
     "opciones": [
      "Cierra por falta de público",
      "Se vende",
@@ -1478,7 +1478,7 @@
     "id": "p3-030",
     "nivel": "A",
     "sub": "Final",
-    "pregunta": "¿Qué se hará con lo rescatado?",
+    "pregunta": "Según el periódico final de FNAF 3, ¿qué se hará con los objetos rescatados?",
     "opciones": [
      "Se donará",
      "Se subastará",
@@ -1491,7 +1491,7 @@
     "id": "p3-031",
     "nivel": "I",
     "sub": "Final",
-    "pregunta": "¿Qué se logra en el final bueno?",
+    "pregunta": "¿Qué se logra en el final bueno de FNAF 3?",
     "opciones": [
      "Springtrap queda destruido para siempre",
      "Te ascienden",
@@ -1504,7 +1504,7 @@
     "id": "p3-032",
     "nivel": "A",
     "sub": "Final",
-    "pregunta": "¿Qué muestra el final malo?",
+    "pregunta": "¿Qué muestra la imagen del final malo de FNAF 3?",
     "opciones": [
      "A Springtrap sonriendo",
      "Las cabezas de los animatrónicos originales con los ojos encendidos",
@@ -1524,7 +1524,7 @@
     "id": "p4-001",
     "nivel": "B",
     "sub": "Las noches",
-    "pregunta": "¿Dónde transcurren las noches?",
+    "pregunta": "¿Dónde transcurren las noches de FNAF 4?",
     "opciones": [
      "En Fredbear's Family Diner",
      "En la casa del niño, sobre todo su dormitorio",
@@ -1537,7 +1537,7 @@
     "id": "p4-002",
     "nivel": "B",
     "sub": "Las noches",
-    "pregunta": "¿Cómo se llaman los animatrónicos que lo acechan?",
+    "pregunta": "¿Cómo se llaman los animatrónicos que acechan al niño en FNAF 4?",
     "opciones": [
      "Twisted",
      "Withered",
@@ -1563,7 +1563,7 @@
     "id": "p4-004",
     "nivel": "I",
     "sub": "Las noches",
-    "pregunta": "¿Cómo se llaman los peluchitos de Freddy sobre la cama?",
+    "pregunta": "En FNAF 4, ¿cómo se llaman los pequeños peluches de Freddy que aparecen sobre la cama?",
     "opciones": [
      "Freddles",
      "Bidybabs",
@@ -1576,7 +1576,7 @@
     "id": "p4-005",
     "nivel": "A",
     "sub": "Las noches",
-    "pregunta": "¿Qué versión oscura y más agresiva reemplaza a Nightmare Fredbear en la noche más difícil?",
+    "pregunta": "En FNAF 4, ¿qué versión más oscura y agresiva reemplaza a Nightmare Fredbear en las noches extra?",
     "opciones": [
      "Golden Freddy",
      "Nightmarionne",
@@ -1589,7 +1589,7 @@
     "id": "p4-006",
     "nivel": "I",
     "sub": "Las noches",
-    "pregunta": "¿Cómo se llama el minijuego entre noches y a quién persigues?",
+    "pregunta": "¿Cómo se llama el minijuego entre noches de FNAF 4 y a quién debes atrapar?",
     "opciones": [
      "Catch Plushtrap, Plushtrap",
      "Fun with Plushtrap, Plushtrap",
@@ -1602,7 +1602,7 @@
     "id": "p4-007",
     "nivel": "A",
     "sub": "Las noches",
-    "pregunta": "¿Qué agregó la edición de Halloween?",
+    "pregunta": "¿Qué animatrónicos agregó la edición de Halloween de FNAF 4?",
     "opciones": [
      "Las versiones Twisted",
      "Las versiones Toy",
@@ -1615,7 +1615,7 @@
     "id": "p4-008",
     "nivel": "B",
     "sub": "Los minijuegos",
-    "pregunta": "¿Quién protagoniza los minijuegos?",
+    "pregunta": "¿Quién protagoniza los minijuegos de FNAF 4?",
     "opciones": [
      "Michael",
      "El niño que llora",
@@ -1628,7 +1628,7 @@
     "id": "p4-009",
     "nivel": "I",
     "sub": "Los minijuegos",
-    "pregunta": "¿Qué cuenta regresiva aparece?",
+    "pregunta": "¿Qué cuenta regresiva aparece al inicio de cada minijuego de FNAF 4?",
     "opciones": [
      "\"X days until the party\", desde 5",
      "\"X nights left\", desde 7",
@@ -1641,7 +1641,7 @@
     "id": "p4-010",
     "nivel": "I",
     "sub": "Los minijuegos",
-    "pregunta": "¿Qué peluche le habla al niño?",
+    "pregunta": "En los minijuegos de FNAF 4, ¿qué peluche le habla al niño?",
     "opciones": [
      "Freddy",
      "Foxy",
@@ -1654,7 +1654,7 @@
     "id": "p4-011",
     "nivel": "A",
     "sub": "Los minijuegos",
-    "pregunta": "¿Con qué frase abre el primer minijuego?",
+    "pregunta": "En FNAF 4, ¿con qué frase abre el peluche el primer minijuego?",
     "opciones": [
      "\"I'm still here\"",
      "\"Tomorrow is another day\"",
@@ -1667,7 +1667,7 @@
     "id": "p4-012",
     "nivel": "A",
     "sub": "Los minijuegos",
-    "pregunta": "¿Qué dice el peluche cuando el niño se acuesta a llorar?",
+    "pregunta": "En FNAF 4, ¿qué dice el peluche cuando el niño se acuesta a llorar?",
     "opciones": [
      "\"Tomorrow is another day\"",
      "\"Don't cry\"",
@@ -1680,7 +1680,7 @@
     "id": "p4-013",
     "nivel": "I",
     "sub": "Los minijuegos",
-    "pregunta": "¿Qué máscara usa el hermano?",
+    "pregunta": "En FNAF 4, ¿qué máscara usa el hermano mayor para asustar al niño?",
     "opciones": [
      "Freddy",
      "Foxy",
@@ -1693,7 +1693,7 @@
     "id": "p4-014",
     "nivel": "A",
     "sub": "Los minijuegos",
-    "pregunta": "¿Detrás de qué se esconde el hermano para asustarlo?",
+    "pregunta": "En el primer minijuego de FNAF 4, ¿detrás de qué se esconde el hermano para asustar al niño?",
     "opciones": [
      "La cama",
      "El sofá",
@@ -1706,7 +1706,7 @@
     "id": "p4-015",
     "nivel": "A",
     "sub": "Los minijuegos",
-    "pregunta": "¿Qué le falta al peluche de Foxy del cuarto?",
+    "pregunta": "En FNAF 4, ¿qué le falta al peluche de Foxy del dormitorio?",
     "opciones": [
      "El garfio",
      "El parche",
@@ -1719,7 +1719,7 @@
     "id": "p4-016",
     "nivel": "A",
     "sub": "Los minijuegos",
-    "pregunta": "¿Con qué frase abre el minijuego de \"3 días\"?",
+    "pregunta": "En FNAF 4, ¿con qué frase abre el peluche el minijuego de \"3 días para la fiesta\"?",
     "opciones": [
      "\"He hates you\"",
      "\"He left without you\"",
@@ -1732,7 +1732,7 @@
     "id": "p4-017",
     "nivel": "I",
     "sub": "Los minijuegos",
-    "pregunta": "¿En qué restaurante dejan solo al niño?",
+    "pregunta": "En los minijuegos de FNAF 4, ¿en qué restaurante dejan solo al niño?",
     "opciones": [
      "Fredbear's Family Diner",
      "Freddy Fazbear's Pizza",
@@ -1745,7 +1745,7 @@
     "id": "p4-018",
     "nivel": "E",
     "sub": "Los minijuegos",
-    "pregunta": "¿Qué rumor le cuentan otros niños?",
+    "pregunta": "En los minijuegos de FNAF 4, ¿qué rumor sobre los animatrónicos le cuentan otros niños?",
     "opciones": [
      "Que los animatrónicos hablan",
      "Que muerden",
@@ -1758,7 +1758,7 @@
     "id": "p4-019",
     "nivel": "E",
     "sub": "Los minijuegos",
-    "pregunta": "¿Qué programa de TV aparece?",
+    "pregunta": "¿Qué programa de televisión aparece en los minijuegos de FNAF 4?",
     "opciones": [
      "Freddy's Show 1987",
      "Fazbear Fun Time",
@@ -1771,7 +1771,7 @@
     "id": "p4-020",
     "nivel": "A",
     "sub": "Los minijuegos",
-    "pregunta": "¿Con qué frase abre el minijuego de \"2 días\"?",
+    "pregunta": "En FNAF 4, ¿con qué frase abre el peluche el minijuego de \"2 días para la fiesta\"?",
     "opciones": [
      "\"He hates you\"",
      "\"Tomorrow is another day\"",
@@ -1784,7 +1784,7 @@
     "id": "p4-021",
     "nivel": "A",
     "sub": "Los minijuegos",
-    "pregunta": "En \"1 día\", ¿dónde queda encerrado?",
+    "pregunta": "En el minijuego de \"1 día para la fiesta\" de FNAF 4, ¿dónde queda encerrado el niño?",
     "opciones": [
      "En la cocina",
      "En el baño",
@@ -1797,7 +1797,7 @@
     "id": "p4-022",
     "nivel": "I",
     "sub": "La fiesta y el final",
-    "pregunta": "¿Qué máscaras usan los chicos mayores?",
+    "pregunta": "En la fiesta de cumpleaños de FNAF 4, ¿qué máscaras usan los chicos mayores?",
     "opciones": [
      "De los Toy",
      "De Freddy, Bonnie, Chica y Foxy",
@@ -1810,7 +1810,7 @@
     "id": "p4-023",
     "nivel": "I",
     "sub": "La fiesta y el final",
-    "pregunta": "¿Qué le hacen con Fredbear?",
+    "pregunta": "En la fiesta de cumpleaños de FNAF 4, ¿qué le hacen al niño con Fredbear?",
     "opciones": [
      "Lo empujan del escenario",
      "Lo encierran en el traje",
@@ -1823,7 +1823,7 @@
     "id": "p4-024",
     "nivel": "I",
     "sub": "La fiesta y el final",
-    "pregunta": "¿Qué consecuencia tiene?",
+    "pregunta": "¿Qué consecuencia tiene la \"broma\" de la fiesta de cumpleaños de FNAF 4?",
     "opciones": [
      "Se asusta y llora",
      "La mandíbula se cierra y le aplasta la cabeza",
@@ -1836,7 +1836,7 @@
     "id": "p4-025",
     "nivel": "A",
     "sub": "La fiesta y el final",
-    "pregunta": "¿Qué pasa con los animatrónicos en la escena final?",
+    "pregunta": "En la escena final de FNAF 4, ¿qué pasa con los animatrónicos que rodean al niño?",
     "opciones": [
      "Bailan",
      "Lo abrazan",
@@ -1849,7 +1849,7 @@
     "id": "p4-026",
     "nivel": "A",
     "sub": "La fiesta y el final",
-    "pregunta": "¿Qué le dice el peluche?",
+    "pregunta": "En la escena final de FNAF 4, ¿qué le dice el peluche al niño?",
     "opciones": [
      "Que se vaya",
      "Que sigue ahí, que lo siente y que lo volverán a armar",
@@ -1862,7 +1862,7 @@
     "id": "p4-027",
     "nivel": "A",
     "sub": "La fiesta y el final",
-    "pregunta": "¿Qué sonido se escucha al final?",
+    "pregunta": "¿Qué sonido cierra la escena final de FNAF 4?",
     "opciones": [
      "Una risa",
      "La línea plana de un monitor cardíaco",
@@ -1875,7 +1875,7 @@
     "id": "p4-028",
     "nivel": "A",
     "sub": "La fiesta y el final",
-    "pregunta": "¿Qué objeto con candados aparece?",
+    "pregunta": "¿Qué objeto cerrado con candados aparece en FNAF 4?",
     "opciones": [
      "Una caja de música",
      "Una caja de pizza",
@@ -1888,7 +1888,7 @@
     "id": "p4-029",
     "nivel": "E",
     "sub": "La fiesta y el final",
-    "pregunta": "¿Quiénes actúan en el escenario de Fredbear's?",
+    "pregunta": "En los minijuegos de FNAF 4, ¿quiénes actúan en el escenario de Fredbear's Family Diner?",
     "opciones": [
      "Freddy y Bonnie",
      "Fredbear y Spring Bonnie",
@@ -1901,7 +1901,7 @@
     "id": "p4-030",
     "nivel": "E",
     "sub": "La fiesta y el final",
-    "pregunta": "¿Quién toma el control a las 4 AM de la noche 6?",
+    "pregunta": "En FNAF 4, ¿qué animatrónico toma el control a partir de las 4 AM en la noche 6?",
     "opciones": [
      "Nightmare Freddy",
      "Plushtrap",
@@ -1921,7 +1921,7 @@
     "id": "p5-001",
     "nivel": "I",
     "sub": "Sister Location (2016)",
-    "pregunta": "¿Cómo se llama la empresa?",
+    "pregunta": "¿Cómo se llama la empresa donde trabajas en Sister Location?",
     "opciones": [
      "Afton Robotics Rentals",
      "Circus Baby's Entertainment and Rental",
@@ -1934,7 +1934,7 @@
     "id": "p5-002",
     "nivel": "I",
     "sub": "Sister Location (2016)",
-    "pregunta": "¿Qué puesto ocupa el protagonista?",
+    "pregunta": "¿Qué puesto ocupa el protagonista de Sister Location?",
     "opciones": [
      "Técnico nocturno de mantenimiento",
      "Guardia de seguridad",
@@ -1947,7 +1947,7 @@
     "id": "p5-003",
     "nivel": "B",
     "sub": "Sister Location (2016)",
-    "pregunta": "¿Cómo se llama la IA que te guía?",
+    "pregunta": "En Sister Location, ¿cómo se llama la inteligencia artificial que te guía?",
     "opciones": [
      "Helpy",
      "Tape Girl",
@@ -1960,7 +1960,7 @@
     "id": "p5-004",
     "nivel": "I",
     "sub": "Sister Location (2016)",
-    "pregunta": "¿Qué nombre te asigna por \"autocorrección\"?",
+    "pregunta": "En Sister Location, ¿qué nombre te asigna la IA por \"autocorrección\"?",
     "opciones": [
      "French Toast",
      "Hash Browns",
@@ -1973,7 +1973,7 @@
     "id": "p5-005",
     "nivel": "A",
     "sub": "Sister Location (2016)",
-    "pregunta": "¿Quién es realmente el protagonista y dónde se revela?",
+    "pregunta": "¿Quién es realmente el protagonista de Sister Location y dónde se revela?",
     "opciones": [
      "Michael Afton, en el final real del Custom Night",
      "William Afton, en la noche 5",
@@ -1986,7 +1986,7 @@
     "id": "p5-006",
     "nivel": "B",
     "sub": "Sister Location (2016)",
-    "pregunta": "¿Cuál NO es un animatrónico principal del juego?",
+    "pregunta": "¿Cuál de estos NO es un animatrónico principal de Sister Location?",
     "opciones": [
      "Circus Baby",
      "Ballora",
@@ -1999,7 +1999,7 @@
     "id": "p5-007",
     "nivel": "I",
     "sub": "Sister Location (2016)",
-    "pregunta": "¿Cómo se llama la marioneta de mano de Funtime Freddy?",
+    "pregunta": "En Sister Location, ¿cómo se llama la marioneta de mano de Funtime Freddy?",
     "opciones": [
      "Bonnet",
      "Bon-Bon",
@@ -2012,7 +2012,7 @@
     "id": "p5-008",
     "nivel": "I",
     "sub": "Sister Location (2016)",
-    "pregunta": "¿Quiénes acompañan a Ballora?",
+    "pregunta": "En Sister Location, ¿qué pequeños animatrónicos acompañan a Ballora?",
     "opciones": [
      "Bidybabs",
      "Freddles",
@@ -2025,7 +2025,7 @@
     "id": "p5-009",
     "nivel": "I",
     "sub": "Sister Location (2016)",
-    "pregunta": "¿Quiénes acompañan a Circus Baby?",
+    "pregunta": "En Sister Location, ¿qué pequeños animatrónicos acompañan a Circus Baby?",
     "opciones": [
      "Minireenas",
      "Freddles",
@@ -2038,7 +2038,7 @@
     "id": "p5-010",
     "nivel": "A",
     "sub": "Sister Location (2016)",
-    "pregunta": "¿Cuál NO es una sala de las instalaciones?",
+    "pregunta": "¿Cuál de estas NO es una sala de las instalaciones de Sister Location?",
     "opciones": [
      "Pirate Cove",
      "Ballora Gallery",
@@ -2051,7 +2051,7 @@
     "id": "p5-011",
     "nivel": "A",
     "sub": "Sister Location (2016)",
-    "pregunta": "¿Qué golosina podía dispensar Circus Baby?",
+    "pregunta": "En Sister Location, ¿qué golosina podía dispensar Circus Baby?",
     "opciones": [
      "Caramelos",
      "Cupcakes",
@@ -2064,7 +2064,7 @@
     "id": "p5-012",
     "nivel": "A",
     "sub": "Sister Location (2016)",
-    "pregunta": "¿Cómo se llamaba el restaurante previo de Baby?",
+    "pregunta": "Antes de Sister Location, ¿en qué restaurante estaba Circus Baby?",
     "opciones": [
      "Baby's Circus Diner",
      "Circus Baby's Pizza World",
@@ -2077,7 +2077,7 @@
     "id": "p5-013",
     "nivel": "I",
     "sub": "Sister Location (2016)",
-    "pregunta": "¿Qué le pasa a Elizabeth Afton?",
+    "pregunta": "En la escena de Sister Location, ¿qué le pasa a Elizabeth Afton?",
     "opciones": [
      "Baby la atrae con helado y la atrapa con una garra",
      "Se pierde en el local",
@@ -2090,7 +2090,7 @@
     "id": "p5-014",
     "nivel": "A",
     "sub": "Sister Location (2016)",
-    "pregunta": "¿Qué le había advertido su padre?",
+    "pregunta": "En Sister Location, ¿qué le había advertido su padre a Elizabeth Afton sobre Circus Baby?",
     "opciones": [
      "No comer helado",
      "No ir sola",
@@ -2103,7 +2103,7 @@
     "id": "p5-015",
     "nivel": "I",
     "sub": "Sister Location (2016)",
-    "pregunta": "¿Quién ayuda en secreto al protagonista?",
+    "pregunta": "En Sister Location, ¿qué animatrónico ayuda en secreto al protagonista, contradiciendo a la IA?",
     "opciones": [
      "Ballora",
      "Funtime Foxy",
@@ -2116,7 +2116,7 @@
     "id": "p5-016",
     "nivel": "A",
     "sub": "Sister Location (2016)",
-    "pregunta": "¿En qué traje se esconde mientras las Minireenas lo rodean?",
+    "pregunta": "En Sister Location, ¿dentro de qué traje se esconde el protagonista mientras las Minireenas lo rodean?",
     "opciones": [
      "Un traje normal de Freddy",
      "Un traje de springlocks",
@@ -2129,7 +2129,7 @@
     "id": "p5-017",
     "nivel": "A",
     "sub": "Sister Location (2016)",
-    "pregunta": "¿Qué empresa aparece en el logo de inicio?",
+    "pregunta": "¿Qué empresa aparece en el logo de inicio de Sister Location?",
     "opciones": [
      "Afton Robotics, LLC",
      "Fazbear Entertainment",
@@ -2142,7 +2142,7 @@
     "id": "p5-018",
     "nivel": "A",
     "sub": "Sister Location (2016)",
-    "pregunta": "¿Qué es el Scooper?",
+    "pregunta": "En Sister Location, ¿qué es el Scooper?",
     "opciones": [
      "Una aspiradora",
      "Una máquina de helados",
@@ -2155,7 +2155,7 @@
     "id": "p5-019",
     "nivel": "I",
     "sub": "Sister Location (2016)",
-    "pregunta": "¿Cuál NO forma parte de Ennard?",
+    "pregunta": "En Sister Location, ¿cuál de estos NO forma parte de Ennard?",
     "opciones": [
      "Circus Baby",
      "Ballora",
@@ -2168,7 +2168,7 @@
     "id": "p5-020",
     "nivel": "A",
     "sub": "Sister Location (2016)",
-    "pregunta": "¿Por qué querían usar al protagonista?",
+    "pregunta": "En Sister Location, ¿para qué querían los animatrónicos usar al protagonista?",
     "opciones": [
      "Para vengarse de Afton",
      "Para salir ocultos dentro de un cuerpo humano",
@@ -2181,7 +2181,7 @@
     "id": "p5-021",
     "nivel": "A",
     "sub": "Sister Location (2016)",
-    "pregunta": "¿Cómo se llama la habitación del final falso?",
+    "pregunta": "En Sister Location, ¿cómo se llama la habitación del final falso?",
     "opciones": [
      "Private Room",
      "Scooping Room",
@@ -2194,7 +2194,7 @@
     "id": "p5-022",
     "nivel": "E",
     "sub": "Sister Location (2016)",
-    "pregunta": "¿Cómo queda el cuerpo del protagonista cuando Ennard lo abandona?",
+    "pregunta": "Al final de Sister Location, ¿cómo queda el cuerpo del protagonista cuando Ennard lo abandona?",
     "opciones": [
      "Intacto",
      "Pudriéndose y morado",
@@ -2207,7 +2207,7 @@
     "id": "p5-023",
     "nivel": "A",
     "sub": "Sister Location (2016)",
-    "pregunta": "En el final real, ¿a quién habla y qué promete?",
+    "pregunta": "En el final real de Sister Location, ¿a quién le habla el protagonista y qué promete?",
     "opciones": [
      "A su madre, se despide",
      "A Baby, le pide perdón",
@@ -2220,7 +2220,7 @@
     "id": "p5-024",
     "nivel": "E",
     "sub": "Sister Location (2016)",
-    "pregunta": "¿Cuál NO se añade en el Custom Night?",
+    "pregunta": "¿Cuál de estos NO se añade en el Custom Night de Sister Location?",
     "opciones": [
      "Lolbit",
      "Bonnet",
@@ -2233,7 +2233,7 @@
     "id": "p5-025",
     "nivel": "B",
     "sub": "Pizzeria Simulator (2017)",
-    "pregunta": "¿Qué negocio administras?",
+    "pregunta": "En Pizzeria Simulator, ¿qué tipo de negocio administras?",
     "opciones": [
      "Una atracción de terror",
      "Una franquicia de Freddy Fazbear's Pizza",
@@ -2246,7 +2246,7 @@
     "id": "p5-026",
     "nivel": "I",
     "sub": "Pizzeria Simulator (2017)",
-    "pregunta": "¿Qué osito pequeño presenta el juego?",
+    "pregunta": "¿Qué pequeño osito presenta Pizzeria Simulator?",
     "opciones": [
      "Bon-Bon",
      "Bonnet",
@@ -2259,7 +2259,7 @@
     "id": "p5-027",
     "nivel": "I",
     "sub": "Pizzeria Simulator (2017)",
-    "pregunta": "¿Cuál NO es un animatrónico Rockstar?",
+    "pregunta": "¿Cuál de estos NO es un animatrónico Rockstar de Pizzeria Simulator?",
     "opciones": [
      "Rockstar Freddy",
      "Rockstar Bonnie",
@@ -2272,7 +2272,7 @@
     "id": "p5-028",
     "nivel": "A",
     "sub": "Pizzeria Simulator (2017)",
-    "pregunta": "¿Cómo se llama el grupo de Mr. Hippo, Pigpatch, Nedd Bear y Orville Elephant?",
+    "pregunta": "En Pizzeria Simulator, ¿cómo se llama el grupo de Mr. Hippo, Pigpatch, Nedd Bear y Orville Elephant?",
     "opciones": [
      "Rockstars",
      "Mediocre Melodies",
@@ -2285,7 +2285,7 @@
     "id": "p5-029",
     "nivel": "I",
     "sub": "Pizzeria Simulator (2017)",
-    "pregunta": "¿Cuál NO aparece en el callejón para ser rescatado?",
+    "pregunta": "En Pizzeria Simulator, ¿cuál de estos NO aparece en el callejón para ser rescatado?",
     "opciones": [
      "Scrap Baby",
      "Molten Freddy",
@@ -2298,7 +2298,7 @@
     "id": "p5-030",
     "nivel": "I",
     "sub": "Pizzeria Simulator (2017)",
-    "pregunta": "¿Quién narra las cintas y el discurso final?",
+    "pregunta": "En Pizzeria Simulator, ¿quién narra las cintas de entrenamiento y el discurso final?",
     "opciones": [
      "Phone Guy",
      "Phone Dude",
@@ -2311,7 +2311,7 @@
     "id": "p5-031",
     "nivel": "E",
     "sub": "Pizzeria Simulator (2017)",
-    "pregunta": "¿Qué significa L.E.F.T.E.?",
+    "pregunta": "En Pizzeria Simulator, ¿qué significan las siglas de Lefty (L.E.F.T.E.)?",
     "opciones": [
      "Locate, Enter, Find, Trap, Eliminate",
      "Lure, Enclose, Find, Trap, Erase",
@@ -2324,7 +2324,7 @@
     "id": "p5-032",
     "nivel": "A",
     "sub": "Pizzeria Simulator (2017)",
-    "pregunta": "¿A quién capturó Lefty?",
+    "pregunta": "En Pizzeria Simulator, ¿a quién capturó Lefty?",
     "opciones": [
      "Golden Freddy",
      "La Marioneta",
@@ -2337,7 +2337,7 @@
     "id": "p5-033",
     "nivel": "I",
     "sub": "Pizzeria Simulator (2017)",
-    "pregunta": "Scrap Baby es la nueva forma de…",
+    "pregunta": "En Pizzeria Simulator, Scrap Baby es la nueva forma de…",
     "opciones": [
      "Ballora",
      "Circus Baby",
@@ -2350,7 +2350,7 @@
     "id": "p5-034",
     "nivel": "I",
     "sub": "Pizzeria Simulator (2017)",
-    "pregunta": "Molten Freddy es lo que queda de…",
+    "pregunta": "En Pizzeria Simulator, Molten Freddy es lo que queda de…",
     "opciones": [
      "Ennard",
      "Funtime Freddy por sí solo",
@@ -2363,7 +2363,7 @@
     "id": "p5-035",
     "nivel": "I",
     "sub": "Pizzeria Simulator (2017)",
-    "pregunta": "¿Quién es Scraptrap?",
+    "pregunta": "En Pizzeria Simulator, ¿quién es Scraptrap?",
     "opciones": [
      "Henry",
      "Michael",
@@ -2376,7 +2376,7 @@
     "id": "p5-036",
     "nivel": "A",
     "sub": "Pizzeria Simulator (2017)",
-    "pregunta": "¿Cuál era el verdadero propósito de la pizzería?",
+    "pregunta": "¿Cuál era el verdadero propósito de la pizzería que construyes en Pizzeria Simulator?",
     "opciones": [
      "Ganar dinero",
      "Atraer a los animatrónicos poseídos y a Afton para destruirlos",
@@ -2389,7 +2389,7 @@
     "id": "p5-037",
     "nivel": "A",
     "sub": "Pizzeria Simulator (2017)",
-    "pregunta": "¿Cómo termina el final completo?",
+    "pregunta": "¿Cómo termina el final completo (Completion) de Pizzeria Simulator?",
     "opciones": [
      "Llega la policía",
      "Michael escapa",
@@ -2402,7 +2402,7 @@
     "id": "p5-038",
     "nivel": "A",
     "sub": "Pizzeria Simulator (2017)",
-    "pregunta": "¿A quién llama Henry \"mi valiente voluntario\"?",
+    "pregunta": "En el discurso final de Pizzeria Simulator, ¿a quién llama Henry \"mi valiente voluntario\"?",
     "opciones": [
      "A Michael Afton, que halló un aviso de trabajo no destinado a él",
      "A Jeremy",
@@ -2415,7 +2415,7 @@
     "id": "p5-039",
     "nivel": "A",
     "sub": "Pizzeria Simulator (2017)",
-    "pregunta": "¿A quién llama \"viejo amigo\" y qué le anuncia?",
+    "pregunta": "En el discurso final de Pizzeria Simulator, ¿a quién llama Henry \"viejo amigo\" y qué le anuncia?",
     "opciones": [
      "A Phone Guy, que descanse",
      "A William Afton, que el pozo más oscuro del infierno lo espera",
@@ -2428,7 +2428,7 @@
     "id": "p5-040",
     "nivel": "A",
     "sub": "Pizzeria Simulator (2017)",
-    "pregunta": "¿Qué le dice Henry a su hija?",
+    "pregunta": "En el discurso final de Pizzeria Simulator, ¿qué le dice Henry a su hija?",
     "opciones": [
      "Que nunca la perdonará",
      "Que escape",
@@ -2441,7 +2441,7 @@
     "id": "p5-041",
     "nivel": "E",
     "sub": "Pizzeria Simulator (2017)",
-    "pregunta": "¿Qué dice sobre la salida del voluntario?",
+    "pregunta": "En el discurso final de Pizzeria Simulator, ¿qué dice Henry sobre la salida que había preparado para su \"valiente voluntario\"?",
     "opciones": [
      "Que no hay salida",
      "Que había una preparada, pero presiente que no la usará",
@@ -2454,7 +2454,7 @@
     "id": "p5-042",
     "nivel": "A",
     "sub": "Pizzeria Simulator (2017)",
-    "pregunta": "¿Qué papel tiene la Marioneta en Security Puppet?",
+    "pregunta": "En el minijuego Security Puppet de Pizzeria Simulator, ¿qué papel tiene la Marioneta?",
     "opciones": [
      "Vender helado",
      "Asustar a los niños",
@@ -2467,7 +2467,7 @@
     "id": "p5-043",
     "nivel": "E",
     "sub": "Pizzeria Simulator (2017)",
-    "pregunta": "¿Dónde encuentra a la niña al final?",
+    "pregunta": "Al final del minijuego Security Puppet, ¿dónde encuentra la Marioneta a la niña?",
     "opciones": [
      "Afuera del local, bajo la lluvia",
      "En la cocina",
@@ -2480,7 +2480,7 @@
     "id": "p5-044",
     "nivel": "E",
     "sub": "Pizzeria Simulator (2017)",
-    "pregunta": "¿Cuál NO es un final de este juego?",
+    "pregunta": "¿Cuál de estos NO es un final de Pizzeria Simulator?",
     "opciones": [
      "Completion",
      "Fire Escape",
@@ -2493,7 +2493,7 @@
     "id": "p5-045",
     "nivel": "A",
     "sub": "Ultimate Custom Night (2018)",
-    "pregunta": "¿Qué personaje rojo y pixelado aparece pescando?",
+    "pregunta": "En Ultimate Custom Night, ¿qué personaje rojo y pixelado aparece pescando?",
     "opciones": [
      "Fisherman Fred",
      "Dee Dee",
@@ -2506,7 +2506,7 @@
     "id": "p5-046",
     "nivel": "I",
     "sub": "Ultimate Custom Night (2018)",
-    "pregunta": "¿Qué personaje es una llamada que hay que silenciar?",
+    "pregunta": "En Ultimate Custom Night, ¿qué personaje es una llamada telefónica que hay que silenciar?",
     "opciones": [
      "Phone Guy",
      "Phone Dude",
@@ -2519,7 +2519,7 @@
     "id": "p5-047",
     "nivel": "A",
     "sub": "Ultimate Custom Night (2018)",
-    "pregunta": "¿Qué personaje de FNaF World trae animatrónicos al azar?",
+    "pregunta": "En Ultimate Custom Night, ¿qué personaje de FNaF World trae animatrónicos extra al azar?",
     "opciones": [
      "Old Man Consequences",
      "Dee Dee",
@@ -2539,7 +2539,7 @@
     "id": "p6-001",
     "nivel": "I",
     "sub": "Help Wanted (2019)",
-    "pregunta": "Dentro del lore, ¿quién lanza el juego de VR y para qué?",
+    "pregunta": "Dentro del lore de Help Wanted, ¿qué empresa lanza el juego de realidad virtual y para qué?",
     "opciones": [
      "Afton Robotics, para reclutar",
      "Henry, para advertir",
@@ -2552,7 +2552,7 @@
     "id": "p6-002",
     "nivel": "I",
     "sub": "Help Wanted (2019)",
-    "pregunta": "¿Cómo se conoce a la extrabajadora de las cintas ocultas?",
+    "pregunta": "En Help Wanted, ¿cómo se conoce a la extrabajadora que deja cintas de audio ocultas?",
     "opciones": [
      "Phone Girl",
      "Tape Girl",
@@ -2565,7 +2565,7 @@
     "id": "p6-003",
     "nivel": "B",
     "sub": "Help Wanted (2019)",
-    "pregunta": "¿Cómo se llama la entidad digital?",
+    "pregunta": "¿Cómo se llama la entidad digital que aparece en Help Wanted?",
     "opciones": [
      "Burntrap",
      "Scraptrap",
@@ -2578,7 +2578,7 @@
     "id": "p6-004",
     "nivel": "I",
     "sub": "Help Wanted (2019)",
-    "pregunta": "¿Qué traje clásico imita?",
+    "pregunta": "¿Qué traje clásico imita la apariencia de Glitchtrap?",
     "opciones": [
      "Fredbear",
      "Spring Bonnie",
@@ -2591,7 +2591,7 @@
     "id": "p6-005",
     "nivel": "A",
     "sub": "Help Wanted (2019)",
-    "pregunta": "¿Cómo se llama el DLC de Halloween?",
+    "pregunta": "¿Cómo se llama el DLC de Halloween de Help Wanted?",
     "opciones": [
      "Curse of Dreadbear",
      "Halloween Horror",
@@ -2604,7 +2604,7 @@
     "id": "p6-006",
     "nivel": "B",
     "sub": "Security Breach (2021)",
-    "pregunta": "¿Cómo se llama el niño protagonista?",
+    "pregunta": "¿Cómo se llama el niño protagonista de Security Breach?",
     "opciones": [
      "Oswald",
      "Charlie",
@@ -2617,7 +2617,7 @@
     "id": "p6-007",
     "nivel": "B",
     "sub": "Security Breach (2021)",
-    "pregunta": "¿Dónde transcurre?",
+    "pregunta": "¿Dónde transcurre Security Breach?",
     "opciones": [
      "Fazbear's Fright",
      "Freddy Fazbear's Mega Pizzaplex",
@@ -2630,7 +2630,7 @@
     "id": "p6-008",
     "nivel": "I",
     "sub": "Security Breach (2021)",
-    "pregunta": "¿Dónde se esconde Gregory al inicio?",
+    "pregunta": "Al inicio de Security Breach, ¿dónde se esconde el niño protagonista?",
     "opciones": [
      "En un casillero",
      "Bajo un escenario",
@@ -2643,7 +2643,7 @@
     "id": "p6-009",
     "nivel": "B",
     "sub": "Security Breach (2021)",
-    "pregunta": "¿Quién lo protege?",
+    "pregunta": "En Security Breach, ¿qué animatrónico protege al niño protagonista?",
     "opciones": [
      "Glamrock Freddy",
      "Montgomery Gator",
@@ -2656,7 +2656,7 @@
     "id": "p6-010",
     "nivel": "I",
     "sub": "Security Breach (2021)",
-    "pregunta": "¿Cuál NO es un Glamrock que lo persigue?",
+    "pregunta": "En Security Breach, ¿cuál de estos NO es un Glamrock que persigue al protagonista?",
     "opciones": [
      "Glamrock Chica",
      "Roxanne Wolf",
@@ -2669,7 +2669,7 @@
     "id": "p6-011",
     "nivel": "A",
     "sub": "Security Breach (2021)",
-    "pregunta": "¿Qué Glamrock falta y qué atracción lleva su nombre?",
+    "pregunta": "En Security Breach, ¿qué miembro de la banda Glamrock falta y qué atracción lleva su nombre?",
     "opciones": [
      "Glamrock Foxy, Foxy's Cove",
      "Glamrock Bonnie, Bonnie Bowl",
@@ -2682,7 +2682,7 @@
     "id": "p6-012",
     "nivel": "A",
     "sub": "Security Breach (2021)",
-    "pregunta": "¿Qué mejoras recibe Freddy?",
+    "pregunta": "En Security Breach, ¿qué mejoras recibe Glamrock Freddy a lo largo del juego?",
     "opciones": [
      "La voz de Chica, los ojos de Roxy y las garras de Monty",
      "Las piernas de Monty",
@@ -2695,7 +2695,7 @@
     "id": "p6-013",
     "nivel": "I",
     "sub": "Security Breach (2021)",
-    "pregunta": "¿Qué dispositivo de muñeca usa Gregory?",
+    "pregunta": "En Security Breach, ¿qué dispositivo de muñeca usa el protagonista para ver el mapa y comunicarse?",
     "opciones": [
      "HandUnit",
      "Fazpad",
@@ -2708,7 +2708,7 @@
     "id": "p6-014",
     "nivel": "I",
     "sub": "Security Breach (2021)",
-    "pregunta": "¿Cómo se llama la guardia humana?",
+    "pregunta": "¿Cómo se llama la guardia de seguridad humana de Security Breach?",
     "opciones": [
      "Vanessa",
      "Cassie",
@@ -2721,7 +2721,7 @@
     "id": "p6-015",
     "nivel": "I",
     "sub": "Security Breach (2021)",
-    "pregunta": "¿Quién es Vanny?",
+    "pregunta": "En Security Breach, ¿quién es Vanny?",
     "opciones": [
      "Un animatrónico conejo",
      "La identidad oculta de Vanessa, con disfraz de conejo",
@@ -2734,7 +2734,7 @@
     "id": "p6-016",
     "nivel": "I",
     "sub": "Security Breach (2021)",
-    "pregunta": "¿A quién sirve Vanny?",
+    "pregunta": "En Security Breach, ¿a quién sirve Vanny?",
     "opciones": [
      "Burntrap",
      "Glitchtrap",
@@ -2747,7 +2747,7 @@
     "id": "p6-017",
     "nivel": "B",
     "sub": "Security Breach (2021)",
-    "pregunta": "¿Cómo se llaman las personalidades del encargado de la guardería?",
+    "pregunta": "En Security Breach, ¿cómo se llaman las dos personalidades del encargado de la guardería?",
     "opciones": [
      "Sun y Moon",
      "Day y Night",
@@ -2760,7 +2760,7 @@
     "id": "p6-018",
     "nivel": "A",
     "sub": "Security Breach (2021)",
-    "pregunta": "¿Cómo se llama la guardería?",
+    "pregunta": "¿Cómo se llama la guardería del Pizzaplex en Security Breach?",
     "opciones": [
      "Kid's Cove",
      "Fun Zone",
@@ -2773,7 +2773,7 @@
     "id": "p6-019",
     "nivel": "A",
     "sub": "Security Breach (2021)",
-    "pregunta": "¿Qué animatrónico gigante hace de DJ?",
+    "pregunta": "En Security Breach, ¿qué animatrónico gigante con varios brazos hace de DJ?",
     "opciones": [
      "Mr. Hippo",
      "DJ Music Man",
@@ -2786,7 +2786,7 @@
     "id": "p6-020",
     "nivel": "A",
     "sub": "Security Breach (2021)",
-    "pregunta": "¿Cuál NO es una atracción del Pizzaplex?",
+    "pregunta": "¿Cuál de estas NO es una atracción del Pizzaplex en Security Breach?",
     "opciones": [
      "Roxy Raceway",
      "Monty Golf",
@@ -2799,7 +2799,7 @@
     "id": "p6-021",
     "nivel": "A",
     "sub": "Security Breach (2021)",
-    "pregunta": "¿Qué enfrentas en el final de Afton?",
+    "pregunta": "En el final de Afton de Security Breach, ¿a quién enfrentas?",
     "opciones": [
      "Springtrap",
      "Glitchtrap",
@@ -2812,7 +2812,7 @@
     "id": "p6-022",
     "nivel": "E",
     "sub": "Security Breach (2021)",
-    "pregunta": "¿Cuál NO es un final de Security Breach?",
+    "pregunta": "¿Cuál de estos NO es un final de Security Breach?",
     "opciones": [
      "Fire Escape",
      "Car Battery",
@@ -2825,7 +2825,7 @@
     "id": "p6-023",
     "nivel": "I",
     "sub": "Ruin y Help Wanted 2 (2023)",
-    "pregunta": "¿Quién protagoniza Ruin?",
+    "pregunta": "¿Quién es la protagonista del DLC Ruin?",
     "opciones": [
      "Cassie",
      "Vanessa",
@@ -2838,7 +2838,7 @@
     "id": "p6-024",
     "nivel": "I",
     "sub": "Ruin y Help Wanted 2 (2023)",
-    "pregunta": "¿A quién intenta rescatar?",
+    "pregunta": "En Ruin, ¿a quién intenta rescatar la protagonista?",
     "opciones": [
      "A Freddy",
      "A Gregory",
@@ -2851,7 +2851,7 @@
     "id": "p6-025",
     "nivel": "A",
     "sub": "Ruin y Help Wanted 2 (2023)",
-    "pregunta": "¿En qué estado está el Pizzaplex?",
+    "pregunta": "En Ruin, ¿en qué estado se encuentra el Pizzaplex?",
     "opciones": [
      "En ruinas y abandonado",
      "Recién inaugurado",
@@ -2864,7 +2864,7 @@
     "id": "p6-026",
     "nivel": "A",
     "sub": "Ruin y Help Wanted 2 (2023)",
-    "pregunta": "¿Qué usa la protagonista para ver una versión alternativa del lugar?",
+    "pregunta": "En Ruin, ¿qué dispositivo usa la protagonista para ver una versión alternativa del lugar?",
     "opciones": [
      "Un Faz-Watch",
      "Una linterna",
@@ -2877,7 +2877,7 @@
     "id": "p6-027",
     "nivel": "A",
     "sub": "Ruin y Help Wanted 2 (2023)",
-    "pregunta": "En Help Wanted 2, ¿a quién se entrena?",
+    "pregunta": "Dentro del lore de Help Wanted 2, ¿a quiénes se está entrenando?",
     "opciones": [
      "A empleados de Fazbear Entertainment",
      "A policías",
@@ -2890,7 +2890,7 @@
     "id": "p6-028",
     "nivel": "B",
     "sub": "Into the Pit (2024) y Secret of the Mimic (2025)",
-    "pregunta": "¿Cómo se llama el protagonista de Into the Pit?",
+    "pregunta": "¿Cómo se llama el protagonista del videojuego Into the Pit?",
     "opciones": [
      "Gregory",
      "Oswald",
@@ -2903,7 +2903,7 @@
     "id": "p6-029",
     "nivel": "I",
     "sub": "Into the Pit (2024) y Secret of the Mimic (2025)",
-    "pregunta": "¿Cómo se llama la pizzería de su pueblo?",
+    "pregunta": "En el videojuego Into the Pit, ¿cómo se llama la pizzería decadente del pueblo del protagonista?",
     "opciones": [
      "Freddy's",
      "Fredbear's",
@@ -2916,7 +2916,7 @@
     "id": "p6-030",
     "nivel": "I",
     "sub": "Into the Pit (2024) y Secret of the Mimic (2025)",
-    "pregunta": "¿Qué le permite viajar al pasado?",
+    "pregunta": "En el videojuego Into the Pit, ¿qué objeto le permite al protagonista viajar al pasado?",
     "opciones": [
      "La piscina de pelotas",
      "Una caja de música",
@@ -2929,7 +2929,7 @@
     "id": "p6-031",
     "nivel": "I",
     "sub": "Into the Pit (2024) y Secret of the Mimic (2025)",
-    "pregunta": "¿A qué año llega?",
+    "pregunta": "En el videojuego Into the Pit, ¿a qué año llega el protagonista al viajar al pasado?",
     "opciones": [
      "1983",
      "1985",
@@ -2942,7 +2942,7 @@
     "id": "p6-032",
     "nivel": "A",
     "sub": "Into the Pit (2024) y Secret of the Mimic (2025)",
-    "pregunta": "¿Quién reemplaza a su padre?",
+    "pregunta": "En el videojuego Into the Pit, ¿quién reemplaza al padre del protagonista?",
     "opciones": [
      "Freddy",
      "El conejo amarillo",
@@ -2955,7 +2955,7 @@
     "id": "p6-033",
     "nivel": "A",
     "sub": "Into the Pit (2024) y Secret of the Mimic (2025)",
-    "pregunta": "¿En qué está basado el juego?",
+    "pregunta": "¿En qué está basado el videojuego Into the Pit?",
     "opciones": [
      "The Silver Eyes",
      "Fetch",
@@ -2968,7 +2968,7 @@
     "id": "p6-034",
     "nivel": "A",
     "sub": "Into the Pit (2024) y Secret of the Mimic (2025)",
-    "pregunta": "¿Quién creó al Mimic?",
+    "pregunta": "En Secret of the Mimic, ¿quién creó al Mimic?",
     "opciones": [
      "Henry Emily",
      "William Afton",
@@ -2981,7 +2981,7 @@
     "id": "p6-035",
     "nivel": "E",
     "sub": "Into the Pit (2024) y Secret of the Mimic (2025)",
-    "pregunta": "¿Qué habilidad lo define?",
+    "pregunta": "¿Qué habilidad define al Mimic, como indica su nombre?",
     "opciones": [
      "Volar",
      "Imitar voces, comportamientos y apariencias",
@@ -3001,7 +3001,7 @@
     "id": "p7-001",
     "nivel": "I",
     "sub": "Trilogía Silver Eyes",
-    "pregunta": "¿Quiénes escribieron la trilogía?",
+    "pregunta": "¿Quiénes escribieron la trilogía de novelas Silver Eyes?",
     "opciones": [
      "Scott Cawthon y Elley Cooper",
      "Scott Cawthon y Kira Breed-Wrisley",
@@ -3014,7 +3014,7 @@
     "id": "p7-002",
     "nivel": "I",
     "sub": "Trilogía Silver Eyes",
-    "pregunta": "¿Cuál es el orden correcto?",
+    "pregunta": "¿Cuál es el orden correcto de los libros de la trilogía Silver Eyes?",
     "opciones": [
      "The Silver Eyes, The Fourth Closet, The Twisted Ones",
      "The Twisted Ones, The Silver Eyes, The Fourth Closet",
@@ -3027,7 +3027,7 @@
     "id": "p7-003",
     "nivel": "A",
     "sub": "Trilogía Silver Eyes",
-    "pregunta": "¿En qué año se publicó The Silver Eyes?",
+    "pregunta": "¿En qué año se publicó la novela The Silver Eyes?",
     "opciones": [
      "2017",
      "2016",
@@ -3040,7 +3040,7 @@
     "id": "p7-004",
     "nivel": "I",
     "sub": "Trilogía Silver Eyes",
-    "pregunta": "¿Dónde transcurre?",
+    "pregunta": "¿En qué pueblo transcurre la trilogía Silver Eyes?",
     "opciones": [
      "Hurricane, Utah",
      "Hurricane, Nevada",
@@ -3053,7 +3053,7 @@
     "id": "p7-005",
     "nivel": "B",
     "sub": "Trilogía Silver Eyes",
-    "pregunta": "¿Quién es la protagonista?",
+    "pregunta": "¿Quién es la protagonista de la trilogía Silver Eyes?",
     "opciones": [
      "Jessica",
      "Marla",
@@ -3066,7 +3066,7 @@
     "id": "p7-006",
     "nivel": "I",
     "sub": "Trilogía Silver Eyes",
-    "pregunta": "¿Cómo se llama su padre?",
+    "pregunta": "En la trilogía Silver Eyes, ¿cómo se llama el padre de la protagonista?",
     "opciones": [
      "William",
      "Henry",
@@ -3079,7 +3079,7 @@
     "id": "p7-007",
     "nivel": "A",
     "sub": "Trilogía Silver Eyes",
-    "pregunta": "¿Quién la crio tras la muerte de su padre?",
+    "pregunta": "En la trilogía Silver Eyes, ¿quién crio a la protagonista tras la muerte de su padre?",
     "opciones": [
      "Su abuela",
      "Su madre",
@@ -3092,7 +3092,7 @@
     "id": "p7-008",
     "nivel": "I",
     "sub": "Trilogía Silver Eyes",
-    "pregunta": "¿En memoria de qué amigo asesinado se reúne el grupo?",
+    "pregunta": "En The Silver Eyes, ¿en memoria de qué amigo asesinado se reúne el grupo?",
     "opciones": [
      "Sammy",
      "Michael Brooks",
@@ -3105,7 +3105,7 @@
     "id": "p7-009",
     "nivel": "A",
     "sub": "Trilogía Silver Eyes",
-    "pregunta": "¿Cuántos años después de su muerte?",
+    "pregunta": "En The Silver Eyes, ¿cuántos años después de la muerte de su amigo se reúne el grupo?",
     "opciones": [
      "10",
      "5",
@@ -3118,7 +3118,7 @@
     "id": "p7-010",
     "nivel": "I",
     "sub": "Trilogía Silver Eyes",
-    "pregunta": "¿Cuál NO es parte del grupo de amigos?",
+    "pregunta": "En The Silver Eyes, ¿quién NO forma parte del grupo de amigos de la protagonista?",
     "opciones": [
      "John",
      "Lamar",
@@ -3131,7 +3131,7 @@
     "id": "p7-011",
     "nivel": "A",
     "sub": "Trilogía Silver Eyes",
-    "pregunta": "¿Qué relación hay entre Marla y Jason?",
+    "pregunta": "En la trilogía Silver Eyes, ¿qué relación hay entre Marla y Jason?",
     "opciones": [
      "Primos",
      "Novios",
@@ -3144,7 +3144,7 @@
     "id": "p7-012",
     "nivel": "A",
     "sub": "Trilogía Silver Eyes",
-    "pregunta": "¿Quién es el padre de Carlton?",
+    "pregunta": "En la trilogía Silver Eyes, ¿quién es el padre de Carlton?",
     "opciones": [
      "Dave Miller, guardia",
      "Clay Burke, jefe de policía",
@@ -3157,7 +3157,7 @@
     "id": "p7-013",
     "nivel": "A",
     "sub": "Trilogía Silver Eyes",
-    "pregunta": "¿Qué nombre falso usa William Afton en el primer libro?",
+    "pregunta": "En la novela The Silver Eyes, ¿qué nombre falso usa William Afton?",
     "opciones": [
      "Dave Miller, guardia de seguridad",
      "Steve Raglan, orientador",
@@ -3170,7 +3170,7 @@
     "id": "p7-014",
     "nivel": "A",
     "sub": "Trilogía Silver Eyes",
-    "pregunta": "¿Qué le pasó al gemelo de la protagonista?",
+    "pregunta": "En la trilogía Silver Eyes, ¿qué le pasó al hermano gemelo de la protagonista?",
     "opciones": [
      "Michael, fue asesinado",
      "Jason, se perdió",
@@ -3183,7 +3183,7 @@
     "id": "p7-015",
     "nivel": "I",
     "sub": "Trilogía Silver Eyes",
-    "pregunta": "¿Dónde estaba el viejo Freddy Fazbear's Pizza?",
+    "pregunta": "En The Silver Eyes, ¿dónde estaba oculto el viejo Freddy Fazbear's Pizza?",
     "opciones": [
      "Bajo un lago",
      "Sellado dentro de un centro comercial en construcción",
@@ -3196,7 +3196,7 @@
     "id": "p7-016",
     "nivel": "I",
     "sub": "Trilogía Silver Eyes",
-    "pregunta": "¿Cómo termina Afton en el primer libro?",
+    "pregunta": "¿Cómo termina William Afton al final de la novela The Silver Eyes?",
     "opciones": [
      "Arrestado",
      "Escapa del pueblo",
@@ -3209,7 +3209,7 @@
     "id": "p7-017",
     "nivel": "E",
     "sub": "Trilogía Silver Eyes",
-    "pregunta": "¿Cómo se llama la muñeca robótica que construyó Henry?",
+    "pregunta": "En la trilogía Silver Eyes, ¿cómo se llama la muñeca robótica que construyó Henry?",
     "opciones": [
      "Ella",
      "Theodora",
@@ -3222,7 +3222,7 @@
     "id": "p7-018",
     "nivel": "I",
     "sub": "Trilogía Silver Eyes",
-    "pregunta": "¿Qué estudia la protagonista en The Twisted Ones?",
+    "pregunta": "En la novela The Twisted Ones, ¿qué estudia la protagonista en la universidad?",
     "opciones": [
      "Medicina",
      "Literatura",
@@ -3235,7 +3235,7 @@
     "id": "p7-019",
     "nivel": "I",
     "sub": "Trilogía Silver Eyes",
-    "pregunta": "¿Cuál NO es un animatrónico Twisted?",
+    "pregunta": "¿Cuál de estos NO es uno de los animatrónicos Twisted de la novela The Twisted Ones?",
     "opciones": [
      "Twisted Freddy",
      "Twisted Wolf",
@@ -3248,7 +3248,7 @@
     "id": "p7-020",
     "nivel": "A",
     "sub": "Trilogía Silver Eyes",
-    "pregunta": "¿En qué forma regresa Afton en The Twisted Ones?",
+    "pregunta": "En la novela The Twisted Ones, ¿en qué forma regresa William Afton?",
     "opciones": [
      "Como Glitchtrap",
      "Como Springtrap, fusionado al traje",
@@ -3261,7 +3261,7 @@
     "id": "p7-021",
     "nivel": "E",
     "sub": "Trilogía Silver Eyes",
-    "pregunta": "¿Cuál es la revelación de The Fourth Closet?",
+    "pregunta": "¿Cuál es la gran revelación de la novela The Fourth Closet?",
     "opciones": [
      "Charlie es hija de Afton",
      "Charlie es en realidad Sammy",
@@ -3274,7 +3274,7 @@
     "id": "p7-022",
     "nivel": "I",
     "sub": "Trilogía Silver Eyes",
-    "pregunta": "¿Qué relación tiene la trilogía con los juegos?",
+    "pregunta": "¿Qué relación tiene la trilogía Silver Eyes con la historia de los videojuegos?",
     "opciones": [
      "Es la misma historia",
      "Es una continuidad propia",
@@ -3287,7 +3287,7 @@
     "id": "p7-023",
     "nivel": "I",
     "sub": "Fazbear Frights: la serie",
-    "pregunta": "¿Cuántos libros tiene?",
+    "pregunta": "¿Cuántos libros tiene la serie de antologías Fazbear Frights?",
     "opciones": [
      "8",
      "10",
@@ -3300,7 +3300,7 @@
     "id": "p7-024",
     "nivel": "I",
     "sub": "Fazbear Frights: la serie",
-    "pregunta": "¿Cuántos relatos principales trae cada libro?",
+    "pregunta": "¿Cuántos relatos principales trae cada libro de Fazbear Frights?",
     "opciones": [
      "2",
      "3",
@@ -3313,7 +3313,7 @@
     "id": "p7-025",
     "nivel": "I",
     "sub": "Fazbear Frights: la serie",
-    "pregunta": "¿Cuál es el primer libro?",
+    "pregunta": "¿Cuál es el primer libro de Fazbear Frights?",
     "opciones": [
      "Into the Pit",
      "Fetch",
@@ -3326,7 +3326,7 @@
     "id": "p7-026",
     "nivel": "A",
     "sub": "Fazbear Frights: la serie",
-    "pregunta": "¿Cuál es el último libro?",
+    "pregunta": "¿Cuál es el último libro de Fazbear Frights?",
     "opciones": [
      "The Puppet Carver",
      "Prankster",
@@ -3339,7 +3339,7 @@
     "id": "p7-027",
     "nivel": "A",
     "sub": "Fazbear Frights: la serie",
-    "pregunta": "¿Qué editorial publica las antologías?",
+    "pregunta": "¿Qué editorial publica las antologías Fazbear Frights?",
     "opciones": [
      "Penguin",
      "Random House",
@@ -3352,7 +3352,7 @@
     "id": "p7-028",
     "nivel": "E",
     "sub": "Fazbear Frights: la serie",
-    "pregunta": "¿Quién coescribió el primer libro con Scott Cawthon?",
+    "pregunta": "¿Quién coescribió con Scott Cawthon el primer libro de Fazbear Frights?",
     "opciones": [
      "Elley Cooper",
      "Kira Breed-Wrisley",
@@ -3365,7 +3365,7 @@
     "id": "p7-029",
     "nivel": "B",
     "sub": "Fazbear Frights: relato por relato",
-    "pregunta": "Into the Pit: ¿quién es el protagonista?",
+    "pregunta": "En el relato \"Into the Pit\" de Fazbear Frights, ¿quién es el protagonista?",
     "opciones": [
      "Gregory",
      "Devon",
@@ -3378,7 +3378,7 @@
     "id": "p7-030",
     "nivel": "I",
     "sub": "Fazbear Frights: relato por relato",
-    "pregunta": "Into the Pit: ¿qué lo lleva al pasado?",
+    "pregunta": "En el relato \"Into the Pit\" de Fazbear Frights, ¿qué lleva al protagonista al pasado?",
     "opciones": [
      "Una caja de música",
      "La piscina de pelotas",
@@ -3391,7 +3391,7 @@
     "id": "p7-031",
     "nivel": "A",
     "sub": "Fazbear Frights: relato por relato",
-    "pregunta": "Into the Pit: ¿quién suplanta a su padre?",
+    "pregunta": "En el relato \"Into the Pit\" de Fazbear Frights, ¿quién suplanta al padre del protagonista?",
     "opciones": [
      "Foxy",
      "Freddy",
@@ -3404,7 +3404,7 @@
     "id": "p7-032",
     "nivel": "I",
     "sub": "Fazbear Frights: relato por relato",
-    "pregunta": "To Be Beautiful: ¿quién es la protagonista y quién la animatrónica?",
+    "pregunta": "En el relato \"To Be Beautiful\" de Fazbear Frights, ¿quién es la protagonista y quién la animatrónica que le promete belleza?",
     "opciones": [
      "Sarah y Eleanor",
      "Millie y Lally",
@@ -3417,7 +3417,7 @@
     "id": "p7-033",
     "nivel": "A",
     "sub": "Fazbear Frights: relato por relato",
-    "pregunta": "To Be Beautiful: ¿cómo termina?",
+    "pregunta": "¿Cómo termina el relato \"To Be Beautiful\" de Fazbear Frights?",
     "opciones": [
      "Sarah gana un concurso",
      "Eleanor se destruye",
@@ -3430,7 +3430,7 @@
     "id": "p7-034",
     "nivel": "I",
     "sub": "Fazbear Frights: relato por relato",
-    "pregunta": "Count the Ways: ¿quién es la protagonista?",
+    "pregunta": "En el relato \"Count the Ways\" de Fazbear Frights, ¿quién es la protagonista?",
     "opciones": [
      "Kelsey",
      "Millie",
@@ -3443,7 +3443,7 @@
     "id": "p7-035",
     "nivel": "A",
     "sub": "Fazbear Frights: relato por relato",
-    "pregunta": "Count the Ways: ¿dónde queda atrapada?",
+    "pregunta": "En el relato \"Count the Ways\" de Fazbear Frights, ¿dónde queda atrapada la protagonista?",
     "opciones": [
      "En un ducto",
      "En un horno",
@@ -3456,7 +3456,7 @@
     "id": "p7-036",
     "nivel": "I",
     "sub": "Fazbear Frights: relato por relato",
-    "pregunta": "Fetch: ¿quién es el protagonista?",
+    "pregunta": "En el relato \"Fetch\" de Fazbear Frights, ¿quién es el protagonista?",
     "opciones": [
      "Greg",
      "Alec",
@@ -3469,7 +3469,7 @@
     "id": "p7-037",
     "nivel": "A",
     "sub": "Fazbear Frights: relato por relato",
-    "pregunta": "Fetch: ¿cómo se llama la chica que le gusta?",
+    "pregunta": "En el relato \"Fetch\" de Fazbear Frights, ¿cómo se llama la chica que le gusta al protagonista?",
     "opciones": [
      "Daisy",
      "Hope",
@@ -3482,7 +3482,7 @@
     "id": "p7-038",
     "nivel": "E",
     "sub": "Fazbear Frights: relato por relato",
-    "pregunta": "Fetch: ¿qué mensaje envía el perro al final?",
+    "pregunta": "En el relato \"Fetch\" de Fazbear Frights, ¿qué mensaje envía el perro robótico al final?",
     "opciones": [
      "IT'S ME",
      "CU",
@@ -3495,7 +3495,7 @@
     "id": "p7-039",
     "nivel": "I",
     "sub": "Fazbear Frights: relato por relato",
-    "pregunta": "Lonely Freddy: ¿quién es el protagonista?",
+    "pregunta": "En el relato \"Lonely Freddy\" de Fazbear Frights, ¿quién es el protagonista?",
     "opciones": [
      "Toby",
      "Mott",
@@ -3508,7 +3508,7 @@
     "id": "p7-040",
     "nivel": "A",
     "sub": "Fazbear Frights: relato por relato",
-    "pregunta": "Lonely Freddy: ¿qué le pasa?",
+    "pregunta": "En el relato \"Lonely Freddy\" de Fazbear Frights, ¿qué le pasa al protagonista?",
     "opciones": [
      "Muere atropellado",
      "Un Lonely Freddy le roba el cuerpo y queda encerrado en un contenedor de basura",
@@ -3521,7 +3521,7 @@
     "id": "p7-041",
     "nivel": "I",
     "sub": "Fazbear Frights: relato por relato",
-    "pregunta": "Out of Stock: ¿quién es el protagonista?",
+    "pregunta": "En el relato \"Out of Stock\" de Fazbear Frights, ¿quién es el protagonista?",
     "opciones": [
      "Edward",
      "Joel",
@@ -3534,7 +3534,7 @@
     "id": "p7-042",
     "nivel": "I",
     "sub": "Fazbear Frights: relato por relato",
-    "pregunta": "1:35 AM: ¿quién es la protagonista?",
+    "pregunta": "En el relato \"1:35 AM\" de Fazbear Frights, ¿quién es la protagonista?",
     "opciones": [
      "Angel",
      "Delilah",
@@ -3547,7 +3547,7 @@
     "id": "p7-043",
     "nivel": "A",
     "sub": "Fazbear Frights: relato por relato",
-    "pregunta": "1:35 AM: ¿qué muñeca la persigue y dónde termina?",
+    "pregunta": "En el relato \"1:35 AM\" de Fazbear Frights, ¿qué muñeca persigue a la protagonista y dónde termina ella?",
     "opciones": [
      "Lally, en un armario",
      "Nexie, bajo la cama",
@@ -3560,7 +3560,7 @@
     "id": "p7-044",
     "nivel": "I",
     "sub": "Fazbear Frights: relato por relato",
-    "pregunta": "Room for One More: ¿quién es el protagonista y qué trabajo tiene?",
+    "pregunta": "En el relato \"Room for One More\" de Fazbear Frights, ¿quién es el protagonista y qué trabajo tiene?",
     "opciones": [
      "Hudson, cocinero",
      "Arthur, enfermero",
@@ -3573,7 +3573,7 @@
     "id": "p7-045",
     "nivel": "A",
     "sub": "Fazbear Frights: relato por relato",
-    "pregunta": "Room for One More: ¿qué lo inmoviliza?",
+    "pregunta": "En el relato \"Room for One More\" de Fazbear Frights, ¿qué inmoviliza al protagonista?",
     "opciones": [
      "Bidybabs",
      "Minireenas dentro de su cuerpo",
@@ -3586,7 +3586,7 @@
     "id": "p7-046",
     "nivel": "I",
     "sub": "Fazbear Frights: relato por relato",
-    "pregunta": "The New Kid: ¿quiénes son los protagonistas?",
+    "pregunta": "En el relato \"The New Kid\" de Fazbear Frights, ¿quiénes son los protagonistas?",
     "opciones": [
      "Pete y Chuck",
      "Reed y Shelly",
@@ -3599,7 +3599,7 @@
     "id": "p7-047",
     "nivel": "A",
     "sub": "Fazbear Frights: relato por relato",
-    "pregunta": "The New Kid: ¿qué traje le aplasta el brazo a Devon?",
+    "pregunta": "En el relato \"The New Kid\" de Fazbear Frights, ¿qué traje le aplasta el brazo a Devon?",
     "opciones": [
      "Spring Bonnie",
      "Rosie Porkchop",
@@ -3612,7 +3612,7 @@
     "id": "p7-048",
     "nivel": "I",
     "sub": "Fazbear Frights: relato por relato",
-    "pregunta": "Step Closer: ¿quién es el protagonista y con qué animatrónico se obsesiona?",
+    "pregunta": "En el relato \"Step Closer\" de Fazbear Frights, ¿quién es el protagonista y con qué animatrónico se obsesiona?",
     "opciones": [
      "Chuck y Freddy",
      "Pete y Foxy",
@@ -3625,7 +3625,7 @@
     "id": "p7-049",
     "nivel": "A",
     "sub": "Fazbear Frights: relato por relato",
-    "pregunta": "Step Closer: ¿cómo se llama el hermano menor?",
+    "pregunta": "En el relato \"Step Closer\" de Fazbear Frights, ¿cómo se llama el hermano menor del protagonista?",
     "opciones": [
      "Jake",
      "Mott",
@@ -3638,7 +3638,7 @@
     "id": "p7-050",
     "nivel": "A",
     "sub": "Fazbear Frights: relato por relato",
-    "pregunta": "In the Flesh: ¿qué entidad crece dentro de Matt?",
+    "pregunta": "En el relato \"In the Flesh\" de Fazbear Frights, ¿qué entidad crece dentro de Matt?",
     "opciones": [
      "Glitchtrap",
      "El Mimic",
@@ -3651,7 +3651,7 @@
     "id": "p7-051",
     "nivel": "A",
     "sub": "Fazbear Frights: relato por relato",
-    "pregunta": "The Man in Room 1280: ¿quién cuida al hombre quemado?",
+    "pregunta": "En el relato \"The Man in Room 1280\" de Fazbear Frights, ¿quién cuida al hombre quemado?",
     "opciones": [
      "Larson",
      "Arthur",
@@ -3664,7 +3664,7 @@
     "id": "p7-052",
     "nivel": "E",
     "sub": "Fazbear Frights: relato por relato",
-    "pregunta": "The Man in Room 1280: ¿a dónde lleva Arthur al hombre?",
+    "pregunta": "En el relato \"The Man in Room 1280\" de Fazbear Frights, ¿a dónde lleva Arthur al hombre quemado?",
     "opciones": [
      "Al Fazbear Entertainment Distribution Center",
      "Al Pizzaplex",
@@ -3677,7 +3677,7 @@
     "id": "p7-053",
     "nivel": "E",
     "sub": "Fazbear Frights: relato por relato",
-    "pregunta": "The Man in Room 1280: ¿qué sale del cuerpo al final?",
+    "pregunta": "En el relato \"The Man in Room 1280\" de Fazbear Frights, ¿qué sale del cuerpo del hombre al final?",
     "opciones": [
      "Humo",
      "Fuego",
@@ -3690,7 +3690,7 @@
     "id": "p7-054",
     "nivel": "I",
     "sub": "Fazbear Frights: relato por relato",
-    "pregunta": "The Real Jake: ¿qué enfermedad tiene Jake?",
+    "pregunta": "En el relato \"The Real Jake\" de Fazbear Frights, ¿qué enfermedad tiene Jake?",
     "opciones": [
      "Leucemia",
      "Neumonía",
@@ -3703,7 +3703,7 @@
     "id": "p7-055",
     "nivel": "A",
     "sub": "Fazbear Frights: relato por relato",
-    "pregunta": "The Real Jake: ¿quién es su padre?",
+    "pregunta": "En el relato \"The Real Jake\" de Fazbear Frights, ¿quién es el padre de Jake?",
     "opciones": [
      "Michael, policía",
      "Evan, un soldado que muere en combate",
@@ -3716,7 +3716,7 @@
     "id": "p7-056",
     "nivel": "A",
     "sub": "Fazbear Frights: relato por relato",
-    "pregunta": "The Real Jake: ¿cómo se llama el muñeco con walkie-talkie?",
+    "pregunta": "En el relato \"The Real Jake\" de Fazbear Frights, ¿cómo se llama el muñeco con walkie-talkie?",
     "opciones": [
      "Ella",
      "Lally",
@@ -3729,7 +3729,7 @@
     "id": "p7-057",
     "nivel": "E",
     "sub": "Fazbear Frights: relato por relato",
-    "pregunta": "The Real Jake: ¿qué pasa con el alma de Jake?",
+    "pregunta": "Al final del relato \"The Real Jake\" de Fazbear Frights, ¿qué pasa con el alma de Jake?",
     "opciones": [
      "Posee a Simon, que luego forma la cabeza del Stitchwraith",
      "Va al cielo",
@@ -3742,7 +3742,7 @@
     "id": "p7-058",
     "nivel": "A",
     "sub": "Fazbear Frights: relato por relato",
-    "pregunta": "Hide-and-Seek: ¿con quién juega Toby?",
+    "pregunta": "En el relato \"Hide-and-Seek\" de Fazbear Frights, ¿con quién juega Toby?",
     "opciones": [
      "Shadow Freddy",
      "Lefty",
@@ -3755,7 +3755,7 @@
     "id": "p7-059",
     "nivel": "A",
     "sub": "Fazbear Frights: relato por relato",
-    "pregunta": "The Breaking Wheel: ¿cómo se controla el cuerpo fusionado de Julius?",
+    "pregunta": "En el relato \"The Breaking Wheel\" de Fazbear Frights, ¿cómo se controla el cuerpo fusionado de Julius?",
     "opciones": [
      "Con un control remoto",
      "Con música",
@@ -3768,7 +3768,7 @@
     "id": "p7-060",
     "nivel": "E",
     "sub": "Fazbear Frights: relato por relato",
-    "pregunta": "¿En qué libro está The Breaking Wheel?",
+    "pregunta": "¿En qué libro de Fazbear Frights se encuentra el relato \"The Breaking Wheel\"?",
     "opciones": [
      "Fetch",
      "Blackbird",
@@ -3781,7 +3781,7 @@
     "id": "p7-061",
     "nivel": "A",
     "sub": "Fazbear Frights: relato por relato",
-    "pregunta": "He Told Me Everything: ¿qué se combina en el experimento?",
+    "pregunta": "En el relato \"He Told Me Everything\" de Fazbear Frights, ¿qué se combina en el experimento?",
     "opciones": [
      "Sangre y pelo",
      "Faz-Goo y un diente de leche",
@@ -3794,7 +3794,7 @@
     "id": "p7-062",
     "nivel": "A",
     "sub": "Fazbear Frights: relato por relato",
-    "pregunta": "He Told Me Everything: ¿qué le pasa a Chris?",
+    "pregunta": "En el relato \"He Told Me Everything\" de Fazbear Frights, ¿qué le pasa a Chris?",
     "opciones": [
      "Se vuelve animatrónico",
      "Desaparece",
@@ -3807,7 +3807,7 @@
     "id": "p7-063",
     "nivel": "A",
     "sub": "Fazbear Frights: relato por relato",
-    "pregunta": "Gumdrop Angel: ¿cómo termina Angel?",
+    "pregunta": "En el relato \"Gumdrop Angel\" de Fazbear Frights, ¿cómo termina Angel?",
     "opciones": [
      "En un horno",
      "En un tanque",
@@ -3820,7 +3820,7 @@
     "id": "p7-064",
     "nivel": "A",
     "sub": "Fazbear Frights: relato por relato",
-    "pregunta": "Sergio's Lucky Day: ¿qué objeto influye en Sergio?",
+    "pregunta": "En el relato \"Sergio's Lucky Day\" de Fazbear Frights, ¿qué objeto influye en Sergio?",
     "opciones": [
      "Lucky Charm",
      "Lucky Boy",
@@ -3833,7 +3833,7 @@
     "id": "p7-065",
     "nivel": "A",
     "sub": "Fazbear Frights: relato por relato",
-    "pregunta": "What We Found: ¿quién es el protagonista y cómo muere?",
+    "pregunta": "En el relato \"What We Found\" de Fazbear Frights, ¿quién es el protagonista y cómo muere?",
     "opciones": [
      "Stanley, aplastado",
      "Arthur, ahogado",
@@ -3846,7 +3846,7 @@
     "id": "p7-066",
     "nivel": "A",
     "sub": "Fazbear Frights: relato por relato",
-    "pregunta": "Jump for Tickets: ¿dónde queda atrapado Colton?",
+    "pregunta": "En el relato \"Jump for Tickets\" de Fazbear Frights, ¿dónde queda atrapado Colton?",
     "opciones": [
      "En un tanque",
      "En la piscina de pelotas",
@@ -3859,7 +3859,7 @@
     "id": "p7-067",
     "nivel": "E",
     "sub": "Fazbear Frights: relato por relato",
-    "pregunta": "Jump for Tickets: ¿qué animatrónico se pone triste al final?",
+    "pregunta": "Al final del relato \"Jump for Tickets\" de Fazbear Frights, ¿qué animatrónico se pone triste?",
     "opciones": [
      "Lucky Boy",
      "Coils the Clown",
@@ -3872,7 +3872,7 @@
     "id": "p7-068",
     "nivel": "A",
     "sub": "Fazbear Frights: relato por relato",
-    "pregunta": "Pizza Kit: ¿qué descubre el lector sobre Marley?",
+    "pregunta": "En el relato \"Pizza Kit\" de Fazbear Frights, ¿qué descubre el lector sobre Marley?",
     "opciones": [
      "Fingía estar desaparecida como broma",
      "Era un robot",
@@ -3885,7 +3885,7 @@
     "id": "p7-069",
     "nivel": "A",
     "sub": "Fazbear Frights: relato por relato",
-    "pregunta": "Friendly Face: ¿cómo muere Edward?",
+    "pregunta": "En el relato \"Friendly Face\" de Fazbear Frights, ¿cómo muere Edward?",
     "opciones": [
      "Ahogado",
      "En un horno",
@@ -3898,7 +3898,7 @@
     "id": "p7-070",
     "nivel": "A",
     "sub": "Fazbear Frights: relato por relato",
-    "pregunta": "Sea Bonnies: ¿qué le pasa a Mott?",
+    "pregunta": "En el relato \"Sea Bonnies\" de Fazbear Frights, ¿qué le pasa a Mott?",
     "opciones": [
      "Lo encierran en un tanque",
      "Se vuelve letrero",
@@ -3911,7 +3911,7 @@
     "id": "p7-071",
     "nivel": "A",
     "sub": "Fazbear Frights: relato por relato",
-    "pregunta": "Together Forever: ¿dónde quedan atrapadas Jessica y Brittany?",
+    "pregunta": "En el relato \"Together Forever\" de Fazbear Frights, ¿dónde quedan atrapadas Jessica y Brittany?",
     "opciones": [
      "En Lonely Freddy",
      "Dentro de Rosie Porkchop",
@@ -3924,7 +3924,7 @@
     "id": "p7-072",
     "nivel": "A",
     "sub": "Fazbear Frights: relato por relato",
-    "pregunta": "Prankster: ¿dónde trabaja Jeremiah?",
+    "pregunta": "En el relato \"Prankster\" de Fazbear Frights, ¿dónde trabaja Jeremiah?",
     "opciones": [
      "En una pizzería",
      "En un hospital",
@@ -3937,7 +3937,7 @@
     "id": "p7-073",
     "nivel": "A",
     "sub": "Fazbear Frights: relato por relato",
-    "pregunta": "Kids at Play: ¿en qué se convierte Joel?",
+    "pregunta": "En el relato \"Kids at Play\" de Fazbear Frights, ¿en qué se convierte Joel?",
     "opciones": [
      "En un letrero de \"Kids at Play\"",
      "En un peluche",
@@ -3950,7 +3950,7 @@
     "id": "p7-074",
     "nivel": "A",
     "sub": "Fazbear Frights: relato por relato",
-    "pregunta": "Find Player Two!: ¿dónde queda atrapada Aimee?",
+    "pregunta": "En el relato \"Find Player Two!\" de Fazbear Frights, ¿dónde queda atrapada Aimee?",
     "opciones": [
      "En un ducto",
      "En el Ticket Pulverizer",
@@ -3963,7 +3963,7 @@
     "id": "p7-075",
     "nivel": "A",
     "sub": "Fazbear Frights: relato por relato",
-    "pregunta": "Felix the Shark: ¿dónde se mete Dirk?",
+    "pregunta": "En el relato \"Felix the Shark\" de Fazbear Frights, ¿dónde se mete Dirk?",
     "opciones": [
      "En el tanque de Felix",
      "En un ducto",
@@ -3976,7 +3976,7 @@
     "id": "p7-076",
     "nivel": "A",
     "sub": "Fazbear Frights: los hilos de enlace",
-    "pregunta": "¿Qué detective investiga casos a lo largo de la serie?",
+    "pregunta": "¿Qué detective investiga casos a lo largo de la serie Fazbear Frights?",
     "opciones": [
      "Clay Burke",
      "Larson",
@@ -3989,7 +3989,7 @@
     "id": "p7-077",
     "nivel": "E",
     "sub": "Fazbear Frights: los hilos de enlace",
-    "pregunta": "¿Qué ser recorre los epílogos y qué espíritu lo habita?",
+    "pregunta": "En los epílogos de Fazbear Frights, ¿qué ser los recorre y qué espíritu lo habita?",
     "opciones": [
      "Ennard, Michael",
      "Springtrap, William",
@@ -4002,7 +4002,7 @@
     "id": "p7-078",
     "nivel": "E",
     "sub": "Fazbear Frights: los hilos de enlace",
-    "pregunta": "¿Cómo se llama el niño fantasma lleno de rabia del arco final?",
+    "pregunta": "¿Cómo se llama el niño fantasma lleno de rabia del arco final de Fazbear Frights?",
     "opciones": [
      "Simon",
      "Toby",
@@ -4015,7 +4015,7 @@
     "id": "p7-079",
     "nivel": "E",
     "sub": "Fazbear Frights: los hilos de enlace",
-    "pregunta": "¿Cómo se llaman los epílogos de cada libro?",
+    "pregunta": "¿Cómo se llaman los epílogos de cada libro de Fazbear Frights?",
     "opciones": [
      "Stitchwraith Stingers",
      "Larson Files",
@@ -4028,7 +4028,7 @@
     "id": "p7-080",
     "nivel": "I",
     "sub": "Tales from the Pizzaplex",
-    "pregunta": "¿Cuántos libros tiene la serie?",
+    "pregunta": "¿Cuántos libros tiene la serie Tales from the Pizzaplex?",
     "opciones": [
      "6",
      "7",
@@ -4041,7 +4041,7 @@
     "id": "p7-081",
     "nivel": "A",
     "sub": "Tales from the Pizzaplex",
-    "pregunta": "¿En qué período se publicaron?",
+    "pregunta": "¿En qué período se publicaron los libros de Tales from the Pizzaplex?",
     "opciones": [
      "2019 a 2022",
      "Julio de 2022 a octubre de 2023",
@@ -4054,7 +4054,7 @@
     "id": "p7-082",
     "nivel": "I",
     "sub": "Tales from the Pizzaplex",
-    "pregunta": "¿Cuál es el primer libro?",
+    "pregunta": "¿Cuál es el primer libro de Tales from the Pizzaplex?",
     "opciones": [
      "Lally's Game",
      "Lally's Lullaby",
@@ -4067,7 +4067,7 @@
     "id": "p7-083",
     "nivel": "I",
     "sub": "Tales from the Pizzaplex",
-    "pregunta": "¿Cuál es el último libro?",
+    "pregunta": "¿Cuál es el último libro de Tales from the Pizzaplex?",
     "opciones": [
      "Tiger Rock",
      "Nexie",
@@ -4080,7 +4080,7 @@
     "id": "p7-084",
     "nivel": "A",
     "sub": "Tales from the Pizzaplex",
-    "pregunta": "Lally's Game: ¿quién es la protagonista y cómo termina?",
+    "pregunta": "En el relato \"Lally's Game\" de Tales from the Pizzaplex, ¿quién es la protagonista y cómo termina?",
     "opciones": [
      "Selena, gana el juego",
      "Selena, y Lally termina matándola",
@@ -4093,7 +4093,7 @@
     "id": "p7-085",
     "nivel": "A",
     "sub": "Tales from the Pizzaplex",
-    "pregunta": "Under Construction: ¿qué le pasa realmente a Maya?",
+    "pregunta": "En el relato \"Under Construction\" de Tales from the Pizzaplex, ¿qué le pasa realmente a Maya?",
     "opciones": [
      "Queda en la piscina de pelotas",
      "Queda en un ducto",
@@ -4106,7 +4106,7 @@
     "id": "p7-086",
     "nivel": "A",
     "sub": "Tales from the Pizzaplex",
-    "pregunta": "Help Wanted (el relato): ¿cómo termina Steve?",
+    "pregunta": "En el relato \"Help Wanted\" de Tales from the Pizzaplex, ¿cómo termina Steve?",
     "opciones": [
      "Apuñalado por su esposa Victoria",
      "Atropellado",
@@ -4119,7 +4119,7 @@
     "id": "p7-087",
     "nivel": "A",
     "sub": "Tales from the Pizzaplex",
-    "pregunta": "HAPPS: ¿quiénes son los dos chicos del relato?",
+    "pregunta": "En el relato \"HAPPS\" de Tales from the Pizzaplex, ¿quiénes son los dos chicos protagonistas?",
     "opciones": [
      "Kai y Kane",
      "Danny y Daisy",
@@ -4132,7 +4132,7 @@
     "id": "p7-088",
     "nivel": "A",
     "sub": "Tales from the Pizzaplex",
-    "pregunta": "B-7: ¿qué quiere Billy?",
+    "pregunta": "En el relato \"B-7\" de Tales from the Pizzaplex, ¿qué quiere Billy?",
     "opciones": [
      "Ser policía",
      "Convertirse en animatrónico",
@@ -4145,7 +4145,7 @@
     "id": "p7-089",
     "nivel": "A",
     "sub": "Tales from the Pizzaplex",
-    "pregunta": "Cleithrophobia: ¿quién es Grady y qué animatrónica lo ataca?",
+    "pregunta": "En el relato \"Cleithrophobia\" de Tales from the Pizzaplex, ¿quién es Grady y qué animatrónica lo ataca?",
     "opciones": [
      "Un técnico, Foxy",
      "Un guardia, Freddy",
@@ -4158,7 +4158,7 @@
     "id": "p7-090",
     "nivel": "A",
     "sub": "Tales from the Pizzaplex",
-    "pregunta": "Somniphobia: ¿qué le pasa a Sam?",
+    "pregunta": "En el relato \"Somniphobia\" de Tales from the Pizzaplex, ¿qué le pasa a Sam?",
     "opciones": [
      "Queda atrapado en un sueño",
      "Queda en un tanque",
@@ -4171,7 +4171,7 @@
     "id": "p7-091",
     "nivel": "A",
     "sub": "Tales from the Pizzaplex",
-    "pregunta": "GGY: ¿qué dos personajes se encuentran?",
+    "pregunta": "En el relato \"GGY\" de Tales from the Pizzaplex, ¿qué dos personajes se encuentran?",
     "opciones": [
      "Tony y Vanny",
      "Tony y Freddy",
@@ -4184,7 +4184,7 @@
     "id": "p7-092",
     "nivel": "E",
     "sub": "Tales from the Pizzaplex",
-    "pregunta": "The Storyteller: ¿qué le pasa a Edwin?",
+    "pregunta": "En el relato \"The Storyteller\" de Tales from the Pizzaplex, ¿qué le pasa a Edwin?",
     "opciones": [
      "Muere en un horno",
      "Muere asfixiado dentro del Storyteller Tree",
@@ -4197,7 +4197,7 @@
     "id": "p7-093",
     "nivel": "A",
     "sub": "Tales from the Pizzaplex",
-    "pregunta": "Nexie: ¿qué es Nexie?",
+    "pregunta": "En el relato \"Nexie\" de Tales from the Pizzaplex, ¿qué es Nexie?",
     "opciones": [
      "Un peluche",
      "Un robot de limpieza",
@@ -4210,7 +4210,7 @@
     "id": "p7-094",
     "nivel": "A",
     "sub": "Tales from the Pizzaplex",
-    "pregunta": "Drowning: ¿dónde se ahoga Kara?",
+    "pregunta": "En el relato \"Drowning\" de Tales from the Pizzaplex, ¿dónde se ahoga Kara?",
     "opciones": [
      "En el VR Resort",
      "En una piscina",
@@ -4223,7 +4223,7 @@
     "id": "p7-095",
     "nivel": "E",
     "sub": "Tales from the Pizzaplex",
-    "pregunta": "The Mimic: ¿cómo aprendió la violencia el Mimic?",
+    "pregunta": "En el relato \"The Mimic\" de Tales from the Pizzaplex, ¿cómo aprendió la violencia el Mimic?",
     "opciones": [
      "Edwin lo programó para matar",
      "Lo diseñó Afton",
@@ -4236,7 +4236,7 @@
     "id": "p7-096",
     "nivel": "A",
     "sub": "Tales from the Pizzaplex",
-    "pregunta": "Tiger Rock: ¿cuándo empieza a acosar el tigre a Kai?",
+    "pregunta": "En el relato \"Tiger Rock\" de Tales from the Pizzaplex, ¿cuándo empieza el tigre a acosar a Kai?",
     "opciones": [
      "Tras una fiesta",
      "Tras una sesión en la cabina de VR",
@@ -4249,7 +4249,7 @@
     "id": "p7-097",
     "nivel": "A",
     "sub": "Tales from the Pizzaplex",
-    "pregunta": "The Monty Within: ¿qué toma el control de Kane?",
+    "pregunta": "En el relato \"The Monty Within\" de Tales from the Pizzaplex, ¿qué toma el control de Kane?",
     "opciones": [
      "La IA de Freddy",
      "La IA de Roxy",
@@ -4262,7 +4262,7 @@
     "id": "p7-098",
     "nivel": "A",
     "sub": "Tales from the Pizzaplex",
-    "pregunta": "Bleeding Heart: ¿qué usa Danny contra sí mismo?",
+    "pregunta": "En el relato \"Bleeding Heart\" de Tales from the Pizzaplex, ¿qué usa Danny contra sí mismo?",
     "opciones": [
      "Nanobots de tatuaje que cortan su piel",
      "Un perro",
@@ -4275,7 +4275,7 @@
     "id": "p7-099",
     "nivel": "E",
     "sub": "Tales from the Pizzaplex",
-    "pregunta": "Dittophobia: ¿qué descubre Rory?",
+    "pregunta": "En el relato \"Dittophobia\" de Tales from the Pizzaplex, ¿qué descubre Rory?",
     "opciones": [
      "Que vive en el Pizzaplex",
      "Que está en un hospital",
@@ -4288,7 +4288,7 @@
     "id": "p7-100",
     "nivel": "E",
     "sub": "Otros libros",
-    "pregunta": "Según The Week Before, ¿cómo se llama Phone Guy?",
+    "pregunta": "Según el libro The Week Before, ¿cómo se llama Phone Guy?",
     "opciones": [
      "Jeremy",
      "Ralph",
@@ -4301,7 +4301,7 @@
     "id": "p7-101",
     "nivel": "A",
     "sub": "Otros libros",
-    "pregunta": "¿Cómo se llama la guía oficial de 2017 que recopila el lore?",
+    "pregunta": "¿Cómo se llama la guía oficial de 2017 que recopila el lore de los juegos?",
     "opciones": [
      "The Survival Logbook",
      "The Fazbear Files",
@@ -4334,7 +4334,7 @@
     "id": "p8-001",
     "nivel": "B",
     "sub": "Five Nights at Freddy's (2023)",
-    "pregunta": "¿En qué año se estrenó?",
+    "pregunta": "¿En qué año se estrenó la primera película de Five Nights at Freddy's?",
     "opciones": [
      "2021",
      "2022",
@@ -4347,7 +4347,7 @@
     "id": "p8-002",
     "nivel": "I",
     "sub": "Five Nights at Freddy's (2023)",
-    "pregunta": "¿Quién la dirigió?",
+    "pregunta": "¿Quién dirigió la primera película de FNAF?",
     "opciones": [
      "Emma Tammi",
      "Mike Flanagan",
@@ -4360,7 +4360,7 @@
     "id": "p8-003",
     "nivel": "B",
     "sub": "Five Nights at Freddy's (2023)",
-    "pregunta": "¿Quién es el protagonista y quién lo interpreta?",
+    "pregunta": "¿Quién es el protagonista de la película de FNAF (2023) y quién lo interpreta?",
     "opciones": [
      "Mike Schmidt, Matthew Lillard",
      "Mike Schmidt, Josh Hutcherson",
@@ -4373,7 +4373,7 @@
     "id": "p8-004",
     "nivel": "B",
     "sub": "Five Nights at Freddy's (2023)",
-    "pregunta": "¿Cómo se llama su hermana menor?",
+    "pregunta": "En la película de FNAF (2023), ¿cómo se llama la hermana menor del protagonista?",
     "opciones": [
      "Lisa",
      "Charlie",
@@ -4386,7 +4386,7 @@
     "id": "p8-005",
     "nivel": "I",
     "sub": "Five Nights at Freddy's (2023)",
-    "pregunta": "¿Cómo se llamaba el hermano secuestrado?",
+    "pregunta": "En la película de FNAF (2023), ¿cómo se llamaba el hermano del protagonista que fue secuestrado de niño?",
     "opciones": [
      "Garrett",
      "Sammy",
@@ -4399,7 +4399,7 @@
     "id": "p8-006",
     "nivel": "I",
     "sub": "Five Nights at Freddy's (2023)",
-    "pregunta": "¿Cómo vuelve Mike a soñar con el secuestro?",
+    "pregunta": "En la película de FNAF (2023), ¿cómo vuelve el protagonista a soñar con el día del secuestro?",
     "opciones": [
      "Con hipnosis",
      "Con pastillas para dormir",
@@ -4412,7 +4412,7 @@
     "id": "p8-007",
     "nivel": "I",
     "sub": "Five Nights at Freddy's (2023)",
-    "pregunta": "¿Quién quiere quitarle la custodia de su hermana?",
+    "pregunta": "En la película de FNAF (2023), ¿quién quiere quitarle al protagonista la custodia de su hermana?",
     "opciones": [
      "Vanessa",
      "Su padre",
@@ -4425,7 +4425,7 @@
     "id": "p8-008",
     "nivel": "I",
     "sub": "Five Nights at Freddy's (2023)",
-    "pregunta": "¿Qué trabajo tiene Vanessa y de quién es hija?",
+    "pregunta": "En la película de FNAF (2023), ¿qué trabajo tiene Vanessa y de quién es hija?",
     "opciones": [
      "Policía, hija de William Afton",
      "Guardia, hija de Henry",
@@ -4438,7 +4438,7 @@
     "id": "p8-009",
     "nivel": "I",
     "sub": "Five Nights at Freddy's (2023)",
-    "pregunta": "¿Qué actriz interpreta a Vanessa?",
+    "pregunta": "¿Qué actriz interpreta a Vanessa en la película de FNAF (2023)?",
     "opciones": [
      "Mckenna Grace",
      "Elizabeth Lail",
@@ -4451,7 +4451,7 @@
     "id": "p8-010",
     "nivel": "A",
     "sub": "Five Nights at Freddy's (2023)",
-    "pregunta": "¿Qué nombre falso usa William Afton?",
+    "pregunta": "En la película de FNAF (2023), ¿qué nombre falso usa William Afton y qué trabajo dice tener?",
     "opciones": [
      "Dave Miller, guardia",
      "Vincent, técnico",
@@ -4464,7 +4464,7 @@
     "id": "p8-011",
     "nivel": "A",
     "sub": "Five Nights at Freddy's (2023)",
-    "pregunta": "¿Quién interpreta a William Afton?",
+    "pregunta": "¿Qué actor interpreta a William Afton en la película de FNAF?",
     "opciones": [
      "Skeet Ulrich",
      "Matthew Lillard",
@@ -4477,7 +4477,7 @@
     "id": "p8-012",
     "nivel": "B",
     "sub": "Five Nights at Freddy's (2023)",
-    "pregunta": "¿Cómo se llama el cupcake de Chica?",
+    "pregunta": "En la película de FNAF (2023), ¿cómo se llama el cupcake animatrónico de Chica?",
     "opciones": [
      "Carl",
      "Cupcake Jr.",
@@ -4490,7 +4490,7 @@
     "id": "p8-013",
     "nivel": "I",
     "sub": "Five Nights at Freddy's (2023)",
-    "pregunta": "¿Con quién se hace amiga Abby dentro del local?",
+    "pregunta": "En la película de FNAF (2023), ¿con quién se hace amiga Abby dentro del local?",
     "opciones": [
      "Con los animatrónicos y los espíritus de los niños",
      "Con Vanessa",
@@ -4503,7 +4503,7 @@
     "id": "p8-014",
     "nivel": "A",
     "sub": "Five Nights at Freddy's (2023)",
-    "pregunta": "¿Cómo descubren los espíritus quién es Afton?",
+    "pregunta": "En la película de FNAF (2023), ¿cómo descubren los espíritus de los niños quién es Afton?",
     "opciones": [
      "Mike les grita la verdad",
      "Ven un video",
@@ -4516,7 +4516,7 @@
     "id": "p8-015",
     "nivel": "A",
     "sub": "Five Nights at Freddy's (2023)",
-    "pregunta": "¿Cómo termina Afton?",
+    "pregunta": "¿Cómo termina William Afton en la película de FNAF (2023)?",
     "opciones": [
      "Arrestado",
      "Huye",
@@ -4529,7 +4529,7 @@
     "id": "p8-016",
     "nivel": "I",
     "sub": "Five Nights at Freddy's 2 (2025)",
-    "pregunta": "¿Cuándo se estrenó?",
+    "pregunta": "¿Cuándo se estrenó en cines la película Five Nights at Freddy's 2?",
     "opciones": [
      "27 de octubre de 2023",
      "5 de diciembre de 2025",
@@ -4542,7 +4542,7 @@
     "id": "p8-017",
     "nivel": "I",
     "sub": "Five Nights at Freddy's 2 (2025)",
-    "pregunta": "¿En qué año transcurre la escena inicial?",
+    "pregunta": "En la película FNAF 2 (2025), ¿en qué año transcurre la escena inicial?",
     "opciones": [
      "1987",
      "1993",
@@ -4555,7 +4555,7 @@
     "id": "p8-018",
     "nivel": "A",
     "sub": "Five Nights at Freddy's 2 (2025)",
-    "pregunta": "¿Quién es la niña de la escena inicial y qué hace?",
+    "pregunta": "En la película FNAF 2 (2025), ¿quién es la niña de la escena inicial y qué hace?",
     "opciones": [
      "Lisa, graba un video",
      "Charlotte Emily, rescata a un niño de Afton",
@@ -4568,7 +4568,7 @@
     "id": "p8-019",
     "nivel": "I",
     "sub": "Five Nights at Freddy's 2 (2025)",
-    "pregunta": "¿Qué animatrónico habita su espíritu?",
+    "pregunta": "En la película FNAF 2 (2025), ¿qué animatrónico habita el espíritu de la niña de la escena inicial?",
     "opciones": [
      "Golden Freddy",
      "Mangle",
@@ -4581,7 +4581,7 @@
     "id": "p8-020",
     "nivel": "A",
     "sub": "Five Nights at Freddy's 2 (2025)",
-    "pregunta": "¿Qué relación tenía con Vanessa?",
+    "pregunta": "En la película FNAF 2 (2025), ¿qué relación tenía Vanessa con la niña de la escena inicial?",
     "opciones": [
      "Hermanas",
      "Primas",
@@ -4594,7 +4594,7 @@
     "id": "p8-021",
     "nivel": "A",
     "sub": "Five Nights at Freddy's 2 (2025)",
-    "pregunta": "¿Quién interpreta a Lisa y qué hace su grupo?",
+    "pregunta": "En la película FNAF 2 (2025), ¿quién interpreta a Lisa y qué hace su grupo?",
     "opciones": [
      "Elizabeth Lail, policías",
      "Mckenna Grace, cazadores de lo paranormal que graban videos",
@@ -4607,7 +4607,7 @@
     "id": "p8-022",
     "nivel": "A",
     "sub": "Five Nights at Freddy's 2 (2025)",
-    "pregunta": "¿Quién interpreta a Henry Emily?",
+    "pregunta": "¿Quién interpreta a Henry Emily en la película FNAF 2 (2025)?",
     "opciones": [
      "Wayne Knight",
      "Freddy Carter",
@@ -4620,7 +4620,7 @@
     "id": "p8-023",
     "nivel": "A",
     "sub": "Five Nights at Freddy's 2 (2025)",
-    "pregunta": "¿Qué le da Henry a Mike?",
+    "pregunta": "En la película FNAF 2 (2025), ¿qué le da Henry a Mike y para qué?",
     "opciones": [
      "Una linterna",
      "Una máscara",
@@ -4633,7 +4633,7 @@
     "id": "p8-024",
     "nivel": "A",
     "sub": "Five Nights at Freddy's 2 (2025)",
-    "pregunta": "¿Qué quiere el espíritu de la Marioneta?",
+    "pregunta": "En la película FNAF 2 (2025), ¿qué quiere lograr el espíritu de la Marioneta?",
     "opciones": [
      "Liberar a los niños",
      "Matar a los padres del pueblo, porque los adultos la ignoraron",
@@ -4646,7 +4646,7 @@
     "id": "p8-025",
     "nivel": "I",
     "sub": "Five Nights at Freddy's 2 (2025)",
-    "pregunta": "¿Qué animatrónicos controla?",
+    "pregunta": "En la película FNAF 2 (2025), ¿qué animatrónicos controla la Marioneta?",
     "opciones": [
      "Toy Freddy, Toy Bonnie y Toy Chica",
      "Los Funtime",
@@ -4659,7 +4659,7 @@
     "id": "p8-026",
     "nivel": "A",
     "sub": "Five Nights at Freddy's 2 (2025)",
-    "pregunta": "¿Qué papel tiene Wayne Knight?",
+    "pregunta": "¿Qué papel interpreta Wayne Knight en la película FNAF 2 (2025)?",
     "opciones": [
      "Un policía",
      "El dueño del local",
@@ -4672,7 +4672,7 @@
     "id": "p8-027",
     "nivel": "E",
     "sub": "Five Nights at Freddy's 2 (2025)",
-    "pregunta": "¿A quiénes extraña Abby al inicio?",
+    "pregunta": "Al comienzo de la película FNAF 2 (2025), ¿a quiénes extraña Abby?",
     "opciones": [
      "A su padre",
      "A su madre",
@@ -4705,7 +4705,7 @@
     "id": "p9-002",
     "nivel": "I",
     "sub": "Toda la saga",
-    "pregunta": "¿Quién fue su socio?",
+    "pregunta": "¿Quién fue el socio de William Afton en la creación de los animatrónicos?",
     "opciones": [
      "Ralph",
      "Edwin Murray",
@@ -4718,7 +4718,7 @@
     "id": "p9-003",
     "nivel": "I",
     "sub": "Toda la saga",
-    "pregunta": "¿Qué dos hijos de Afton se nombran en los juegos?",
+    "pregunta": "¿Qué dos hijos de William Afton se mencionan por su nombre en los juegos?",
     "opciones": [
      "Michael y Elizabeth",
      "Michael y Sammy",
@@ -4731,7 +4731,7 @@
     "id": "p9-004",
     "nivel": "I",
     "sub": "Toda la saga",
-    "pregunta": "¿Cómo se llama la corporación de las pizzerías?",
+    "pregunta": "¿Cómo se llama la corporación dueña de la franquicia de pizzerías de Freddy?",
     "opciones": [
      "Afton Robotics",
      "Emily Inc.",
@@ -4744,7 +4744,7 @@
     "id": "p9-005",
     "nivel": "A",
     "sub": "Toda la saga",
-    "pregunta": "¿Qué empresa de Afton fabricó a los Funtime?",
+    "pregunta": "¿Qué empresa de William Afton fabricó a los animatrónicos Funtime?",
     "opciones": [
      "Fazbear Entertainment",
      "Afton Robotics, LLC",
@@ -4757,7 +4757,7 @@
     "id": "p9-006",
     "nivel": "A",
     "sub": "Toda la saga",
-    "pregunta": "¿Cuál es el orden cronológico correcto?",
+    "pregunta": "Dentro de los juegos, ¿cuál es el orden cronológico correcto de estos lugares?",
     "opciones": [
      "Local de FNAF 2, Fredbear's, Pizzaplex, Fazbear's Fright",
      "Fazbear's Fright, Fredbear's, local de FNAF 2, Pizzaplex",
@@ -4770,7 +4770,7 @@
     "id": "p9-007",
     "nivel": "I",
     "sub": "Toda la saga",
-    "pregunta": "¿Cuáles fueron los dos primeros personajes con springlocks?",
+    "pregunta": "¿Cuáles fueron los dos primeros personajes con trajes de springlocks?",
     "opciones": [
      "Fredbear y Spring Bonnie",
      "Freddy y Bonnie",
@@ -4796,7 +4796,7 @@
     "id": "p9-009",
     "nivel": "A",
     "sub": "Toda la saga",
-    "pregunta": "¿Qué par está MAL emparejado?",
+    "pregunta": "Personaje y su forma posterior: ¿qué par está MAL emparejado?",
     "opciones": [
      "Circus Baby → Scrap Baby",
      "Ennard → Molten Freddy",
@@ -4809,7 +4809,7 @@
     "id": "p9-010",
     "nivel": "I",
     "sub": "Toda la saga",
-    "pregunta": "¿Qué \"trap\" es un pequeño peluche?",
+    "pregunta": "¿Qué personaje terminado en \"trap\" es en realidad un pequeño peluche?",
     "opciones": [
      "Glitchtrap",
      "Plushtrap",
@@ -4822,7 +4822,7 @@
     "id": "p9-011",
     "nivel": "A",
     "sub": "Toda la saga",
-    "pregunta": "¿Qué par está MAL emparejado?",
+    "pregunta": "Guardia o trabajador y el juego en que aparece: ¿qué par está MAL emparejado?",
     "opciones": [
      "Mike Schmidt → FNAF 1",
      "Jeremy Fitzgerald → FNAF 2",
@@ -4835,7 +4835,7 @@
     "id": "p9-012",
     "nivel": "A",
     "sub": "Toda la saga",
-    "pregunta": "¿Qué par está MAL emparejado?",
+    "pregunta": "Línea de animatrónicos y su juego de origen: ¿qué par está MAL emparejado?",
     "opciones": [
      "Toy → FNAF 2",
      "Funtime → Pizzeria Simulator",
@@ -4861,7 +4861,7 @@
     "id": "p9-014",
     "nivel": "A",
     "sub": "Toda la saga",
-    "pregunta": "Según Pizzeria Simulator, ¿quién habita la Marioneta?",
+    "pregunta": "Según el discurso final de Pizzeria Simulator, ¿quién habita la Marioneta?",
     "opciones": [
      "Elizabeth Afton",
      "La hija de Henry",
@@ -4874,7 +4874,7 @@
     "id": "p9-015",
     "nivel": "A",
     "sub": "Toda la saga",
-    "pregunta": "¿En qué juegos se oye la voz de Phone Guy?",
+    "pregunta": "¿En qué juegos se escucha la voz de Phone Guy?",
     "opciones": [
      "Solo en FNAF 1",
      "En FNAF 1 y Security Breach",
@@ -4887,7 +4887,7 @@
     "id": "p9-016",
     "nivel": "I",
     "sub": "Toda la saga",
-    "pregunta": "¿Qué traje amarillo usa Afton para sus crímenes?",
+    "pregunta": "¿Qué traje amarillo usa William Afton para cometer sus crímenes?",
     "opciones": [
      "Spring Bonnie",
      "Golden Freddy",
@@ -4913,7 +4913,7 @@
     "id": "p9-018",
     "nivel": "A",
     "sub": "Toda la saga",
-    "pregunta": "¿Qué busca Henry para las almas atrapadas?",
+    "pregunta": "Según el discurso final de Pizzeria Simulator, ¿qué busca Henry para las almas atrapadas en los animatrónicos?",
     "opciones": [
      "Vengarse de ellas",
      "Que el fuego las libere y puedan descansar",
@@ -4926,7 +4926,7 @@
     "id": "p9-019",
     "nivel": "E",
     "sub": "Toda la saga",
-    "pregunta": "¿Qué frases en mayúsculas de FNAF 1 y FNAF 2 se asocian a los niños asesinados?",
+    "pregunta": "¿Qué frases en mayúsculas, una de FNAF 1 y otra de FNAF 2, se asocian a los niños asesinados?",
     "opciones": [
      "HELP ME y TOO LATE",
      "I'M STILL HERE y SAVE HIM",
@@ -4939,7 +4939,7 @@
     "id": "p9-020",
     "nivel": "E",
     "sub": "Toda la saga",
-    "pregunta": "¿Qué tienen en común el final de Afton en FNAF 3 y en The Silver Eyes?",
+    "pregunta": "¿Qué tienen en común el destino de William Afton al final de FNAF 3 y al final del libro The Silver Eyes?",
     "opciones": [
      "En ambos lo arrestan",
      "En ambos lo mata Freddy",
