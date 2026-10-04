@@ -52,8 +52,10 @@ Ojo: si abres `index.html` con doble clic desde tu computador, no carga las preg
 
 ## Actualizar desde la versión anterior
 
-1. En Supabase, vuelve a ejecutar `supabase/1_esquema.sql` completo. No borra jugadores ni puntajes: solo agrega el filtro de nicks y actualiza las funciones.
-2. Después sube a GitHub `index.html` y `preguntas.en.json`. Hazlo en ese orden: la página nueva usa una función que crea el SQL.
+1. En Supabase, vuelve a ejecutar `supabase/1_esquema.sql` completo. No borra jugadores, nicks ni PIN: agrega el ranking acumulado por partes y actualiza las funciones.
+2. Después sube a GitHub `index.html`, `preguntas.json` y `preguntas.en.json`. Hazlo en ese orden, porque la página nueva usa las vistas que crea el SQL.
+
+**Sobre los puntajes que ya existían:** los turnos guardados de una sola parte se copian automáticamente al ranking nuevo. Los turnos de varias partes a la vez no guardaban el detalle por parte, así que no se pueden repartir; esos jugadores deben volver a jugar (con el mismo nick y PIN).
 
 ## Idiomas
 
@@ -74,7 +76,28 @@ Ojo: si abres `index.html` con doble clic desde tu computador, no carga las preg
 
 ## Ranking
 
-Se ordena por **respuestas correctas**. En empate gana quien respondió **menos preguntas**, y si siguen empatados, quien llegó primero. El filtro "Turno completo" muestra solo a quienes jugaron todas las partes.
+- **Se acumula por partes:** cada nick guarda su mejor resultado en cada parte, y el ranking suma todas. Alguien puede jugar la parte 1 hoy, la 2 mañana, y su total crece.
+- **Repetir una parte no suma dos veces:** solo cuenta el mejor intento de cada parte.
+- **Orden:** más respuestas correctas primero; en empate gana quien respondió menos preguntas, y si siguen empatados, quien llegó primero.
+- **Filtro "Lore completo":** muestra solo a quienes completaron todas las partes.
+- **Detalle:** al tocar un nombre del ranking se ve su resultado en cada parte.
+
+## Rangos por porcentaje
+
+| Aciertos | Español | English |
+| --- | --- | --- |
+| 0–9 % | Te metieron en un traje de Freddy | Stuffed into a Freddy suit |
+| 10–19 % | Guardia del primer día | First-day guard |
+| 20–29 % | Llegaste a la noche 3 | Made it to Night 3 |
+| 30–39 % | Sobreviviste a la noche 5 | Survived Night 5 |
+| 40–49 % | Cobraste las horas extra de la noche 6 | Earned the Night 6 overtime |
+| 50–59 % | Técnico de Fazbear Entertainment | Fazbear Entertainment technician |
+| 60–69 % | Le das cuerda a la caja de música sin mirar | You wind the music box without looking |
+| 70–79 % | Investigador de Fazbear's Fright | Fazbear's Fright investigator |
+| 80–89 % | Sabes dónde está la safe room | You know where the safe room is |
+| 90–99 % | Mano derecha de Henry Emily | Henry Emily's right hand |
+
+Con 100 % se desbloquea un título secreto: "Eres Scott Cawthon" si jugaste todas las partes, uno distinto para cada parte jugada sola, y "Eres el mismísimo William Afton" para otras combinaciones. Se editan en `index.html` (`ranks`, `perfect_all`, `perfect_part`, `perfect_multi` y `RANK_CUTS`).
 
 ## Agregar o corregir preguntas
 
