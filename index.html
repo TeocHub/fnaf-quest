@@ -172,6 +172,10 @@ h2.sec{font-family:var(--display);font-weight:800;font-size:30px;margin:30px 0 4
 .langs{display:flex;gap:6px}
 .langbtn{border:2px solid var(--line);background:transparent;border-radius:8px;padding:2px 10px;font-family:var(--crt);font-size:20px;line-height:1.2;cursor:pointer;color:var(--muted)}
 .langbtn.on{border-color:var(--amber);color:var(--text)}
+.rank.perfect{color:var(--amber)}
+.brd{cursor:pointer}
+.brd-detail{display:flex;flex-direction:column;gap:10px;padding:12px 14px 14px;background:var(--panel-2);border-top:1px solid var(--line);font-size:15px;color:var(--muted)}
+.brd-detail.hidden{display:none}
 </style>
 <script src="config.js"></script>
 </head>
@@ -339,7 +343,7 @@ es: {
   pct: "{p} % de aciertos",
   answered: " · respondiste {a} de {t}",
   pub_h: "Sube tu puntaje al ranking",
-  pub_hint: "Si el nick es nuevo, queda registrado a tu nombre con este PIN. Si ya es tuyo, usa el mismo PIN. Sin el PIN nadie más puede usar tu nick ni cambiar tu puntaje.",
+  pub_hint: "Tu mejor resultado en cada parte se suma a tu total del ranking. Si el nick es nuevo, queda registrado a tu nombre con este PIN; si ya es tuyo, usa el mismo PIN. Sin el PIN nadie más puede usar tu nick ni cambiar tu puntaje.",
   nick_rules: "De 3 a 20 caracteres: letras, números, punto, guion o guion bajo.",
   pin_label: "PIN secreto", pin_ph: "Mínimo 6 caracteres",
   pin_note: "Guárdalo: no se puede recuperar.",
@@ -358,8 +362,8 @@ es: {
   locked: "Demasiados intentos fallidos con ese nick. Espera 15 minutos o usa otro nick.",
   network: "No hay conexión con el servidor del ranking. Revisa tu internet e inténtalo otra vez.",
   registered: "Nick registrado. ",
-  published: "Puesto {p} del ranking.",
-  best_kept: " Tu mejor turno sigue siendo {c} correctas de {a}.",
+  published: "Puesto {p} del ranking. Tu total: {c} correctas · partes jugadas: {n} · completas: {d}.",
+  best_kept: " Esta vez no superaste tus mejores resultados por parte, así que tu total no cambió.",
   published_as: "Publicado como {nick}. Puesto {p} del ranking.",
   make_img: "Crear imagen para compartir", revealing: "Revelando la imagen…",
   save_img: "Descargar imagen", share: "Compartir",
@@ -374,15 +378,20 @@ es: {
   board_link_btn: "Ver ranking global", again: "Jugar otra vez",
   back: "Volver",
   board_h: "Ranking global",
-  board_hint: "Se ordena por respuestas correctas. En empate, gana quien respondió menos preguntas. Cada nick guarda solo su mejor turno.",
-  filter_all: "Todos los turnos", filter_full: "Turno completo ({n})",
+  board_hint: "Cada nick suma su mejor resultado en cada parte, así que puedes jugar las partes por separado y tu total se va acumulando. Se ordena por respuestas correctas; en empate, gana quien respondió menos preguntas. Toca un nombre para ver su detalle.",
+  filter_all: "Todos", filter_full: "Lore completo ({n} partes)",
+  detail_loading: "Cargando detalle…", detail_err: "No se pudo cargar el detalle.",
   board_loading: "Cargando…",
   board_empty: "Todavía no hay puntajes aquí. El primer turno puede ser el tuyo.",
   board_err: "No se pudo cargar el ranking. Revisa tu conexión y toca Actualizar.",
   board_off: "El ranking global todavía no está configurado en este sitio.",
   refresh: "Actualizar",
-  row_of: "de {n}", row_sub: "{a} % · turno de {t}",
-  ranks: ["Guardia del primer día","Sobreviviste a la noche 5","Técnico de Fazbear Entertainment","Investigador de Fazbear's Fright","Henry Emily en persona"],
+  row_of: "de {n}", row_sub: "{a} % · {d} de {n} partes completas",
+  ranks: ["Te metieron en un traje de Freddy","Guardia del primer día","Llegaste a la noche 3","Sobreviviste a la noche 5","Cobraste las horas extra de la noche 6","Técnico de Fazbear Entertainment","Le das cuerda a la caja de música sin mirar","Investigador de Fazbear's Fright","Sabes dónde está la safe room","Mano derecha de Henry Emily"],
+  perfect_all: "Eres Scott Cawthon",
+  perfect_multi: "Eres el mismísimo William Afton: siempre vuelves",
+  perfect_part: {1:"Eres Phone Guy: conoces cada rincón del local",2:"Eres la Marioneta: lo viste todo",3:"Eres Springtrap: nadie te saca de aquí",4:"Eres Fredbear: «I'm still here»",5:"Eres Henry Emily: el último discurso es tuyo",6:"Eres el Mimic: lo imitas todo",7:"Eres el detective Larson: ningún caso se te escapa",8:"Eres Steve Raglan… digo, William Afton",9:"Eres el Hombre Morado: conectas todos los puntos"},
+  perfect_note: "100 % de aciertos. Desbloqueaste un título secreto.",
   img_correct: "respuestas correctas",
   img_pct: "{p} % de aciertos", img_pos: "puesto {p}",
   img_turn: "Turno de {name}", img_done: "Mi turno terminó",
@@ -426,7 +435,7 @@ en: {
   pct: "{p}% correct",
   answered: " · you answered {a} of {t}",
   pub_h: "Post your score to the leaderboard",
-  pub_hint: "If the nickname is new, it's registered to you with this PIN. If it's already yours, use the same PIN. Without the PIN, nobody else can use your nickname or change your score.",
+  pub_hint: "Your best result in each part adds up to your leaderboard total. If the nickname is new, it's registered to you with this PIN; if it's already yours, use the same PIN. Without the PIN, nobody else can use your nickname or change your score.",
   nick_rules: "3 to 20 characters: letters, numbers, period, hyphen or underscore.",
   pin_label: "Secret PIN", pin_ph: "At least 6 characters",
   pin_note: "Keep it safe: it can't be recovered.",
@@ -445,8 +454,8 @@ en: {
   locked: "Too many failed attempts with that nickname. Wait 15 minutes or use another nickname.",
   network: "Can't reach the leaderboard server. Check your connection and try again.",
   registered: "Nickname registered. ",
-  published: "Rank {p} on the leaderboard.",
-  best_kept: " Your best shift is still {c} correct out of {a}.",
+  published: "Rank {p} on the leaderboard. Your total: {c} correct · parts played: {n} · completed: {d}.",
+  best_kept: " This time you didn't beat your best results per part, so your total didn't change.",
   published_as: "Posted as {nick}. Rank {p} on the leaderboard.",
   make_img: "Create an image to share", revealing: "Developing the image…",
   save_img: "Download image", share: "Share",
@@ -461,15 +470,20 @@ en: {
   board_link_btn: "See the global leaderboard", again: "Play again",
   back: "Back",
   board_h: "Global leaderboard",
-  board_hint: "Ranked by correct answers. Ties go to whoever answered fewer questions. Each nickname keeps only its best shift.",
-  filter_all: "All shifts", filter_full: "Full shift ({n})",
+  board_hint: "Each nickname adds up its best result in each part, so you can play the parts separately and your total keeps growing. Ranked by correct answers; ties go to whoever answered fewer questions. Tap a name to see the details.",
+  filter_all: "All", filter_full: "Full lore ({n} parts)",
+  detail_loading: "Loading details…", detail_err: "The details couldn't be loaded.",
   board_loading: "Loading…",
   board_empty: "No scores here yet. The first shift could be yours.",
   board_err: "The leaderboard couldn't be loaded. Check your connection and tap Refresh.",
   board_off: "The global leaderboard isn't set up on this site yet.",
   refresh: "Refresh",
-  row_of: "of {n}", row_sub: "{a}% · {t}-question shift",
-  ranks: ["First-day guard","Survived Night 5","Fazbear Entertainment technician","Fazbear's Fright investigator","Henry Emily himself"],
+  row_of: "of {n}", row_sub: "{a}% · {d} of {n} parts completed",
+  ranks: ["Stuffed into a Freddy suit","First-day guard","Made it to Night 3","Survived Night 5","Earned the Night 6 overtime","Fazbear Entertainment technician","You wind the music box without looking","Fazbear's Fright investigator","You know where the safe room is","Henry Emily's right hand"],
+  perfect_all: "You are Scott Cawthon",
+  perfect_multi: "You are William Afton himself: you always come back",
+  perfect_part: {1:"You are Phone Guy: you know every corner of the place",2:"You are the Puppet: you saw everything",3:"You are Springtrap: nobody gets you out of here",4:"You are Fredbear: \"I'm still here\"",5:"You are Henry Emily: the final speech is yours",6:"You are the Mimic: you copy everything",7:"You are Detective Larson: no case gets past you",8:"You are Steve Raglan… sorry, William Afton",9:"You are Purple Guy: you connect every dot"},
+  perfect_note: "100% correct. You unlocked a secret title.",
   img_correct: "correct answers",
   img_pct: "{p}% correct", img_pos: "rank {p}",
   img_turn: "{name}'s shift", img_done: "My shift is over",
@@ -488,7 +502,7 @@ const KEY = "fnaf-cuestionario-gh-v1";
 const NICK_KEY = "fnaf-cuestionario-nick";
 const LANG_KEY = "fnaf-cuestionario-lang";
 const NICK_RE = /^[A-Za-z0-9_.ÁÉÍÓÚÜÑáéíóúüñ-]{3,20}$/;
-const RANK_CUTS = [0, 0.2, 0.425, 0.65, 0.85];
+const RANK_CUTS = [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9];
 
 let LANG = "es", DATA = [], TOTAL = 0, BYID = {};
 const CACHE = {};
@@ -525,7 +539,7 @@ function applyStatic(){
   document.querySelectorAll("[data-i18n-ph]").forEach(el => { el.placeholder = t(el.dataset.i18nPh); });
   $("#shareImg").alt = t("img_alt");
   document.querySelectorAll("[data-finish]").forEach(b => { b.dataset.label = t("finish"); b.dataset.armed = ""; b.textContent = t("finish"); });
-  if (TOTAL) $("#fullChip").textContent = t("filter_full", {n: TOTAL});
+  if (DATA.length) $("#fullChip").textContent = t("filter_full", {n: DATA.length});
   const box = $("#langs"); box.innerHTML = "";
   Object.entries(LANGS).forEach(([code, l]) => {
     const b = document.createElement("button");
@@ -720,7 +734,15 @@ function stats(){
   });
   const pct=total?right/total:0;
   let ri=0; RANK_CUTS.forEach((c,i)=>{if(pct>=c)ri=i;});
-  return {total,right,pct,rank:t("ranks")[ri],per,answered:Object.keys(S.answers).length};
+  let rank=t("ranks")[ri], perfect=false;
+  if(total>0 && right===total){
+    perfect=true;
+    const played=[...new Set(S.order.map(o=>DATA[o[0]].n))];
+    if(played.length===DATA.length) rank=t("perfect_all");
+    else if(played.length===1) rank=(t("perfect_part")||{})[played[0]]||t("perfect_multi");
+    else rank=t("perfect_multi");
+  }
+  return {total,right,pct,rank,perfect,per,answered:Object.keys(S.answers).length};
 }
 let lastBlob=null,lastUrl=null,reviewOpen=false;
 function finish(){
@@ -734,7 +756,8 @@ function renderResult(fresh){
   const st=stats();
   $("#score").innerHTML=`${st.right}<small>/${st.total}</small>`;
   $("#rank").textContent=st.rank;
-  $("#pct").textContent=t("pct",{p:Math.round(st.pct*100)})+(st.answered<st.total?t("answered",{a:st.answered,t:st.total}):"");
+  $("#rank").classList.toggle("perfect",st.perfect);
+  $("#pct").textContent=st.perfect?t("perfect_note"):t("pct",{p:Math.round(st.pct*100)})+(st.answered<st.total?t("answered",{a:st.answered,t:st.total}):"");
   const bd=$("#breakdown"); bd.innerHTML="";
   st.per.forEach(x=>{
     const row=document.createElement("div"); row.className="brow";
@@ -815,8 +838,8 @@ $("#pubBtn").addEventListener("click",async()=>{
     if(r.ok){
       store(NICK_KEY,nick);
       S.published={nick,puesto:r.puesto}; S.name=nick; save();
-      const extra=r.mejoro?"":t("best_kept",{c:r.best_correct,a:r.best_answered});
-      lockPublish((r.nuevo?t("registered"):"")+t("published",{p:r.puesto})+extra,"ok");
+      const extra=r.mejoro?"":t("best_kept");
+      lockPublish((r.nuevo?t("registered"):"")+t("published",{p:r.puesto??"–",c:r.acum_correct,n:r.partes_jugadas,d:r.partes_completas})+extra,"ok");
       if(!$("#shareBox").classList.contains("hidden"))redrawImage();
       return;
     }
@@ -851,8 +874,8 @@ async function loadBoard(){
   const msg=txt=>{list.innerHTML="";const d=document.createElement("div");d.className="empty";d.textContent=txt;list.appendChild(d);};
   if(!ONLINE){msg(t("board_off"));return;}
   msg(t("board_loading"));
-  let url=`${API}/rest/v1/leaderboard?select=nick,correct,answered,total,accuracy&order=correct.desc,answered.asc,updated_at.asc&limit=100`;
-  if(boardFilter==="full")url+=`&total=eq.${TOTAL}`;
+  let url=`${API}/rest/v1/leaderboard?select=nick,correct,answered,parts_completed,accuracy&order=correct.desc,answered.asc,updated_at.asc&limit=100`;
+  if(boardFilter==="full")url+=`&parts_completed=gte.${DATA.length}`;
   try{
     const r=await fetch(url,{headers:headers()});
     if(!r.ok)throw new Error();
@@ -865,11 +888,35 @@ async function loadBoard(){
       d.className="brd"+(i<3?` top${i+1}`:"")+(x.nick.toLowerCase()===me?" me":"");
       d.innerHTML=`<span class="pos">${i+1}</span><span class="who"><span class="n"></span><small></small></span><span class="pts">${x.correct}<small></small></span>`;
       d.querySelector(".n").textContent=x.nick;
-      d.querySelector(".who small").textContent=t("row_sub",{a:x.accuracy ?? 0,t:x.total});
+      d.querySelector(".who small").textContent=t("row_sub",{a:Number(x.accuracy ?? 0).toLocaleString(LANG),d:x.parts_completed,n:DATA.length});
       d.querySelector(".pts small").textContent=t("row_of",{n:x.answered});
-      list.appendChild(d);
+      d.tabIndex=0; d.setAttribute("role","button");
+      const det=document.createElement("div"); det.className="brd-detail hidden";
+      const toggle=()=>toggleDetail(x.nick,det);
+      d.addEventListener("click",toggle);
+      d.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();toggle();}});
+      list.appendChild(d); list.appendChild(det);
     });
   }catch(e){msg(t("board_err"));}
+}
+
+async function toggleDetail(nick,box){
+  if(!box.classList.contains("hidden")){box.classList.add("hidden");return;}
+  box.classList.remove("hidden"); box.textContent=t("detail_loading");
+  try{
+    const r=await fetch(`${API}/rest/v1/leaderboard_parts?select=part,correct,answered,total&nick=eq.${encodeURIComponent(nick)}&order=part.asc`,{headers:headers()});
+    if(!r.ok)throw new Error();
+    const rows=await r.json(); box.innerHTML="";
+    const byPart={}; rows.forEach(x=>byPart[x.part]=x);
+    DATA.forEach(p=>{
+      const x=byPart[p.n];
+      const row=document.createElement("div"); row.className="brow";
+      const done=x?x.correct:0, tot=x?x.total:p.q.length;
+      row.innerHTML=`<div class="top"><b></b><span>${x?`${done}/${tot}`:"–"}</span></div><div class="track"><i style="width:${x&&tot?done/tot*100:0}%"></i></div>`;
+      row.querySelector("b").textContent=t("part_label",{n:p.n,s:p.short});
+      box.appendChild(row);
+    });
+  }catch(e){box.textContent=t("detail_err");}
 }
 
 /* ---------- imagen ---------- */
@@ -899,8 +946,8 @@ async function drawCard(){
   g.fillStyle="#8d95a3";g.font='500 36px "Barlow", sans-serif';
   const who=(S.published&&S.published.nick)||S.name;
   g.fillText(who?t("img_turn",{name:who}):t("img_done"),mx,my+mh+80);
-  g.fillStyle="#ece4d2";g.font='800 84px "Barlow Condensed", sans-serif';
-  wrapText(g,st.rank,mx,my+mh+170,mw,84);
+  g.fillStyle=st.perfect?"#ffc94d":"#ece4d2";g.font='800 72px "Barlow Condensed", sans-serif';
+  wrapText(g,st.rank,mx,my+mh+160,mw,72);
   const y=my+mh+250; const rows=st.per.slice(0,12); const gap=14; const bw=(mw-(rows.length-1)*gap)/Math.max(rows.length,1);
   rows.forEach((x,i)=>{const bx=mx+i*(bw+gap);g.fillStyle="#181e26";roundRect(g,bx,y,bw,90,10);g.fill();
     const h=x.total?90*x.right/x.total:0; if(h>2){g.fillStyle="#ffc94d";roundRect(g,bx,y+90-h,bw,h,Math.min(10,h/2));g.fill();}
